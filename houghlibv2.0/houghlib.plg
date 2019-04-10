@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: houghlib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Antony\AppData\Local\Temp\RSP7D5A.tmp" with contents
+[
+/nologo /MD /W3 /GX /Z7 /Od /I "c:\DXSDK\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HOUGHLIB_EXPORTS" /FR"Release/" /Fp"Release/houghlib.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\ClearLineProfilerv6.2.3\houghlibv2.0\centre.cpp"
+"C:\ClearLineProfilerv6.2.3\houghlibv2.0\Counter.cpp"
+"C:\ClearLineProfilerv6.2.3\houghlibv2.0\FishEyeTransform.cpp"
+"C:\ClearLineProfilerv6.2.3\houghlibv2.0\laserprofiler.cpp"
+"C:\ClearLineProfilerv6.2.3\houghlibv2.0\profile.cpp"
+"C:\ClearLineProfilerv6.2.3\houghlibv2.0\RadialProcess.cpp"
+"C:\ClearLineProfilerv6.2.3\houghlibv2.0\VBlaserprofiler.cpp"
+"C:\ClearLineProfilerv6.2.3\houghlibv2.0\video.cpp"
+]
+Creating command line "cl.exe @C:\Users\Antony\AppData\Local\Temp\RSP7D5A.tmp" 
+Creating temporary file "C:\Users\Antony\AppData\Local\Temp\RSP7D5B.tmp" with contents
+[
+/nologo /MD /W3 /GX /Z7 /O2 /I "c:\DXSDK\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HOUGHLIB_EXPORTS" /FR"Release/" /Fp"Release/houghlib.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\ClearLineProfilerv6.2.3\houghlibv2.0\IPDInterface.cpp"
+"C:\ClearLineProfilerv6.2.3\houghlibv2.0\LaserTracking.cpp"
+]
+Creating command line "cl.exe @C:\Users\Antony\AppData\Local\Temp\RSP7D5B.tmp" 
+Creating temporary file "C:\Users\Antony\AppData\Local\Temp\RSP7D5C.tmp" with contents
+[
+strmbase.lib quartz.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/laserlib.pdb" /machine:I386 /def:".\hough.def" /out:".\Release\laserlib.dll" /implib:"Release/laserlib.lib" 
+.\Release\centre.obj
+.\Release\Counter.obj
+.\Release\FishEyeTransform.obj
+.\Release\IPDInterface.obj
+.\Release\laserprofiler.obj
+.\Release\LaserTracking.obj
+.\Release\profile.obj
+.\Release\RadialProcess.obj
+.\Release\VBlaserprofiler.obj
+.\Release\video.obj
+]
+Creating command line "link.exe @C:\Users\Antony\AppData\Local\Temp\RSP7D5C.tmp"
+<h3>Output Window</h3>
+Compiling...
+centre.cpp
+Counter.cpp
+FishEyeTransform.cpp
+laserprofiler.cpp
+profile.cpp
+RadialProcess.cpp
+VBlaserprofiler.cpp
+video.cpp
+Compiling...
+IPDInterface.cpp
+LaserTracking.cpp
+Linking...
+   Creating library Release/laserlib.lib and object Release/laserlib.exp
+
+
+
+<h3>Results</h3>
+laserlib.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

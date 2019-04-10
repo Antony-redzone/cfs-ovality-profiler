@@ -1,0 +1,18 @@
+version	1				
+Name	Metro Barn				
+Use	All				
+CentreX	0				
+CentreY	0.4				
+NoArcs	2				
+NoLines	2				
+Scale	2				
+					
+[Arcs]					
+Arc	x	y	Radius	Start	End
+1	0	0	0.5	1.38777508	178.61222492
+2	0	1.61175867	2.61175867	258.44649580	281.55350420
+					
+[Lines]					
+Line	Point 1X	Point 1Y	Point 2X	Point 2Y	
+1	0.49985334	0.02424188	0.52309067	-0.94708081	
+2	-0.49985334	0.02424188	-0.52309067	-0.94708081	

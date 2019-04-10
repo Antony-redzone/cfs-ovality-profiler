@@ -1,0 +1,19 @@
+imgW : Width
+imgH : height
+Img  : Image pointer
+bytesPerPixel : 3
+homeangle : Angle Start Offset
+xCentre : Sonar Drawing centre offset
+YCentre : Sonar Drawing centre offset
+
+void fillCircle(int xCentre, int yCentre, int width, unsigned char *Img, BYTE col)
+
+100 340x354
+200 340x454
+300 340x554
+
+100 341x353
+200 343x453
+300 344x553
+
+

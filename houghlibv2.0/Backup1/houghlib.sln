@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "houghlib", "houghlib.vcxproj", "{70868B3D-1D97-4935-89C6-5D7F30241D99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Houghlib Win 2000 debug|Win32 = Houghlib Win 2000 debug|Win32
+		Houglib Windows 2000 Realease|Win32 = Houglib Windows 2000 Realease|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70868B3D-1D97-4935-89C6-5D7F30241D99}.Debug|Win32.ActiveCfg = Debug|Win32
+		{70868B3D-1D97-4935-89C6-5D7F30241D99}.Debug|Win32.Build.0 = Debug|Win32
+		{70868B3D-1D97-4935-89C6-5D7F30241D99}.Houghlib Win 2000 debug|Win32.ActiveCfg = Houghlib Win 2000 debug|Win32
+		{70868B3D-1D97-4935-89C6-5D7F30241D99}.Houghlib Win 2000 debug|Win32.Build.0 = Houghlib Win 2000 debug|Win32
+		{70868B3D-1D97-4935-89C6-5D7F30241D99}.Houglib Windows 2000 Realease|Win32.ActiveCfg = Houglib Windows 2000 Realease|Win32
+		{70868B3D-1D97-4935-89C6-5D7F30241D99}.Houglib Windows 2000 Realease|Win32.Build.0 = Houglib Windows 2000 Realease|Win32
+		{70868B3D-1D97-4935-89C6-5D7F30241D99}.Release|Win32.ActiveCfg = Release|Win32
+		{70868B3D-1D97-4935-89C6-5D7F30241D99}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+Language, filename
+English, "", "", ""
+German, German.txt, GermanEULA.rtf, GermanHelpFile.chm
+Swedish, Swedish.txt, SwedishEULA.rtf, SwedishHelpFile.chm
+FrenchCanadian, FrenchCanadian.txt, FrenchCanadianEULA.rtf, FrenchCanadianHelpFile.chm
+Hungarian, Hungarian.txt, HungarianEULA.rtf, HungarianHelpFile.chm
+Japanese, Japanese.txt, "", "", ""
+Russian, Russian.txt, "", "", ""
+Arabic, Arabic.txt, "", "", ""
+Spanish, Spanish.txt, "", "", ""
+
+

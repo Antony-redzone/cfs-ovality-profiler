@@ -1,0 +1,12 @@
+[Revision]
+FECRevision=2.1
+[FishEyeParameters]
+Fish_Distortion=243
+Fish_CenterX=0
+Fish_CenterY=0
+Fish_OriginalWidth=1296
+Fish_OriginalHeight=960
+Fish_Ratio=417.300000000028
+[Camera]
+CameraModel=RedZone Solo
+\\

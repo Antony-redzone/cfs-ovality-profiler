@@ -1,0 +1,94 @@
+	iMaxRadius = (int)sqrt(iOrigH * iOrigH + iOrigW * iOrigW) / 2 - 1;
+
+	iDivider = iMaxRadius + 10
+	dCalResult = PI / iDivider;
+
+
+	Loop: dRadius = 0.1 ;dRadius <= iMaxRadius ; dRadius = dRadius + 0.1 
+	dMidCal = atan(dRadius / iDivider);
+
+	dI2 = dI * tan(dMidCal * dTransParam4X) / dCalResult;
+	dJ2 = dJ * tan(dMidCal * dTransParam4Y) / dCalResult;
+
+double RadialScan::ProcessRay(ray *singleRay, int loop)
+{
+	int i;
+	int atom; 
+	rayAtom *tempRay;			
+	if(!validPointer) return 0;
+	int largestEdge=1;
+	int smallestEdge=1;
+	int profileAtom;
+	int numberOfPointsFound=0;
+	int *foundProfilePoints;
+	double *foundDistanceToAverage;
+	double edge;
+
+
+	foundProfilePoints = new int[mask.rayLength];
+	foundDistanceToAverage = new double[mask.rayLength];
+
+	tempRay = singleRay->rayAtoms; // Temp storage of the ray. Reduce code size.
+
+	// Scan thru the ray to find edges greater than a certain value, and store where those
+	// atoms are in foundProfilePoints.
+	for(atom = 1;atom < singleRay->lastEntry-1;atom++)
+		{
+		if(IsInMask(tempRay[atom].coordScreen)) tempRay[atom].edge=0;
+		else tempRay[atom].edge=tempRay[atom+1].processedImage-tempRay[atom].processedImage; // Calculate and edges of the Ray
+		
+		edge=tempRay[atom].edge; 
+//		ShowAtom(loop,atom,(int) edge,(int) edge, (int) edge);
+				
+		
+		if((tempRay[atom].edge>tempRay[largestEdge].edge) && edge>pickupLevel) largestEdge=atom;
+		if((tempRay[atom].edge>pickupLevel)) 
+			{
+			foundDistanceToAverage[numberOfPointsFound] = fabs(tempRay[atom].radius-mask.averageRadius);
+			foundProfilePoints[numberOfPointsFound++]=atom;
+			}
+		}
+
+	profileAtom=0;
+
+	int closestAtomToRadius;
+	
+
+	if(mask.averageRadius==0) profileAtom=largestEdge;
+	if(numberOfPointsFound!=0 && mask.averageRadius!=0)
+		{
+		profileAtom=foundProfilePoints[0];
+		closestAtomToRadius=0;
+	
+		for(i=1;i<numberOfPointsFound;i++)
+			{
+			if(foundDistanceToAverage[i]<foundDistanceToAverage[closestAtomToRadius])
+				{
+				closestAtomToRadius=i;
+				profileAtom=foundProfilePoints[i];
+				}
+			}
+		}
+
+	//////////////////////////////////////////////////////////////////////////////////////
+	// Fill in the related data. (Radius) ,(Atom position), (coordinate) and (Angle)	//
+	singleRay->profilePoint.atomIndex=profileAtom;	// Store in the ray position of the profile atom //
+	if(profileAtom==0)																	// 
+		{																				//
+		singleRay->profilePoint.radius		=0;											//
+		singleRay->profilePoint.coordinate.x=0;											//
+		singleRay->profilePoint.coordinate.y=0;											//
+		singleRay->profilePoint.angle		=0;											//
+		}																				//														
+	else																				//
+		{																				//
+		singleRay->profilePoint.radius      =tempRay[profileAtom].radius;				//
+		singleRay->profilePoint.coordinate.x=tempRay[profileAtom].coord.x;				//
+		singleRay->profilePoint.coordinate.y=tempRay[profileAtom].coord.y;				//
+		singleRay->profilePoint.angle		=tempRay[profileAtom].angle;				//
+	} 																				//
+	delete []foundProfilePoints;
+	delete []foundDistanceToAverage;//
+	return singleRay->profilePoint.radius; // return the radius size unit of the Atom.  //
+	//////////////////////////////////////////////////////////////////////////////////////
+}

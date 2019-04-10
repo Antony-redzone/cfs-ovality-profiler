@@ -1,0 +1,553 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue255;\red0\green128\blue0;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\nowidctlpar\sl240\slmult1\qc\lang1033\kerning28\ul\b\f0\fs20 C1512USBComm Interface\ulnone\b0\par
+\pard\nowidctlpar\sl240\slmult1\par
+InitialiseComms();\par
+StartScan();\par
+StopScan();\par
+IsScanning();\par
+\par
+GetScanData(BYTE *dataBuffer);\par
+GetVersion(\cf1 unsigned\cf0  \cf1 char\cf0  *version);\par
+GetSensorData();\par
+GetConfiguration();\par
+GetStartTime();\par
+GetEndTime();\par
+\par
+LocateToZeroPosition();\par
+Transmit(BYTE *memptr);\par
+TransmitStepClockwise(BYTE *memptr);\par
+TransmitStepAntiClockwise(BYTE *memptr);\par
+CollectSensorDataFromSonar();\par
+\par
+SetArcSize(EnumArcSize arcSize);\par
+SetBlanking(int blanking);\par
+SetCentreAngle(EnumCentreAngle centreAngle);\par
+SetSampleRate(\cf1 float\cf0  sampleRate);\par
+SetOversamples(\cf1 int\cf0  oversamples);\par
+SetPulseWidth(\cf1 int\cf0  txPulse);\par
+SetSamples(\cf1 int\cf0  samples);\par
+SetShaftEncoder(Encoder encoder);\par
+SetStepSize(EnumStepSize stepSize);\par
+SetConfiguration(\cf1 const\cf0  CConfiguration &configuration);\par
+\par
+RegisterCallback( \cf1 void\cf0  (*Callback) (\cf1 void\cf0 ));\par
+RegisterTimeCallback( \cf1 void\cf0  (*TimeCallback)(\cf1 double\cf0  *time));\par
+\par
+CUSBComm* Create1512USBCommObject(\cf1 char\cf0  *pDriverName = NULL);\par
+\par
+\par
+\ul\b CreateUSBCommObject  Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab CUSBComm* Create1512USBCommObject();\par
+\par
+\b Return Value:\par
+\b0\par
+\tab A pointer to a new USBComm Interface.\par
+\par
+\b Remarks:\par
+\b0\par
+\tab This function must be called before the Interface is used.\par
+\par
+\par
+\ul\b InitialiseComms Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\cf1\tab bool\cf0  InitialiseComms();\par
+\par
+\b Return Value:\par
+\b0\par
+\tab If the function succeeds, it returns true otherwise false is returned.\par
+\par
+\b Remarks:\par
+\b0\par
+\tab A return value of false would usually mean that the 1512 USB Interface is not connected to the computer.\par
+\par
+\par
+\ul\b StartScan Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab\cf1 void\cf0  StartScan();\par
+\par
+\b Remarks:\par
+\b0\par
+\tab This function tells the sonar to start scanning. The sonar will scan continuously until the StopScan function is called. Any registered callback functions are executed at the end of each scan repetition.\par
+\par
+\par
+\ul\b StopScan Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\cf1\tab void\cf0  StopScan();\par
+\par
+\par
+\b Remarks:\par
+\b0\par
+\tab The sonar will finish the scan repetition that it is currently doing before stopping.\par
+\par
+\par
+\ul\b IsScanning Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\cf1\tab bool\cf0  IsScanning();\par
+\par
+\b Return Value:\par
+\b0\par
+\tab true is returned when the sonar is scanning, false when not scanning.\par
+\par
+\par
+\ul\b GetScanData Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab\cf1 void\cf0  GetScanData(BYTE *dataBuffer);\par
+\par
+\b Parameters:\par
+\b0\par
+\tab\i dataBuffer\par
+\i0\tab\tab This parameter is a pointer to an array of bytes in which \tab data from the sonar is to be stored.\par
+\par
+\b Remarks:\par
+\b0\par
+\tab This function should be placed within a registered callback function, so that data is retrieved after each scan repetition. The maximum number of BYTES that can be retrieved is 260800. The configuration will need to be set up so that:\par
+\par
+number of samples * 360 (degrees) / step size (degrees) <= 260800\par
+\par
+For example:\par
+\par
+\tab If the step size is set to be 0.9 degrees, the maximum number of samples is 652.\par
+\par
+If the configuration is set so that the number of BYTES that should be returned is greater than 260800, only the first 260800 BYTES shall be returned, resulting in an incomplete image.\par
+\par
+\ul\b GetSensorData Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab CSensorData *GetSensorData();\par
+\par
+\b Return Value:\par
+\par
+\tab\b0 Returns a pointer to the instance of the CSensorData class inside the dll.\par
+\par
+\par
+\ul\b GetConfiguration Function\par
+\ulnone\b0\par
+\b syntax:\par
+\b0\par
+\tab CConfiguration *GetConfiguration();\par
+\par
+\b Return Value:\par
+\b0\par
+\tab Returns a pointer to the instance of the CConfiguration class inside the dll.\par
+\par
+\par
+\ul\b GetVersion Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab\cf1 bool\cf0  GetVersion(\cf1 unsigned\cf0  \cf1 char\cf0  *version);\par
+\par
+\b Parameters:\par
+\b0\par
+\tab\i version\i0\par
+\tab\tab A pointer to the beginning of an \cf1 unsigned char \cf0 array in \tab which to store the version string.\par
+\par
+\b Return Value:\par
+\b0\par
+\tab If the function succeeds in retrieving the version string it is true, false otherwise.\par
+\par
+\b Remarks:\par
+\b0\par
+\tab If the function returns true, the version details of the Underwater Unit software will have been copied to the memory address given by the version parameter.\par
+\par
+\par
+\par
+\ul\b GetStartTime Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab\cf1 double\cf0  GetStartTime();\par
+\par
+\b Return Value:\par
+\b0\par
+\tab A double representing the time at the start of the sweep, as calculated by the Timer Callback function. A value of 0.0 is returned if no callback function has been set.\par
+\par
+\par
+\ul\b GetEndTime Function\par
+\ulnone\par
+Syntax:\par
+\b0\par
+\tab\cf1 double\cf0  GetEndTime();\par
+\par
+\b Return Value:\par
+\b0\par
+\tab A double representing the time at the end of the sweep, as calculated by the Timer Callback function. A value of 0.0 is returned if no callback function has been set.\par
+\par
+\b Remarks:\par
+\b0\par
+\tab If the sonar is still scanning when this function is called, the returned value will be the time at the end of the last scan iteration.\par
+\par
+\par
+\ul\b LocateToZeroPosition Function\ulnone\b0\par
+\par
+\b Syntax:\b0\par
+\par
+\tab\cf1 bool\cf0  LocateToZeroPosition();\par
+\par
+\b Return Value:\b0\par
+\par
+\tab If the function succeeds in sending the command, true is returned. False is returned otherwise.\par
+\par
+\b Remarks:\b0\par
+\par
+\tab The underwater unit should reset its motor position to zero, if this function succeeds.\par
+\par
+\par
+\ul\b Transmit Function\ulnone\b0\par
+\par
+\b Syntax:\b0\par
+\par
+\tab\cf1 bool\cf0  Transmit(BYTE *memptr);\par
+\par
+\b Parameters:\b0\par
+\tab\par
+\tab\i memptr\i0\par
+\tab\tab A pointer to the memory where the data from the transmit command is to be stored.\par
+\par
+\b Return Value:\b0\par
+\tab\par
+\tab If the function succeeds in sending the command, true is returned. False is returned otherwise.\par
+\par
+\b Remarks:\b0\par
+\par
+\tab The max amount of data that the transmit function copies into memptr is equal to the number of samples in the configuration (in BYTEs). \par
+\par
+\tab\par
+\ul\b TransmitStepClockwise Function\ulnone\b0\par
+\par
+\b Syntax:\b0\par
+\par
+\tab\cf1 bool\cf0  TransmitStepClockwise(BYTE *memptr);\par
+\par
+\b Parameters:\b0\par
+\par
+\tab\i memptr\i0\par
+\tab\tab A pointer to the memory where the data from the transmit command is to be stored.\par
+\par
+\b Return Value:\b0\par
+\par
+\tab If the function succeeds in sending the command, true is returned. A return value of false could indicate that either the underwater unit is not connected, or that the motor is in its farthest clockwise position.\par
+\par
+\b Remarks:\b0\par
+\par
+\tab The max amount of data that the transmit function copies into memptr is equal to the number of samples in the configuration (in BYTEs). The function causes the underwater unit to transmit, and then step clockwise one step.\par
+\par
+\par
+\ul\b TransmitStepAntiClockwise Function\ulnone\b0\par
+\par
+\b Syntax:\b0\par
+\par
+\tab\cf1 bool\cf0  TransmitStepAntiClockwise(BYTE *memptr);\par
+\par
+\b Parameters:\b0\par
+\par
+\tab\i memptr\i0\par
+\tab\tab A pointer to the memory where the data from the transmit command is to be stored.\par
+\par
+\b Return Value:\b0\par
+\par
+\tab If the function succeeds in sending the command, true is returned. A return value of false could indicate that either the underwater unit is not connected, or that the motor is in its farthest anti-clockwise position.\par
+\par
+\b Remarks:\b0\par
+\par
+\tab The max amount of data that the transmit function copies into memptr is equal to the number of samples in the configuration (in BYTEs). The function causes the underwater unit to transmit, and then step anti-clockwise one step.\par
+\par
+\par
+\ul\b CollectSensorDataFromSonar Function\ulnone\b0\par
+\par
+\b Syntax:\b0\par
+\par
+\tab\cf1 bool\cf0  CollectSensorDataFromSonar();\par
+\par
+\b Return Value:\b0\par
+\tab\par
+\tab If the function succeeds in sending the command, true is returned. False is returned otherwise.\par
+\par
+\b Remarks:\b0\par
+\par
+\tab The purpose of this function is to force the dll to retreive the sensor data from the underwater unit. The sensor data can then be obtained with the GetSensorData() function. This function is useful for checking the motor position, when performing a sweep using Transmit, TransmitStepClockwise, and TransmitStepAntiClockwise functions.\par
+\par
+\par
+\ul\b SetArcSize Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab\cf1 bool\cf0  SetArcSize(EnumArcSize arcSize);\par
+\par
+\b Parameters:\par
+\b0\par
+\tab\i arcSize\i0\par
+\tab\tab An EnumArcSize representing the required arc size.\par
+\par
+\b Return Value:\par
+\b0\par
+\tab If the function succeeds in setting a new arc size, true will be returned, false if it fails.\par
+\par
+\b Remarks:\par
+\b0\par
+\tab EnumArcSize :\par
+\par
+\tab eum30Degrees, eum60Degrees, eum90Degrees,\par
+\tab eum120Degrees, eum150Degrees, eum180Degrees,\par
+\tab eum210Degrees, eum240Degrees, eum270Degrees,\par
+\tab eum360Degrees\par
+\par
+\par
+\par
+\par
+\par
+\ul\b SetBlanking Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab\cf1 void\cf0  SetBlanking(int blanking);\par
+\par
+\b Parameters:\par
+\b0\par
+\tab\i blanking\i0\par
+\tab\tab An integer representing the number of samples to be blanked \tab out from the centre of the sonar image data.\par
+\tab Minimum value = 0, Maximum value = number of samples.\par
+\par
+\b Remarks:\par
+\b0\par
+\tab This should be used to remove the transmit breakthrough close to the sonar. The blanking can also be adjusted to improve the quality of the calculated outline.\par
+\par
+\par
+\ul\b SetCentreAngle Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab\cf1 bool\cf0  SetCentreAngle(EnumCentreAngle centreAngle);\par
+\par
+\b Parameters:\par
+\b0\par
+\tab\i centreAngle\i0\par
+\tab\tab An EnumCentreAngle representing the angle to centre the \tab sweep at.\par
+\par
+\b Return Value:\par
+\b0\par
+\tab If the function succeeds in setting a new centre angle, true will be returned, false if it fails.\par
+\par
+\b Remarks:\par
+\b0\par
+\tab The centre angle must allow for a large enough angle both clockwise and anticlockwise to complete the sweep i.e. if an arc size of 360 degrees is used, the only centre angle that can be used to return valid data is 180 degrees.\par
+\par
+\tab EnumCentreAngle:\par
+\par
+\tab eumCentre30, eumCentre60,\par
+\tab eumCentre90, eumCentre120,\par
+\tab eumCentre150, eumCentre180,\par
+\tab eumCentre210, eumCentre240,\par
+\tab eumCentre270, eumCentre300,\par
+\tab eumCentre330\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\ul\b SetSampleRate Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab\cf1 bool\cf0  SetSampleRate(\cf1 float\cf0  sampleRate);\par
+\par
+\b Parameters:\par
+\b0\par
+\tab\i sampleRate\i0\par
+\tab\tab A float representing the required sample rate in MHz. The \tab range of valid sample rates is from 2.5MHz to 5.0MHz. If \tab sampleRate is outside of this range, the function will change it \tab to be the closest valid sample rate.\par
+\tab\par
+\b Return Value:\par
+\b0\par
+\tab If the function succeeds in setting a new sample rate, true will be returned, false if it fails.\par
+\par
+\par
+\ul\b SetOversamples Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab\cf1 bool\cf0  SetOversamples(\cf1 int\cf0  oversamples);\par
+\par
+\b Parameters:\par
+\b0\par
+\tab\i oversamples\i0\par
+\tab\tab An integer representing the required number of oversamples.\par
+\tab Valid integers are 2, 4, 8, 16, 32, 64, 128 or 256. If oversamples \tab is not one of the valid integers, it will be rounded down to the \tab closest valid integer, or rounded up if it is less than 2.\par
+\par
+\b Return Value:\par
+\b0\par
+\tab If the function succeeds in setting a new oversamples value, true will be returned, false if it fails.\par
+\par
+\par
+\par
+\par
+\ul\b SetPulseWidth Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab\cf1 bool\cf0  SetPulseWidth(\cf1 int\cf0  txPulse);\par
+\b\par
+Parameters:\par
+\b0\par
+\tab\i txPulse\i0\par
+\tab\tab An integer representing the required pulse width in \tab microseconds. Valid integer values are 2, 4, 8, 12, 16 or 20. If \tab txPulse is not one of the valid integer, it will be rounded down \tab to the closest valid integer, or rounded up if it is less than 2.\par
+\par
+\b Return Value:\par
+\b0\par
+\tab If the function succeeds in setting a new pulse width, true will be returned, false if it fails.\par
+\par
+\par
+\ul\b SetSamples Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab\cf1 bool\cf0  SetSamples(\cf1 int\cf0  samples);\par
+\par
+\b Parameters:\par
+\b0\par
+\tab\i samples\i0\par
+\tab\tab An integer representing the required number of samples to be \tab taken on each sonar step.\par
+\par
+\b Return Value:\par
+\b0\par
+\tab If the function succeeds in setting a new number of samples, true will be returned, false if it fails.\par
+\par
+\par
+\ul\b SetShaftEncoder Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab\cf1 bool\cf0  SetShaftEncoder(eEncoder encoder);\par
+\par
+\b Parameters:\par
+\b0\par
+\tab\i encoder\i0\par
+\tab\tab An eEncoder enum representing the mode of operation of \tab the shaft encoder.\par
+\par
+\b Return Value:\par
+\b0\par
+\tab If the shaft encoder operation succeeds, true will be returned, false if it fails.\par
+\par
+\b Remarks:\par
+\b0\par
+\tab eEncoder:\par
+\par
+\tab SetPearnormal,\tab\tab // Set the encoder type as PearPoint \tab\tab\tab\tab\tab\tab compatible\par
+\tab SetQuadEncoder,\tab\tab // Set the encoder type as Quadrature \tab\tab\tab\tab\tab\tab compatible\par
+\tab ReverseEncoder,\tab\tab // Reverse which way increments and \tab\tab\tab\tab\tab\tab decrements the encoder\par
+\tab ResetEncoder\tab\tab // Resets the encoder counter to zero\par
+\par
+\par
+\ul\b SetStepSize Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab\cf1 bool\cf0  SetStepSize(EnumStepSize stepSize);\par
+\par
+\b Parameters:\par
+\b0\par
+\tab\i stepSize\i0\par
+\tab\tab An EnumStepSize representing the required step size.\par
+\par
+\b Return Value:\par
+\b0\par
+\tab If the function succeeds in setting a new step size, true will be returned, false if it fails.\par
+\par
+\b Remarks:\par
+\b0\par
+\tab EnumStepSize:\par
+\par
+\tab eum09Degree, \tab // 0.9 degree steps\par
+\tab eum18Degree,\tab // 1.8 degree steps\par
+\tab eum27Degree,\tab // 2.7 degree steps\par
+\tab eum36Degree\tab\tab // 3.6 degree steps\par
+\par
+\par
+\ul\b SetConfiguration Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab\cf1 bool\cf0  SetConfiguration(\cf1 const\cf0  CConfiguration &configuration);\par
+\par
+\b Parameters:\par
+\b0\par
+\tab\i configuration\i0\par
+\tab\tab A reference to the CConfiguration structure containing the \tab\tab configuration values to be set.\par
+\par
+\b Return Value:\par
+\b0\par
+\tab If the function succeeds in setting each individual configuration, true will be returned, false otherwise.\par
+\par
+\b Remarks:\par
+\b0\par
+\tab\cf1 class\cf0  CConfiguration\par
+\tab\{\par
+\tab\cf1 public\cf0 :\par
+\tab\tab EnumArcSize m_ArcSize; \par
+\tab\tab EnumCentreAngle m_CentreAngle;\par
+\tab\tab\cf1 float\cf0  m_SampleRate; \cf2 // sample rate 2.5 - 5MHz\par
+\cf0\tab\tab\cf1 int\cf0  m_Oversamples; \cf2 // samples per cell\par
+\cf0\tab\tab\cf1 int\cf0  m_Samples; \cf2 // samples per motor step\par
+\cf0\tab\tab EnumStepSize m_StepSize;\par
+\tab\tab\cf1 int\cf0  m_TxPulse; \cf2 // Tx Pulse width (in us)\cf0\par
+\tab\}\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\ul\b RegisterCallback Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab\cf1 void\cf0  RegisterCallback( \cf1 void\cf0  (*Callback) (\cf1 void\cf0 ));\par
+\par
+\b Parameters:\par
+\b0\par
+\tab\i Callback\i0\par
+\tab\tab A function pointer to the callback function. The function \tab\tab pointer must be of the form:\par
+\tab\tab\cf1 void\cf0  (*function_name) (\cf1 void)\cf3 ;\cf0\par
+\par
+\b Remarks:\par
+\b0\tab\par
+\tab Any number of callback functions can be registered. They will all be called at the end of each sonar sweep iteration.\par
+\par
+\par
+\ul\b RegisterTimeCallback Function\par
+\ulnone\b0\par
+\b Syntax:\par
+\b0\par
+\tab\cf1 void\cf0  RegisterTimeCallback( \cf1 void\cf0  (*TimeCallback)(\cf1 double\cf0  *time));\par
+\par
+\b Parameters:\par
+\b0\par
+\tab\i TimeCallback\i0\par
+\pard\tab\tab A function pointer to a callback function implementing the \tab timer.\par
+}
+ 

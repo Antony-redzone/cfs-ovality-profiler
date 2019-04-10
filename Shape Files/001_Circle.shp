@@ -1,0 +1,13 @@
+version	1.0
+Name	Circle
+Use	All
+CentreX	0
+CentreY	0
+NoArcs	2
+NoLines	0
+Scale	1
+
+[Arcs]
+Arc	x	y	Radius	Start	End
+1	0	0	1	0	180
+2	0	0	1	180	360

@@ -1,0 +1,15 @@
+version	1.0
+Name	Metro Egg
+Use	All
+CentreX	0
+CentreY	0.5
+NoArcs	4
+NoLines	0
+Scale	1
+
+[Arcs]
+Arc	x	y	Radius	Start	End
+1	0	0	1	350	190
+2	1.975561538	0.348344821	3.006037744	190	220.9
+3	0	-1.266538462	0.461278462	230	310
+4	-1.975561538	0.348344821	3.006037744	319.1	350

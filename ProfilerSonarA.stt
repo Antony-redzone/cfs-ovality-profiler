@@ -1,0 +1,44 @@
+Loaded
+625
+6
+255
+74
+0
+
+[Company Details]
+CompanyName=CleanFlow Systems
+PhoneNo=+64 9 4799901
+FaxNo=
+CompanyLogoPath=C:\ClearLineProfilerv6\logo.jpg
+MeasurementUnits=mm
+Language=FrenchCanadian
+
+[PipeHeaderNames]
+PipeDetailsAssetNo=Haltungs-Nr.
+PipeDetailsSiteID=Site ID
+PipeDetailsCity=Ort
+PipeDetailsDate=Datum
+PipeDetailsTime=Uhrzeit
+PipeDetailsStNode=Anfangs-Nr.
+PipeDetailsStLoc=Standort
+PipeDetailsFhNode=End-Nr.
+PipeDetailsFhLoc=Standort
+PipeDetailsIntDiaExp=Innendurchmesser (erwartet)
+PipeDetailsOutDiaExp=Auﬂendurchmesser
+PipeDetailsLength=Haltungsl‰nge
+PipeDetailsMaterial=Material
+
+[PipeDetailValues]
+PipeDetailsValueAssetNo=34
+PipeDetailsValueSiteID=asdf
+PipeDetailsValueCity=asdf
+PipeDetailsValueDate=5/09/2006
+PipeDetailsValueTime=14:28
+PipeDetailsValueStNode=sdf
+PipeDetailsValueStLoc=aasdf
+PipeDetailsValueFhNode=asdf
+PipeDetailsValueFhLoc=asdf
+PipeDetailsValueIntDiaExp=220
+PipeDetailsValueOutDiaExp=250
+PipeDetailsValueLength=50
+PipeDetailsValueMaterial=asdf

@@ -1,0 +1,416 @@
+Source	 English	Translation
+ClearLineScreen.frm - DisplayMessage	  - This application may not work as designed.	 - Diese Anwendung wird möglicherweise nicht einwandfrei laufen.
+ClearLineScreen.frm - DisplayMessage	  of 	von
+ScreenDrawing.bas - DisplayMessage	  to 	bis
+ControlsScreen.frm - ToolTipText	 3D	3D
+OptionsPage.frm - Caption	 3D Rendering Setting	3D-Einstellungen
+ControlsReports.frm - Caption	 4 in 1	4 in 1
+PVReport4in1.frm - Caption	 90% - Fractile:	90% - Fraktil:
+ControlsScreen.frm - ToolTipText	 Additional Tools	zusätzliche Werkzeuge
+ControlsScreen.frm - ToolTipText	 Adjust pipe scale	Rohrmaßstab anpassen
+OptionsPage.frm - Caption	 Aladdin Hasp	Aladdin Hasp
+PVReportMultiProfilex3.frm - Caption	 All Frames	Alle Einzelbilder
+ControlsScreen.frm - ToolTipText	 Analysis Report	Analysebericht
+PageFunctions.bas - DisplayMessage	 Apply current lens distortion settings?	Aktuelle Objektivverzeichnungseinstellungen anwenden?
+DebugForm.frm - Caption	 Apply Rotation	Drehung anwenden
+DebugForm.frm - Caption	 Apply Scale	Maßstab anwenden
+DebugForm.frm - Caption	 Apply Stretch	Dehnung anwenden
+DebugForm.frm - Caption	 Apply X Pos	X Pos anwenden
+DebugForm.frm - Caption	 ApplyY Pos	Y Pos anwenden
+PipelineDetails.frm - Caption	 Asset No.	Haltungs-Nr.
+OptionsPage.frm - DisplayMessage	 Auto	Auto
+Fisheye.frm - Caption	 Automatic Calibration	Autokalibrierung
+Distance.frm - Caption	 Automatic Counter	automatischer Zähler
+DebugForm.frm - Caption	 AutoRotate	Autodrehung
+InputCalLen.frm - Caption	 Calibration	Kalibrierung
+ControlsScreen.frm - ToolTipText	 Calibration - Horizontal	Kalibrierung - horizontal
+InputCalLen.frm - DisplayMessage	 Calibration - Standard	Kalibrierung - Standard
+ControlsScreen.frm - ToolTipText	 Calibration - Vertical	Kalibrierung - vertikal
+InputCalLen.frm - DisplayMessage	 Calibration - Vertical adjustment	Kalibrierung - vertikale Anpassung
+PageFunctions.bas - DisplayMessage	 Camera	Kamera
+Fisheye.frm - Caption	 Camera Center X	
+Fisheye.frm - Caption	 Camera Center Y	
+Fisheye.frm - Caption	 Camera Model	Kameratyp
+FisheyeFunctions.bas - DisplayMessage	" Can not read this file, loading default settings."	"Die Datei konnte nicht gelesen werden, Vorgabeeinstellungen werden geladen."
+ControlsMain.frm - DisplayMessage	 Can not save to the application directory	Im Anwendungsverzeichnis kann nicht gespeichert werden.
+DebugForm.frm - Caption	 Cancel	Abbrechen
+ClearLineScreen.frm - DisplayMessage	 Cannot Initialise Hardware Vertexing	Hardware-Vertexing konnte nicht initialisiert werden
+ClearLineScreen.frm - DisplayMessage	 Cannot Initialise Mixed Vertexing	Gemischtes Vertexing konnte nicht initialisiert werden
+ControlsMain.frm - DisplayMessage	"Cannot save a .PVD file, please register the software to access this."	"Eine .pvd-Datei kann nicht gespeichert werden, hierzu muss die Software registriert sein."
+StartUp.bas - DisplayMessage	 Cannot Write to ClearLine.ini File. Check that file is not Write Protected.	"In die ClearLine.ini-Datei kann nicht geschrieben werden. Prüfen Sie bitte, ob die Datei schreibgeschützt ist."
+DataEntry.frm - DisplayMessage	 Can't calibrate with a zero length.	Kalibrieren mit Länge Null nicht möglich.
+PageFunctions.bas - DisplayMessage	 Can't read file	"Datei kann nicht gelesen werden,"
+ClearLineScreen.frm - DisplayMessage	 Capacity	Kapazität
+PVReport4in1.frm - Caption	 Capacity Analysis Report	Analysebericht - Kapazität
+DebugForm.frm - Caption	 Capacity Offset by %	Offset - Kapazität in %
+PVReportProfile.frm - Caption	 Capacity Profile Report	Profilbericht - Kapazität
+ControlsScreen.frm - ToolTipText	 Capture image	Einzelbild erfassen
+SonarConfig.frm - Caption	 Centre Angle	Mittelwinkel
+PipelineDetails.frm - DisplayMessage	 Circle	Kreis
+PipelineDetails.frm - Caption	 City	Ort
+ControlsScreen.frm - ToolTipText	 Clear	Löschen
+AutoTune.frm - ToolTipText	 Clear Mask	Maske löschen
+AutoTune.frm - ToolTipText	 Clear Water / Debris Mask	Maskierung von Wasserstand / Ablagerungen löschen
+ClearLineScreen.frm - DisplayMessage	 ClearLine.dll is currently 	Die ClearLine.dll ist zur Zeit
+ClearLineScreen.frm - DisplayMessage	 ClearLine.dll VERSION ERROR. Expecting 	ClearLine.dll VERSIONSFEHLER: Erwartet wird
+Registration.frm - Caption	 Close	Schließen
+PVReport4in1.frm - ToolTipText	 Close Report	Bericht schließen
+Interfaces.bas - DisplayMessage	 CLPInterface  VERSION ERROR. Expecting 	CLPInterface  VERSIONSERROR. Erwartet wird  
+Interfaces.bas - DisplayMessage	 CLPInterface is currently 	CLPInterface ist zur Zeit 
+PVReportSingle.frm - Caption	 Co	Co
+AutoTune.frm - ToolTipText	 Color	Farbe
+PVReport4in1.frm - Caption	 Comments	Bemerkungen
+OptionsPage.frm - Caption	 Company Details	Firmendaten
+OptionsPage.frm - Caption	 Company Name	Firmenname
+ControlsMain.frm - DisplayMessage	 Completed	Fertig
+Registration.frm - DisplayMessage	" Congratulations, your ClearLine Profiler Software is now registered.  Please shut-down the application and restart to allow new settings to take effect."	"Herzlichen Glückwunsch, Ihre ClearLine Profiler Software wurde erfolgreich registriert. Schließen Sie bitte die Anwendung und starten Sie sie neu, um die neuen Einstellungen wirksam werden zu lassen."
+SonarConfig.frm - Caption	 Connect	Verbinden
+ControlsMain.frm - ToolTipText	 Connect Video	Videoverbindung herstellen
+InstallationForm.frm - Caption	 Continue	Weiter
+Fisheye.frm - Caption	 Contrast	Kontrast
+ControlsScreen.frm - ToolTipText	 Control selection	Kontrollauswahl
+PVReportSingle.frm - Caption	 Copyright 2006	Copyright 2006
+V6Splash.frm - Caption	 Copyright Cleanflow Systems 2003 - 2006	Copyright Cleanflow Systems 2003 - 2006
+PageFunctions.bas - DisplayMessage	 Could not find the associated Video File: 	Die dazugehörige Videodatei wurde nicht gefunden:
+Distance.frm - Caption	 Count Direction	Zählrichtung
+ControlsScreen.frm - ToolTipText	 Crack Measurement Calibration	Kalibrierung der Rissvermessung
+ControlsMain.frm - ToolTipText	 Create Viewer	Viewer erstellen
+ControlsMain.frm - DisplayMessage	 Creation of Viewer files cancelled.	Erstellen der Viewerdateien abgebrochen.
+Distance.frm - Caption	 Current Distance	aktuelle Entfernung
+DataEntry.frm - DisplayMessage	 Current finish distance	aktuelle Endentfernung
+DataEntry.frm - Caption	 Current start distance	aktuelle Anfangsentfernung
+DebugForm.frm - Caption	 Current time from LaserLib	aktuelle Zeit aus der LaserLib
+PipelineDetails.frm - Caption	 Date	Datum
+PVReportSingle.frm - Caption	 Delete	Markierung löschen
+ClearLineScreen.frm - Caption	 Delete All	Alles löschen
+PVReportStoredInPVD.frm - ToolTipText	 Delete Report	Bericht löschen
+PrecisionVisionGraph.frm - Caption	 Delta	Delta
+PVGraphsKeyForm.frm - ToolTipText	 Delta Max	Delta max
+PVGraphsKeyForm.frm - ToolTipText	 Delta Min	Delta min
+AutoTune.frm - Caption	 Details ...	Details ...
+PrecisionVisionGraph.frm - DisplayMessage	 Diameter (Max/Min)	Durchmesser (größter/kleinster)
+ScreenDrawing.bas - DisplayMessage	 Diameter Histogram	Durchmesser Histogramm
+ControlsScreen.frm - ToolTipText	 Dimension	Abmessung
+ClearLineScreen.frm - DisplayMessage	 Direct X VERSION ERROR. Expecting Microsoft Direct X 	Direct X VERSIONSFEHLER. Erwartet wird Microsoft Direct X
+PageFunctions.bas - DisplayMessage	 Discard current drawing?	aktuelle Zeichnung verwerfen?
+ControlsScreen.frm - ToolTipText	 Display Precision Vision Settings	PrecisionVision-Einstellungen anzeigen
+ControlsScreen.frm - ToolTipText	 Display Reference Shape	Bezugsprofil anzeigen
+Distance.frm - Caption	 Distance	Entfernung
+Distance.frm - Caption	 Distance at Analysis End	Entfernung am Analysenende
+Distance.frm - Caption	 Distance at Analysis Start	Entfernung am Analysenstart
+AutoTune.frm - Caption	 Distance Information	Entfernungsangaben
+ClearLineScreen.frm - DisplayMessage	 DLL ERROR - 	DLL FEHLER -
+ScreenDrawing.bas - DisplayMessage	 Do you want to recalculate PV Data?	PV-Daten neu berechnen?
+ControlsMain.frm - DisplayMessage	 does not exist. Create this file first. The default language(English) is loaded.	existiert nicht. Erstellen Sie zuerst diese Datei. Die Vorgabesprache (englisch) wird geladen.
+Registration.frm - DisplayMessage	 Email not Sent. Please check your EMail Settings.	E-Mail nicht gesendet. Überprüfen Sie bitte Ihre E-Mail-Einstellungen.
+Registration.frm - Caption	 EMail Us	Mailen Sie uns
+DebugForm.frm - Caption	 End	Ende
+Registration.frm - Caption	 End User License Agreement	Endbenutzerlizenzvereinbarung
+DataEntry.frm - Caption	 Enter calibration length	Kalibrierungslänge eintragen:
+PageFunctions.bas - DisplayMessage	 Export PV data in Microsoft Excel CSV format	PV-Daten im Microsoft Excel CSV-Format exportieren
+PageFunctions.bas - DisplayMessage	 Export PV data in Tab Delimited Text format	PV-Daten im Tab-Delimited-Textformat exportieren
+PageFunctions.bas - DisplayMessage	 Export single graph in tab delimited text format	Einzelgrafik im Tab-Delimited-Textformat exportieren
+ControlsScreen.frm - ToolTipText	 External camera view	externe Kameraansicht
+Fisheye.frm - Caption	 FEC Resolution	FEC Auflösung
+ControlsMain.frm - DisplayMessage	 File already exists. Will you overwrite?	Datei besteht bereits. Überschreiben?
+ControlsMain.frm - DisplayMessage	 file for the language	Sprachdatei
+PageFunctions.bas - DisplayMessage	 File not able to be loaded on unregistered application	Die Datei kann nicht in eine unregistrierte Anwendung geladen werden.
+PageFunctions.bas - DisplayMessage	 File was not found.	Datei wurde nicht gefunden.
+AutoTune.frm - Caption	 Finish Distance	Endentfernung
+PVReport4in1.frm - Caption	 Finish Location:	Endpunkt:
+PipelineDetails.frm - Caption	 Finish No	End-Nr.
+PipelineDetails.frm - Caption	 Finish Node	Endknoten
+PageFunctions.bas - DisplayMessage	 Finished Processing	Bearbeitung abgeschlossen
+PrecisionVisionGraph.frm - Caption	 Flat	Flach
+PrecisionVisionGraph.frm - Caption	 Flat3D	Flach 3D
+ControlsScreen.frm - ToolTipText	 FlyBy camera view	Kamera-Flugansicht
+ClearLineScreen.frm - Caption	 Font	Schriftart
+ClearLineScreen.frm - DisplayMessage	 Frame	Einzelbild
+PVGraphsKeyForm.frm - DisplayMessage	 Frame No	Einzelbild-Nr.
+DebugForm.frm - Caption	 From	Von
+PipelineDetails.frm - Caption	 General Comments	Allgemeine Bemerkungen
+Fisheye.frm - Caption	 Go!	Starten
+PVReportProfile.frm - Caption	 Horizontal	Horizontal
+PageFunctions.bas - DisplayMessage	 How many points of the profile do you wish to export?	Wie viele Profilpunkte wollen Sie exportieren?
+Registration.frm - Caption	 I Agree	Ich stimme zu
+Registration.frm - Caption	 I Decline	Ich stimme nicht zu
+ControlsMain.frm - ToolTipText	 Information and Help	Informationen und Hilfe
+Distance.frm - ToolTipText	 Information/Help	Informationen/Hilfe
+OptionsPage.frm - Caption	 Input Select	Eingang wählen
+ControlsScreen.frm - ToolTipText	 Integrated Area Calculation	integrierte Flächenberechnung
+ControlsReference.frm - Caption	 Internal Dia	Innendurchmesser
+PipelineDetails.frm - Caption	 Internal Diameter (Expected)	Innendurchmesser (erwartet)
+Distance.frm - DisplayMessage	 Invalid data	ungültige Daten
+Email.bas - DisplayMessage	 Invalid Path @@Please verify the Path or EMail Address.	unzulässiger Pfad @@ Bitte Pfad oder Email-Adresse überprüfen..
+OptionsPage.frm - DisplayMessage	 Invalid selection.	ungültige Auswahl
+AutoTune.frm - Caption	 Invert water level	Wasserstand in der Rohrsohle
+OptionsPage.frm - Caption	 Language	Sprache
+ClearLineProfilerV5.frm - DisplayMessage	 Languages.txt file does not exist. Please create this file first. The default language(English) is loaded.	Die Datei Languages.txt existiert nicht. Erstellen Sie diese zuerst Datei. Die Vorgabesprache (englisch) wird geladen.
+AutoTune.frm - Caption	 Laser width	Ringbreite
+ClearLineScreen.frm - DisplayMessage	 laserlib.dll is currently 	Die Laserlib.dll ist zur Zeit
+ClearLineScreen.frm - DisplayMessage	 LaserLib.dll VERSION ERROR. Expecting 	LaserLib.dll VERSIONSFEHLER. Erwartet wird
+Fisheye.frm - Caption	 Lens Correction	Linsenkorrektur
+OptionsPage.frm - Caption	 Lens Correction Settings	Linsenkorrektureinstellungen
+PageFunctions.bas - DisplayMessage	 Lens Distortion settings have been applied.	Die Objektivverzeichnungseinstellungen wurden angewendet.
+DataEntry.frm - Caption	 Limit Line	Begrenzungslinie
+PVReportSingle.frm - Caption	 Limit Lines	Begrenzungslinien
+ControlsScreen.frm - ToolTipText	 Line	Linie
+OptionsPage.frm - DisplayMessage	" Live video is not connected, device setting will not be changed"	"LiveVideo ist nicht angeschlossen, die Geräteeinstellung wird nicht geändert."
+Fisheye.frm - Caption	 Load	Laden
+DebugForm.frm - Caption	 Load Custom Shape	Benutzerdefiniertes Profil laden
+ClearLineScreen.frm - DisplayMessage	 Loading	Laden
+ClearLineScreen.frm - DisplayMessage	 Loading 3D data	3D-Daten werden geladen
+PageFunctions.bas - DisplayMessage	 Loading data	Daten werden geladen
+Fisheye.frm - ToolTipText	 Loads a calibration setting.	lädt eine Kalibrierungseinstellung.
+PipelineDetails.frm - Caption	 Location	Standort
+OptionsPage.frm - Caption	 Logo	Logo
+PVReportProfile.frm - Caption	 Lower =	Untere =
+PVReportSingle.frm - Caption	 Lower Limit=	Untere Begrenzung =
+V6Splash.frm - Caption	 Major	Hauptversionsnummer
+ControlsScreen.frm - ToolTipText	 Map camera view	Kamera-Draufsicht
+AutoTune.frm - Caption	 Mask	Maske
+Distance.frm - Caption	 Mask: Distance - Counter - Text	Maske: Entfernung - Zähler - Text
+PipelineDetails.frm - Caption	 Material	Material
+PrecisionVisionGraph.frm - Caption	 Max Diameter	Größter Durchmesser
+PrecisionVisionGraph.frm - Caption	 Maximum	Maximum
+ScreenDrawing.bas - DisplayMessage	 Maximum	Maximum
+StartUp.bas - DisplayMessage	 Media File is not a valid file name.	Mediendatei ist kein gültiger Dateiname.
+PrecisionVisionGraph.frm - Caption	 Median Diameter	durchschnittlicher Durchmesser
+PVReportMultiProfile.frm - Caption	 Meters	Meter
+ScreenDrawing.bas - DisplayMessage	 Min Diameter	kleinster Durchmesser
+PrecisionVisionGraph.frm - Caption	 Minimum	Minimum
+V6Splash.frm - Caption	 Minor	Nebenversionsnummer
+PVReportStoredInPVD.frm - ToolTipText	 Move	verschieben
+AutoTune.frm - ToolTipText	 Move Reference Shape	Bezugsprofil verschieben
+PVReport4in1.frm - ToolTipText	 Move Report or Text	Bericht oder Text verschieben
+PVReportMultiProfile.frm - Caption	 Multi Profile Report	Mehrfach-Profilbericht
+ControlsReports.frm - Caption	 Multi Report x3	Mehrfach-Bericht x3
+PrecisionVisionGraph.frm - DisplayMessage	 Must disconnect from video before analysing Precision Vision data.	"Sie müssen die Videoverbindung lösen, um mit der Analyse der PrecisionVision-Daten beginnen zu können."
+PipelineDetails.frm - DisplayMessage	 Must enter a valid date	Sie müssen ein gültiges Datum eingeben.
+PipelineDetails.frm - DisplayMessage	 Must enter a valid time	Sie müssen eine gültige Uhrzeit eingeben.
+ClearLineScreen.frm - DisplayMessage	 Must have a pvd file loaded	Eine pvd.Datei muss geladen werden
+ClearLineScreen.frm - DisplayMessage	 Must load a Media file first!	Sie müssen zuerst eine Mediendatei laden!
+DataEntry.frm - Caption	 New Distance	neue Entfernung
+DataEntry.frm - DisplayMessage	 New finish distance	neue Endentfernung
+DataEntry.frm - DisplayMessage	 New Label	neuer Eintrag
+DataEntry.frm - Caption	 New start distance	neue Anfangsentfernung
+ClearLineScreen.frm - DisplayMessage	" No Capture Device, Please install a capture card and/or drivers."	"Keine Bilderfassungshardware vorhanden, bitte installieren Sie eine Bilderfassungskarte und/oder -Treiber"
+PVReport4in1.frm - Caption	 No Of Panels	Anzahl der Panels
+DataEntry.frm - DisplayMessage	 Not set.	nicht gesetzt
+PVReportProfile.frm - Caption	 Observation Text here	hier Kommentartext
+ControlsScreen.frm - ToolTipText	 Observations Report	Kommentarbericht
+FisheyeFunctions.bas - DisplayMessage	 OFF	aus
+FisheyeFunctions.bas - DisplayMessage	 ON	ein
+ClearLineScreen.frm - Caption	 OnScreenText	Text auf dem Bildschirm
+ControlsMain.frm - ToolTipText	 Open File	Datei öffnen
+ClearLineScreen.frm - Caption	 Options	Optionen
+ClearLineScreen.frm - DisplayMessage	 or above. Microsoft Direct X is currently 	oder höher. Microsoft Direct X ist zur Zeit
+Registration.frm - Caption	 OR Contact Us at :	ODER setzen Sie sich mit uns in Verbindung :
+DebugForm.frm - Caption	 Origin X	Ursprung X
+DebugForm.frm - Caption	 Origin Y	Ursprung Y
+ControlsReference.frm - Caption	 Outside Dia	Außendurchmesser
+PipelineDetails.frm - Caption	 Outside Diameter	Außendurchmesser
+PipelineDetails.frm - DisplayMessage	 Outside diameter must be numeric	Der Außendurchmesser muss ein numerischer Wert sein.
+ClearLineScreen.frm - DisplayMessage	 Ovality	Ovalität
+PVReportSingle.frm - Caption	 Ovality 'q' (as per ASTM F 1216 Standard Practice) as a percentage of original pipe versus distance	Prozentuale Verformung (q)* gegenüber dem ursprünglichen Rohrdurchmesser über der Zeit (Einzelbildnummer)
+SonarConfig.frm - Caption	 Oversamples	Abstand der Messpunkte
+PVReport4in1.frm - DisplayMessage	 Page	Seite
+PVReportStoredInPVD.frm - Caption	 Page 1 of 2	Seite 1 von 2
+PVReport4in1.frm - Caption	 Page: 1	Seite: 1
+PVReportMultiProfile.frm - Caption	 Page: 1/1	Seite: 1/1
+PVReport4in1.frm - Caption	 Page: 2	Seite: 2
+ControlsScreen.frm - ToolTipText	 'Pan and Tilt' camera view	Schwenk- u. Neigekameraansicht
+Fisheye.frm - Caption	 Parameter	Parameter
+ControlsScreen.frm - ToolTipText	 Pause	Pause
+PVGraphsKeyForm.frm - DisplayMessage	 Percentage variation in radius	prozentuale Abweichung des Radius
+ControlsScreen.frm - ToolTipText	 Perpendicular line to main circle	Lot auf den Hauptkreis
+PVReport4in1.frm - Caption	 Ph:	Tel:
+Registration.frm - Caption	 Phone : 64 9 479 9901	Telefon: 64 9 479 9901
+OptionsPage.frm - Caption	 Phone No.	Telefon-Nr.
+AutoTune.frm - Caption	 Pickup Level	Aufnahmepegel
+ClearLineScreen.frm - DisplayMessage	" Picture file is invalid, unable to open."	"ungültige Bilddatei, kann nicht geöffnet werden."
+PVReportMultiProfile.frm - Caption	 Pipe Capacity Analysis Report	Analysebericht Rohrkapazität
+PVReport4in1.frm - Caption	 Pipe Diameter:	Rohrdurchmesser:
+PipelineDetails.frm - DisplayMessage	 Pipe length must be numeric	Die Rohrlänge muss ein numerischer Wert sein.
+PVReport4in1.frm - Caption	 Pipe Length:	Rohrlänge
+PVReport4in1.frm - Caption	 Pipe Material:	Rohrmaterial:
+ControlsMain.frm - ToolTipText	 Pipeline Details	Haltungsdaten
+PipelineDetails.frm - Caption	 Pipeline Length	Haltungslänge
+ControlsScreen.frm - ToolTipText	" Play 3D back, press again to change speed"	"3D-Wiedergabe, zurück, noch einmal drücken, um die Geschwindigkeit zu ändern"
+ControlsScreen.frm - ToolTipText	" Play 3D, press again to change speed"	"3D-Wiedergabe, noch einmal drücken, um die Geschwindigkeit zu ändern"
+ControlsScreen.frm - ToolTipText	 Play/Pause	Wiedergabe/Pause
+LanguageUtil.bas - DisplayMessage	 Please calibrate first.	Bitte zuerst die Kalibrierung ausführen.
+OptionsPage.frm - DisplayMessage	 Please close the ClearLine Profiler application and restart to apply the change.	"Bitte die ClearLine-Anwendung schließen und neu starten, um die Änderung wirksam werden zu lassen."
+ControlsScreen.frm - DisplayMessage	 Please ensure the main reference shape is centered.	"Stellen Sie bitte sicher, dass das Hauptbezugsprofil zentriert ist."
+ClearLineScreen.frm - DisplayMessage	 Please enter internal pipe diameter first and calibrate the image.	Bitte zuerst den Rohrinnendurchmesser eingeben und dann das Bild kalibrieren.
+Distance.frm - DisplayMessage	 Please input valid data	Gültige Daten bitte eingeben.
+OptionsPage.frm - DisplayMessage	 Please Press Apply to confirm Changes.	"Bitte auf ""Anwenden"" klicken, um die Änderungen zu bestätigen.."
+ClearLineScreen.frm - DisplayMessage	 Please press left mouse button on the area to be filled. The percentage of the pipe diameter filled will be displayed in the box to the bottom left of the screen.	Bitte mit der linken Maustaste den zu füllenden Bereich anklicken. Der gefüllte Anteil des Rohrquerschnitts wird im Kästchen unten links auf dem Bildschirm in Prozent angezeigt.
+ClearLineScreen.frm - DisplayMessage	 Please remember to register the ClearLine Profiler software.	"Denken Sie bitte daran, die ClearLine Profiler-Software zu registrieren."
+ClearLineScreen.frm - DisplayMessage	 Please select a reference circle first.	Bitte zuerst einen Bezugskreis auswählen
+ClearLineScreen.frm - DisplayMessage	 Please specify a valid Expected Internal Diameter before calibrating	"Geben Sie bitte einen gültigen, zu erwartenden Innendurchmesser ein, bevor Sie die Kalibrierung durchführen."
+ClearLineScreen.frm - DisplayMessage	 Please specify internal diameter first.	Geben Sie zuerst den Innendurchmesser ein.
+AutoTune.frm - DisplayMessage	 Please specify internal pipe diameter first.	Bitte zuerst den Rohrinnendurchmesser eingeben.
+ClearLineScreen.frm - DisplayMessage	 Please Try Mixed or Software Vertexing	Versuchen Sie es bitte mit gemischtem oder Software-Vertexing
+ClearLineScreen.frm - DisplayMessage	 Please Try Software Vertexing	Versuchen Sie es bitte mit Software-Vertexing
+ControlsScreen.frm - ToolTipText	 PolyLine	Mehrfach-Linie
+ClearLineScreen.frm - DisplayMessage	 Precision Vision	PrecisionVision
+ControlsMain.frm - ToolTipText	 Precision Vision Graphs	PrecisionVision-Grafiken
+ControlsMain.frm - ToolTipText	 Precision Vision settings	PrecisionVision-Einstellungen
+PageFunctions.bas - DisplayMessage	" Press Yes to Locate a Video File, No to continue without a Video File loaded."	"Wählen Sie ""Ja"", um eine Videodatei zu suchen oder ""Nein"", um fortzufahren, ohne eine Videodatei zu laden."
+PVReport4in1.frm - ToolTipText	 Print	Drucken
+PVReport4in1.frm - Caption	 Printed:	gedruckt:
+PVReportProfile.frm - Caption	 PrinterSettings	Druckereinstellungen
+DebugForm.frm - Caption	 Process Image	Bild bearbeiten
+Distance.frm - Caption	 Process Method	Verarbeitungsmethode
+CLPProgressBar.frm - Caption	 Processing	Verarbeitung
+ClearLineScreen.frm - DisplayMessage	 Processing Data	Daten werden bearbeitet
+SonarConfig.frm - Caption	 Product No	Produkt-Nr.
+ControlsReports.frm - Caption	 Profile	Profil
+ControlsScreen.frm - ToolTipText	 Profile Report	Profilbericht
+ClearLineScreen.frm - Caption	 Profiler Screen	Profiler-Bildschirm
+SonarConfig.frm - Caption	 Pulse Size	Impulslänge
+ControlsReports.frm - Caption	 PV Graph	PV-Grafik
+ClearLineTitle.frm - Caption	 PV Screen	PV-Bildschirm
+DebugForm.frm - Caption	 Radius	Radius
+Distance.frm - Caption	 Recalculate Distance Scale	Entfernungsmaßstab neu berechnen
+ScreenDrawing.bas - DisplayMessage	 Recalculate PV Data	PV-Daten neu berechnen
+ControlsScreen.frm - ToolTipText	 Record	Aufnahme
+ControlsReference.frm - Caption	 Reference	Bezug
+PipelineDetails.frm - Caption	 Reference Shape	Bezugsprofil
+DebugForm.frm - Caption	 Refernce Shape Control	Bezugsprofilkontrolle
+Registration.frm - Caption	 Reg Code	Registrierungscode
+Registration.frm - Caption	 Register	Registrieren
+V6Splash.frm - Caption	 Register Now	Jetzt registrieren
+Registration.frm - Caption	 Registration	Registrierung
+SonarConfig.frm - Caption	 Registration Code	Registrierungscode
+Registration.frm - DisplayMessage	 Registration Failed. Please Check your Registration Code.	Registrierung fehlgeschlagen. Überprüfen Sie bitte Ihren Registriercode.
+Registration.frm - DisplayMessage	 Registration Request Sent.	Registrieranmeldung gesendet.
+InstallationForm.frm - Caption	 Registration type	Registrierungstyp
+ClearLineScreen.frm - DisplayMessage	 Re-Painting	Farben ändern
+ReportingFunctions.bas - DisplayMessage	 Report saved to PVD	Bericht mit der PVD gespeichert
+ControlsScreen.frm - ToolTipText	 Reports	Berichte
+PVReportProfile.frm - Caption	 Reset to default	auf Vorgabe setzen
+ControlsScreen.frm - ToolTipText	 Reset tools	Tools auf Vorgabe setzen
+V6Splash.frm - Caption	 Revision	Revisionsnummer
+PipelineDetails.frm - DisplayMessage	 RinkerEllipse	Ellipsenprofile
+DebugForm.frm - Caption	 Rotate Left	nach links drehen
+ControlsScreen.frm - ToolTipText	 Rotate pipe anti-clockwise	Rohr nach links drehen
+ControlsScreen.frm - ToolTipText	 Rotate pipe clockwise	Rohr nach rechts drehen
+DebugForm.frm - Caption	 Rotate Right	nach rechts drehen
+SonarConfig.frm - Caption	 SampleRate	Messfolge
+SonarConfig.frm - Caption	 Samples	Messpunkte
+Fisheye.frm - Caption	 Save	Speichern
+DebugForm.frm - Caption	 Save Grid	Gitter speichern
+PVReport4in1.frm - ToolTipText	 Save Report To PVD	Bericht mit der PVD speichern
+DebugForm.frm - Caption	 Save Rotated Data	Rotationsdaten speichern
+ControlsMain.frm - ToolTipText	 Save To File	in Datei speichern
+Fisheye.frm - ToolTipText	 Saves calibration setting.	speichert Kalibrierungseinstellung
+ControlsMain.frm - DisplayMessage	 Saving to the same file name.	Die Datei wird unter dem gleichen Namen gespeichert.
+DebugForm.frm - Caption	 Scale	Maßstab
+ClearLineScreen.frm - ToolTipText	 Scale settings	Maßstabseinstellungen
+SonarConfig.frm - Caption	 Scanning	Abtastung erfolgt
+StartUp.bas - DisplayMessage	 Security failure. Unable to register application.	Sicherheitsfehler. Die Anwendung konnte nicht registriert werden.
+ControlsShape.frm - Caption	 Semieliptical	halbelliptisch
+ControlsScreen.frm - ToolTipText	 Set Finish Recording Marker	Aufnahme-Endmarkeirung setzen
+AutoTune.frm - ToolTipText	 Set Mask	Maske setzen
+AutoTune.frm - ToolTipText	 Set Mask Sectors for Centre	Maskensegmente für den Mittelpunkt setzen
+DebugForm.frm - Caption	 Set PosX	Pos X setzen
+DebugForm.frm - Caption	 Set PosY	Pos Y setzen
+DebugForm.frm - Caption	 Set Rot	
+ControlsScreen.frm - ToolTipText	 Set Start Recording Marker	Aufnahme-Anfangsmarkierung setzen
+AutoTune.frm - ToolTipText	 Set Water / Debris Mask	Wasserstand / Ablagerungen maskieren
+ControlsScreen.frm - ToolTipText	 Set Water Level	Wasserstand setzen
+InstallationForm.frm - Caption	 Setup	Setup
+AutoTune.frm - Caption	 Show settings in video image	Einstellungen in Videobild einblenden
+PVReportSingle.frm - Caption	 Site ID:	ID Einsatzort:
+ClearLineScreen.frm - DisplayMessage	 SnapShot	Schnappschuss
+OptionsPage.frm - DisplayMessage	 Software	Software
+ClearLineScreen.frm - Caption	 Solid	Feststoff
+ControlsMain.frm - ToolTipText	 Sonar	Sonar
+SonarConfig.frm - Caption	 Sonar Config	Sonar-Konfiguration
+SonarConfig.frm - Caption	 Sonar Registration	Sonar-Registrierung
+ClearLineScreen.frm - DisplayMessage	" Sorry, Hardware Vertexing is not available on your Graphics Processing Unit"	Leider läuft das Hardware-Vertexing nicht auf Ihrer Grafikverarbeitungseinheit
+ClearLineScreen.frm - DisplayMessage	" Sorry, Mixed Vertexing is not available on your Graphics Processing Unit"	Leider läuft das gemischte Vertexing nicht auf Ihrer Grafikverarbeitungseinheit
+ClearLineScreen.frm - DisplayMessage	" Sorry, Software Vertexing is not available on your Graphics Processing Unit"	Leider läuft das Software-Vertexing nicht auf Ihrer Grafikverarbeitungseinheit
+PipelineDetails.frm - DisplayMessage	 Square	Viereck
+DebugForm.frm - Caption	 Start	Anfang
+AutoTune.frm - Caption	 Start Distance	Startentfernung
+PVReport4in1.frm - Caption	 Start Location:	Anfangspunkt:
+PipelineDetails.frm - Caption	 Start No	Anfangs-Nr.
+PipelineDetails.frm - Caption	 Start Node	Anfangsknoten
+Distance.frm - Caption	 Start/Finish Estimate	Wertung beginnen/beenden
+Fisheye.frm - ToolTipText	 Starts/Stops automatic calibration.	startet/beendet automatische Kalibrierung
+ControlsScreen.frm - ToolTipText	 Step Forward	schrittweise vorspulen
+ControlsScreen.frm - ToolTipText	 Step Rewind	schrittweise zurückspulen
+SonarConfig.frm - Caption	 Step Size	
+Fisheye.frm - Caption	 Stop	Stopp
+ControlsMain.frm - DisplayMessage	 Stop PVD recording before saving	"Beenden Sie die PVD Aufnahme, bevor Sie die Datei speichern"
+ControlsScreen.frm - ToolTipText	 Stop Recording	Aufnahme beenden
+DebugForm.frm - Caption	 Store Custom Shape	benutzer-definiertes Profil speichern
+ControlsScreen.frm - ToolTipText	 Stored Reports	gespeicherte Berichte
+DebugForm.frm - Caption	 Stretch	dehnen
+Email.bas - DisplayMessage	" Subject, Body text or Attachment is not specified."	"Betreff, Textkörper oder Anlage wurde nicht spezifiziert."
+ControlsScreen.frm - ToolTipText	 Summary Report	Übersichtsbericht
+OptionsPage.frm - Caption	 System Settings	Systemeinstellungen
+ControlsScreen.frm - ToolTipText	 Take a snap-shot for reporting	Schnappschuss für Bericht erfassen
+ControlsScreen.frm - ToolTipText	 Text	Text
+PageFunctions.bas - DisplayMessage	" The .pvd file is not saved, click on Save button if you wish to save this file."	"Die pvd.-Datei wurde noch nicht gesichert. Klicken Sie auf den Speicherbutton, wenn Sie diese Datei speichern möchten."
+ClearLineScreen.frm - DisplayMessage	" The .pvd file is unsaved, do you wish to save this file?"	"Die .pvd-Datei wurde noch nicht gesichert, möchten Sie sie speichern?"
+StartUp.bas - DisplayMessage	 The ClearLine.inf file is READONLY. You must update ClearLine.ini path manually.	Die ClearLine.inf-Datei kann NUR GELESEN WERDEN. Sie müssen den ClearLine.ini_Pfad manuell aktualisieren.
+PipelineDetails.frm - DisplayMessage	 The Non-Circular shape functionality is BETA ONLY. Do you wish to proceed?	Die Nichtkreisprofil-Funktionalität ist zur Zeit NUR in der BETA-Version verfügbar. Wollen Sie trotzdem fortfahren?
+PageFunctions.bas - DisplayMessage	" The PVD file is in a different measurement unit, please alter your measurement units before loading this file."	"Die PVD-Datei ist in einer anderen Maßeinheit, ändern Sie bitte Ihre Maßeinheiten, bevor Sie diese Datei laden."
+PageFunctions.bas - DisplayMessage	 There is no recorded data to process	Es sind keine erfassten Daten zur Bearbeitung vorhanden.
+PageFunctions.bas - DisplayMessage	 There is no Video File associated with this PVD file.	Zu dieser PVD-Datei gibt es keine dazugehörige Videodatei. 
+PageFunctions.bas - DisplayMessage	 There is no Video File associated with this PVD file. Would you like to load one now?	Zu dieser PVD-Datei gibt es keine dazugehörige Videodatei. Möchten Sie jetzt eine laden?
+ClearLineScreen.frm - DisplayMessage	 There must be a media file loaded before recording can take place.	Vor  der Erstellung einer  Aufnahme muss eine Mediendatei geladen werden
+PageFunctions.bas - DisplayMessage	 This file is not loaded.	Diese Datei wurde nicht geladen.
+PrecisionVisionGraph.frm - DisplayMessage	 This function is disabled while recording.	Diese Funktion ist für die Dauer des Aufzeichnens deaktiviert.
+ClearLineScreen.frm - DisplayMessage	 This hardware cannot run the 3D Application	Die 3D-Anwendung läuft nicht auf dieser Hardware
+ClearLineScreen.frm - DisplayMessage	 ThreeDim.dll is currently 	Die ThreeDim.dll ist zur Zeit
+ClearLineScreen.frm - DisplayMessage	 ThreeDim.dll VERSION ERROR. Expecting 	3-Dim.dll VERSIONSFEHLER. Erwartet wird
+ClearLineScreen.frm - Caption	 Tiling Pattern	Mosaikmuster
+PipelineDetails.frm - Caption	 Time	Uhrzeit
+DebugForm.frm - Caption	 To	bis
+PageFunctions.bas - DisplayMessage	" To open a new file, stop the recording and the video, then open the new file."	"Um eine neue Datei öffnen zu können, müssen Sie zuerst die Aufnahme und das Video beenden."
+ClearLineScreen.frm - Caption	 Tools	Werkzeuge
+PVReportProfile.frm - Caption	 True Diameter	durchschnittlicher Durchmesser
+DebugForm.frm - Caption	 True Diameter Offset	Offset - durchschnittlicher Durchmesser
+AutoTune.frm - Caption	 Tuning	Bild einstellen
+ControlsScreen.frm - ToolTipText	 Tuning settings	Bildeinstellungen
+ControlsScreen.frm - ToolTipText	 Turn map view on/off	Kamera-Draufsicht ein-/ausschalten
+ControlsReference.frm - Caption	 Type	Rohrprofil
+PVReport4in1.frm - Caption	 unit	Maßeinheit
+OptionsPage.frm - Caption	 Units	Maßeinheiten
+Email.bas - DisplayMessage	 Unknown Recipient.	unbekannter Empfänger
+V6Splash.frm - Caption	 Unregistered Copy	nichtregistrierte Kopie
+PVReportMultiProfile.frm - Caption	 Unregistered Software	nichtregistrierte Software
+ClearLineScreen.frm - DisplayMessage	 Upgrade Now	jetzt aktualisieren
+PVReportProfile.frm - Caption	 Upper =	obere =
+PVReportSingle.frm - Caption	 Upper limit =	obere Begrenzung =
+Registration.frm - Caption	 User Name	Benutzername
+PVGraphsKeyForm.frm - DisplayMessage	 Variation in radius	Abweichung des Radius
+V6Splash.frm - Caption	 Version	Version
+PVReportProfile.frm - Caption	 Vertical	vertikal
+PageFunctions.bas - DisplayMessage	 Vertical video adjustment	vertikale Videoeinstellung
+ControlsScreen.frm - ToolTipText	 Video	Video
+OptionsPage.frm - Caption	 Video Device Select	Videogeräteauswahl
+OptionsPage.frm - Caption	 Video Input Select	Videoeingabeauswahl
+OptionsPage.frm - Caption	 Video Input Settings	Videoeingangs-Einstellungen
+Fisheye.frm - Caption	 Video Resolution	Videoauflösung
+StartUp.bas - DisplayMessage	 Viewer	Viewer
+V6Splash.frm - DisplayMessage	 Viewer Copy	Viewerkopie
+PageFunctions.bas - DisplayMessage	 Warning this PVD is Read ONLY. Unable to save changes.	Warnung: diese PVD kann NUR GELESEN WERDEN. Die Änderungen können nicht gespeichert werden.
+ReportingFunctions.bas - DisplayMessage	 Warning this PVD is Read ONLY. Unable to store report.	Warnung: diese PVD kann NUR GELESEN WERDEN. Der Bericht kann nicht gespeichert werden.
+OptionsPage.frm - DisplayMessage	" WARNING: If Units are changed, calibration will be reset to default."	"WARNUNG. Wenn die Maßeinheiten geändert werden, wird die Kalibrierung auf den Vorgabewert zurückgesetzt."
+AutoTune.frm - Caption	 Water / Debris Mask	Wasser / Ablagerungen maskieren
+OptionsPage.frm - DisplayMessage	 Will you overwrite existing logo file?	Möchten Sie die vorhandene Firmenlogodatei überschreiben ?
+ScreenDrawing.bas - DisplayMessage	" Wrong PVD version, unable to recalculate data"	"Falsche PVD-Version, die Daten können nicht neu berechnet werden."
+PVGraphsKeyForm.frm - DisplayMessage	 X Diameter	X-Durchmesser
+PrecisionVisionGraph.frm - Caption	 X Y Diameter	X Y Durchmesser
+PVGraphsKeyForm.frm - DisplayMessage	 Y Diameter	Y-Durchmesser
+Registration.frm - DisplayMessage	 You must Agree to the End User License Agreement Details before Registering this Product.	"Sie müssen der Endbenutzer-Lizenzvereinbarung zustimmen, um dieses Produkt registrieren zu können."
+StartUp.bas - DisplayMessage	 Your Company Logo could not be found - please remember to load it.	"Ihr Firmen-Logo konnte nicht gefunden werden - vergessen Sie bitte nicht, es zu laden."
+AutoTune.frm - Caption	 Zone	Bereich
+PVReportStoredInPVD.frm - ToolTipText	 Zoom In	einzoomen
+PVReportStoredInPVD.frm - ToolTipText	 Zoom Out	auszoomen

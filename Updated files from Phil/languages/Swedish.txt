@@ -1,0 +1,432 @@
+ Version=1.6	
+ English	Translation Swedish
+  - This application may not work as designed.	denna applikation kanske inte fungerar som producerad
+  of 	från
+  to 	till
+ 3D	3D
+ 3D Rendering Setting	3D inställningar
+ 4 in 1	4 i 1
+ 90% - Fractile:	90% - Sprucken:
+ 1KM Project Report	1KM Projektrapport
+ 1K Report	1K Rapport
+ Additional Tools	Extra verktyg
+ Adjust pipe scale	Justera rörskalan
+ Aladdin Hasp	Aladdin Hasp
+ All Frames	Alla bilder
+ Analysis Report	Analysrapport
+ Apply current lens distortion settings?	Använd nuvarande linsinställning distorsion 
+ Apply Rotation	Använd rotation
+ Apply Scale	Använd skala
+ Apply Stretch	Använd dra
+ Apply X Pos	Använd X pos
+ ApplyY Pos	Använd y pos
+ Arc Size	Arc storlek
+ Asset No.	Post no.
+ Auto	Auto
+ Automatic Calibration	Automatisk kalibrering
+ Automatic Counter	Automatisk räknare
+ AutoRotate	Automatisk rotering
+ Calibration	Kalibrering
+ Calibration - Horizontal	Kalibrering - horisontell
+ Calibration - Standard	Kalibrering - standard
+ Calibration - Vertical	Kalibrering - vertikal
+ Calibration - Vertical adjustment	Kalibrering - vertikal justering
+ Camera	Kamera
+ Camera Center X	Kamera centrum X
+ Camera Center Y	Kamera centrum Y
+ Camera Model	Kamera modell
+ Can not read this file, loading default settings.	Kan inte läsa denna fil, laddar försummade inställningar
+ Can not save to the application directory	Kan inye spara till denna applikations katalog
+ Cancel	Avbryt
+ Cannot Initialise Hardware Vertexing	Kan inte initsiera hårdvaru Vertexing
+ Cannot Initialise Mixed Vertexing	Kan inte initsiera blandad Vertexing
+ Cannot save a .PVD file, please register the software to access this.	Kan inte spara en .PVD-fil, registrera mjukvaran för att kunna det
+ Cannot Write to ClearLine.ini File. Check that file is not Write Protected.	Kan inte skriva till Clearline.ini fil. Kontrollera att filen inte är skrivskyddad
+ Can't calibrate with a zero length.	Kan inte kalibrera med 0 längd
+ Can't read file	Kan inte läsa filen
+ Capacity	Kapacitet
+ Capacity Analysis Report	Kapacitet Analys Rapport
+ Capacity Offset by %	Kapacitet offset med %
+ Capacity Profile Report	Kapacitet Profil Rapport
+ Capture image	Spara bilden
+ Centre Angle	Centrum vinkel
+ Circle	Cirkel
+ City	Stad
+ Clear	Rensa
+ Clear Mask	Rensa ramen
+ Clear Water / Debris Mask	Rensa vatten/skräp ram
+ ClearLine.dll is currently 	Clearline.dll är nuvarande
+ ClearLine.dll VERSION ERROR. Expecting 	Clearline.dll Versionfel. Förväntad
+ Close	Stäng
+ Close Report	Stäng rapport
+ CLPInterface  VERSION ERROR. Expecting 	CLP interface Versionfel. Förväntad
+ CLPInterface is currently 	CLP interface är nuvarande
+ Co	Co
+ Color	Färg
+ Comments	Kommentarer
+ Company Details	Företagsinformation
+ Company Name	Företags namn
+ Completed	Färdigt
+ Congratulations, your ClearLine Profiler Software is now registered.  Please shut-down the application and restart to allow new settings to take effect.	
+ Connect	Anslut
+ Connect Video	Anslut video
+ Continue	Fortsätt
+ Contrast	Kontrast
+ Control selection	Kontrollera valet
+ Corrugated	Veckad
+ Copyright 2006	Copyright 2006
+ Copyright Cleanflow Systems 2003 - 2006	Copyright Cleanflow System 2003 - 2006
+ Could not find the associated Video File: 	Kunde inte finna videofilen
+ Count Direction	Beräkna riktningen
+ Crack Measurement Calibration	Sprickmätnings kalibrering
+ Create Viewer	Skapa en Viewer
+ Creation of Viewer files cancelled.	Skapande av Viewer avbryts
+ Current Distance	Aktuellt avstånd
+ Current finish distance	Aktuellt slutpunkt
+ Current start distance	Aktuellt startpunkt
+ Current time from LaserLib	Aktuell tid från LaserLib
+ Date	Datum
+ Delete	Ta bort
+ Delete All	Ta bort allt
+ Delete Report	Borttagningsrapport
+ Delta	Delta
+ Delta Max	Delta Max
+ Delta Min	Delta Min
+ Details ...	Detljer ..
+ Diameter (Max/Min)	Diameter (max/min)
+ Diameter Histogram	Diameter Histogram
+ Dimension	Dimension
+ Direct X VERSION ERROR. Expecting Microsoft Direct X 	Direct X VERSIONFEL. Förväntar Microsoft Direct X
+ Discard current drawing?	Ta bort aktuell ritning
+ Display Precision Vision Settings	Visa Presition Vision Inställningar
+ Display Reference Shape	Visa Referens figur
+ Distance	Avstånd
+ Distance at Analysis End	Avstånd vid analys avslutning
+ Distance at Analysis Start	Avstånd vid analys början
+ Distance Information	Avstånds information
+ DLL ERROR - 	DLL Fel
+ Do you want to load example .PVD on next run.	Vill Du ladda exempel .PVD vid nästa tillfälle
+ Do you want to recalculate PV Data?	Vill Du omkalkyler PV Data
+ does not exist. Create this file first. The default language(English) is loaded.	existerar inte. Skapa denna fil först.Detta aktuells språket (Svenska) laddas.
+ Email not Sent. Please check your EMail Settings.	E-post inte sänt, kontrollera dina e-postinställningar
+ EMail Us	Sänd oss e-post
+ End	Slut
+ End User License Agreement	Slut på användarlincens
+ Enter calibration length	Läs in kalibreringslängd
+Exceeded limits	Överskrider gränsvärde
+ Export PV data in Microsoft Excel CSV format	Exportera PV data till Microsoft Excel CSV format
+ Export PV data in Tab Delimited Text format	Exportera PV data till Tab Delimated text format
+ Export single graph in tab delimited text format	Exportera enstaka grafik till tab delimated textformat
+ External camera view	Extern kamera visning
+ FEC Resolution	FEC känslighet
+ File already exists. Will you overwrite?	Filen finns redan. Vill du skriva över den ?
+ file for the language	Fil för språket
+ File not able to be loaded on unregistered application	Filen kan inte laddas upp på oregistrerad applikation
+ File was not found.	Filen gick inte att hitta.
+ Filter	Filter
+ Finish Distance	Avsluta mätsträckan
+ Finish Location:	Avsluta platsen
+ Finish No	Avsluta nr
+ Finish Node	Avsluta noden
+ Finished Processing	Bearbetningen avslutad
+ Flat	Liggande
+ Flat3D	Liggande3D
+ FlyBy camera view	Snabb kameravisning
+ Font	Font
+ Frame	Skärm
+ Frame No	Skärm nr
+ From	Från
+ General Comments	Allmänna kommentarer
+ Go!	Kör!
+ Horizontal	Horisontell
+ How many points of the profile do you wish to export?	Hur många punkter av profilen vill du exportera?
+ I Agree	Jag samtycker
+ I Decline	Jag avböjer
+ Information and Help	Information och hjälp
+ Information/Help	Information/hjälp
+ Input Select	Välj input
+ Integrated Area Calculation	Integrerad ytkalkylering
+ Internal Dia	Inre diameter
+ Internal Diameter	Intre Diameter
+ Invalid data	Ogitigt data
+ Invalid Path @@Please verify the Path or EMail Address.	Ogiltigt val @@ kontrollera valet eller E-post adress
+ Invalid selection.	Ogiltigt val
+ Invert water level	Invertera vattenivå
+ Language	Språk
+ Languages.txt file does not exist. Please create this file first. The default language(English) is loaded.	Språk.txt fil existerar inte. Skapa denna fil först. Ursprungsspråket (Engelska) har laddats.
+ Laser width	Laser bredd
+ laserlib.dll is currently 	Laserlib.dll är nu
+ LaserLib.dll VERSION ERROR. Expecting 	LaserLib.dll VERSIONSFEL. Förväntar
+ Lens Correction	Objektiv korrigering
+ Lens Correction Settings	Objektiv korrigerings inställningar
+ Lens Distortion settings have been applied.	Objektiv distorsions inställningar är i drift
+ Limit Line	Gräns linje
+ Limit Lines	Gräns linjer
+ Line	Linje
+ Live video is not connected, device setting will not be changed	Videosignal är inte ansluten, inställningar kommer inte att ändras
+ Load	Ladda
+ Load Custom Shape	Ladda kundens form
+ Loading	Laddar
+ Loading 3D data	Laddar 3D data
+ Loading data	Laddar data
+ Loads a calibration setting.	Laddar en kalibrerings inställning
+ Location	Plats
+ Logo	Logo
+ Lower =	Lägre =
+ Lower Limit=	Lägre gräns =
+ Major	Huvud
+ Map camera view	Karta kameravisning
+ Mask	Dölj
+ Mask: Distance - Counter - Text	Dölj: Avstånd - räknare - text
+ Material	Material
+ Max Diameter	Max diameter
+ Maximum	Maximum
+ Maximum	Maximum
+ Media File is not a valid file name.	Media File är inte ett giltigt filnamn
+ Median Diameter	Snitt diameter
+ Meters	Meter
+ Min Diameter	Min diameter
+ Minimum	Minimum
+Min	Min
+ Minor	Mindre
+ Move	Flytta
+ Move Reference Shape	Flytta reference formen
+ Move Report or Text	Flytta rapport eller text
+ Multi Profile Report	Fler ovalitets rapport
+ Multi Report x3	Fler rapport x3
+ Must disconnect from video before analysing Precision Vision data.	Måste koppla bort videosignal innan analysering precisions visn.data
+ Must enter a valid date	Måste ange ett giltigt datum
+ Must enter a valid time	Måste ande en giltig tid
+ Must have a pvd file loaded	Måste ha en PVD-fil laddad
+ Must load a Media file first!	Måste ladda en media-fil först!
+ New Distance	Nytt avstånd
+ New finish distance	Nytt avslutningsavstånd
+ New Label	Ny etikett
+ New start distance	Ny startavstånd
+ No Capture Device, Please install a capture card and/or drivers.	Inget ingångskort, installera ett ingångskort och/eller drivenhet
+ No Of Panels	Antal paneler
+ Not set.	Inte bestämt.
+ Observation Text here	Observationstext här
+ Observations Report	Observations rapport
+ OFF	AV 
+ ON	TILL
+ OnScreenText	Text i bild
+ Open File	Öppna filen
+ Options	Optioner
+ or above. Microsoft Direct X is currently 	eller över. Microsoft Ditrect X används nu
+ OR Contact Us at :	Eller kontakta oss på:
+ Origin X	Ursprungligt X
+ Origin Y	Ursprungligt Y
+ Outside Dia	Yttre dia
+ Outside Diameter	Yttre diameter
+ Outside diameter must be numeric	Yttre diameter måste vara med siffror
+ Ovality	Ovalititet
+ Ovality 'q' (as per ASTM F 1216 Standard Practice) as a percentage of original pipe versus distance	Kavlitet ´g´(enligt ASTM F 1216 Standard) är i procent av originalröret och avståndet
+ Oversamples	Överexempel
+ Page	Sida
+ Page 1 of 2	Sida 1 av 2
+ Page: 1	Sida: 1
+ Page: 1/1	Sida:1/1
+ Page: 2	Sida: 2
+ 'Pan and Tilt' camera view	`svängkamera´- visning
+ Parameter	Parameter
+ Pause	Paus
+ Percentage variation in radius	Procentvariationer i radien
+ Perpendicular line to main circle	Vinkelrät linje till huvudcirkel
+ Ph:	Tel:
+ Phone : 64 9 479 9901	Tel: 08-628 07 60
+ Phone No.	Tel nr.
+ Pickup Level	Signalnivå
+ Picture file is invalid, unable to open.	Bildfilen är ogiltig, går inte att öppna
+ Pipe Capacity Analysis Report	Rörkapacitets analys rapport
+ Pipe Diameter:	Rördiameter
+ Pipe length must be numeric	Rörlängd måste vara numeriskt
+ Pipe Length:	Rörlängd:
+ Pipe Material:	Rörmaterial:
+ Pipeline Details	Rörinformation
+ Pipeline Length	Rörlängd
+ Play 3D back, press again to change speed	Spela tillbaks 3D, tryck igen för att ändra hastighet
+ Play 3D, press again to change speed	Spela 3D, tryck igen för att ändra hastighet
+ Play/Pause	Spela/Paus
+Play	Spela
+ Please calibrate first.	Kalibrera först
+ Please close the ClearLine Profiler application and restart to apply the change.	Stäng Clearline Profiler-programmet och återstarta för att få ändringar utförda
+ Please ensure the main reference shape is centered.	Se till att huvudreferenceformen är centrerad
+ Please enter internal pipe diameter first and calibrate the image.	Ange först inre diameter och kalibrera bilden
+ Please input valid data	Ange rätt data
+ Please Press Apply to confirm Changes.	Tryck på Använd för att bekräfta ändringar
+ Please press left mouse button on the area to be filled. The percentage of the pipe diameter filled will be displayed in the box to the bottom left of the screen.	Tryck på vänster musknapp på det område som skall fyllas. Procenten på rördiametern fylls och visas längst ner på skärmen
+ Please remember to register the ClearLine Profiler software.	Kom ihåg att registrera Clearline Profiler programvaran.
+ Please select a reference circle first.	Välj först en referenscirkel
+ Please specify a valid Expected Internal Diameter before calibrating	Ange förts en känd antagen diameter före kalibrering
+ Please specify internal diameter first.	Ange först inre diameter  
+ Please specify internal pipe diameter first.	Ange först inre rördiameter
+ Please Try Mixed or Software Vertexing	Försök blandad eller topp mjukvara
+ Please Try Software Vertexing	Försök topp mujkvara
+ PolyLine	PolyLine
+ Precision Vision	Precision visning
+ Precision Vision Graphs	Precision visningsdiagram
+ Precision Vision settings	Precision visningsinställningar
+ Press Yes to Locate a Video File, No to continue without a Video File loaded.	Tryck på Ja för att finna en videofil, Nej för att fortsätta utan att ladda videofil 
+ Print	Utskrift
+ Printed:	Utskriven:
+ PrinterSettings	Skrivarinställningar
+ Process Image	Bearbetningsvisning
+ Process Method	Bearbetningsmetod
+ Processing	Bearbetar
+ Processing Data	Bearbetningsdata
+ Product No	Produkt nr
+ Profile	Profil
+ Profile Report	Profil Rapport
+ Profiler Screen	Profil skärm
+ Project Report	Projektrapport
+ Pulse Size	Puls storlek
+ PV Graph	PV diagram
+ PV Screen	PV skärm
+ Radius	Radie
+ Recalculate Distance Scale	Omberäkna avståndsskala
+ Recalculate PV Data	Omberäkna PV data
+ Record	Spela in
+ Reference	Referens
+ Reference Shape	Referens form
+ Refernce Shape Control	Referens form kontroll
+ Reg Code	Reg Kod
+ Register	Registrera
+ Register Now	Registrera NU
+ Registration	Registrering
+ Registration Code	Registrireringskod
+ Registration Failed. Please Check your Registration Code.	Registering misslyckades. Kontrollera registreringskoden
+ Registration Request Sent.	Begäran om registering har sänts
+ Registration type	Registrering typ
+ Re-Painting	Åter-färgsättning
+ Report saved to PVD	Rapport har sparats till PVD
+ Report type	Rapport typ
+ Reports	Rapporter
+ Reset to default	Återställ till grundinställning
+ Reset tools	Återställningsverktyg
+ Revision	Revision
+ RinkerEllipse	RinkerEllipse
+ Rotate Left	Rotera åt vänster
+ Rotate pipe anti-clockwise	Rotera röret moturs
+ Rotate pipe clockwise	Rotera röret medurs
+ Rotate Right	Rotera åt höger
+ SampleRate	Mätningshastighet
+ Samples	Mätningar
+ Save	Spara  
+ Save Grid	Spara mallen
+ Save Report To PVD	Spara rapporten till PVD
+ Save Rotated Data	Spara roterade data
+ Save To File	Spara till fil
+ Saves calibration setting.	Sparar kalibreringsdata
+ Saving to the same file name.	Sparar till samma filnamn
+ Scale	Skala
+ Scale settings	Skalinställningar
+ Scanning	Scanna
+ Security failure. Unable to register application.	Säkerhetsfel. Går inte att registera applikationen
+ Semieliptical	Dubbel eleptisk
+ Set Finish Recording Marker	Ange slut på inspelnings markering
+ Set Mask	Ange maskering 
+ Set Mask Sectors for Centre	Ange maskeringsområde för centrum
+ Set PosX	Ange Pos x
+ Set PosY	Ange Pos y
+ Set Rot	Ange Rot
+ Set Start Recording Marker	Ange start inspelning märkning
+ Set Water / Debris Mask	Ange vatten/sediment markering
+ Set Water Level	Ange vattennivå
+ Setup	Uppgradera
+ Show settings in video image	Visa inställningar på videobilden
+ Site ID:	Plats ID:
+ SnapShot	Stillbild
+ Software	Mjukvara
+ Solid	Massiv
+ Sonar	Ultraljud
+ Sonar Config	Ultraljud konfigurering
+ Sonar Registration	Ultraljud registrering
+ Sorry, Hardware Vertexing is not available on your Graphics Processing Unit	Ledsen, Hårdvara Vertexing finna inte på din grafiska processenhet
+ Sorry, Mixed Vertexing is not available on your Graphics Processing Unit	Ledsen, Blandad Vertexing finns inge på din grafiska processenhet
+ Sorry, Software Vertexing is not available on your Graphics Processing Unit	Ledsen, Mjukvaran Vertexing finns inte på din grafiska processenhet
+ Span in feet	Längd i fot
+ Span in meters	Längd i meter
+ Square	Fyrkantig
+ Start	Start
+ Start Distance	Starta avstånd
+ Start Entering grid	Starta diagrambladet
+ Start Location:	Start plats:
+ Start No	Start nr
+ Start Node	Start Node
+ Start/Finish Estimate	Starta/sluta uppskatta
+ Starts/Stops automatic calibration.	Startar/stoppar automatisk kalibrering
+ Step Forward	Gå framåt
+ Step Rewind	Gå bakåt
+ Step Size	Gå storlek
+ Stop	Stop
+ Stop PVD recording before saving	Stoppa PVD inspelning innan den sparas
+ Stop Recording	Stoppa inspelning
+ Store Custom Shape	Lagra vanlig form
+ Stored Reports	Lagrade rapporter
+ Stretch	Dra ut
+ Subject, Body text or Attachment is not specified.	Objekt, Huvudtext eller bilaga är inte specifierad
+ Summary Report	Sammanställningsrapport
+ System Settings	System inställningar
+ Take a snap-shot for reporting	Tag ett koret för att rapportera
+ Text	Text
+ The .pvd file is not saved, click on Save button if you wish to save this file.	.pvd filen är inte sparad, klicka på Spara knappen om du vill spara filen
+ The .pvd file is unsaved, do you wish to save this file?	.pvd filen är inte sparad, vill du spara denna fil
+ The ClearLine.inf file is READONLY. You must update ClearLine.ini path manually.	CLEARLINE.ini filen är READONLY. Du måste uppdatera CLEARLINE.ini inträdet manuellt
+ The Non-Circular shape functionality is BETA ONLY. Do you wish to proceed?	Den icke-cirkulära formen är BETA ONLY. Vill Du fortsätta
+ The PVD file is in a different measurement unit, please alter your measurement units before loading this file.	PVD-filen har annan måttstandard, ändra dina inställningar innan du laddar in filen.
+ There is no recorded data to process	Det finns inga lagrade inspelningar att bearbeta
+ There is no Video File associated with this PVD file.	Det finns ingen Video fil koplad till denna PVD-fil
+ There is no Video File associated with this PVD file. Would you like to load one now?	Det finns ingen Video fil koplad till denna PVD-fil. Vill du läsa in en nu?
+ There must be a media file loaded before recording can take place.	Det måste vara en media fil inläst innan inspelningen kan börja
+ This file is not loaded.	Filen är inte inläst
+ This function is disabled while recording.	Funktionen är urkopplad medan inspelning pågår
+ This hardware cannot run the 3D Application	Hårdvaran stödjer inte 3D applikationen
+ ThreeDim.dll is currently 	ThreeDim.dll gäller nu
+ ThreeDim.dll VERSION ERROR. Expecting 	ThreeDim.dll Versionsfel. Förväntar
+ Tiling Pattern	Delnings Mönster
+ Time	Tid
+ To	Till
+ To open a new file, stop the recording and the video, then open the new file.	För att öppna en ny fil, stoppa inspelningen och videon, öppna sedan den nya filen
+ Tools	Verktyg
+ True	Verklig
+ True Diameter	Verklig diameter
+ True Diameter Offset	Verklig diameter offset
+ Tuning	Avstämning
+ Tuning settings	Avstämningsinställningar
+ Turn map view on/off	Slå på/av kartvisningen
+ Type	Typ
+ unit	enhet
+ Units	Enheter
+ Unknown Recipient.	Okänd recepient
+ Unregistered Copy	Oregistrerad kopia
+ Unregistered Software	Oregistrerad mjukvara
+ Upgrade Now	Uppgradera nu
+ Upper =	Övre =
+ Upper limit =	Övre gräns =
+ User Name	Användarnamn
+ Variation in radius	Variationer i radie
+ Version	Version
+ Vertical	Vertikal
+ Vertical video adjustment	Vertikal video justering
+ Video	Video
+ Video Device Select	Videoenhet vald
+ Video Input Select	Videoingångs val
+ Video Input Settings	Videoingångs inställningar
+ Video Resolution	Video känslighet
+ Viewer	Viewer
+ Viewer Copy	Viewer kopia
+ Warning this PVD is Read ONLY. Unable to save changes.	Varning denna PVD är Read ONLY, Går inte att spara ändringar
+ Warning this PVD is Read ONLY. Unable to store report.	Varning denna PVD är Read ONLY, Går inte att spara rapporter
+ WARNING: If Units are changed, calibration will be reset to default.	Varning: Om måttenheter ändras kommer kalibrering att ändras till grundinställning
+ Water / Debris Mask	Vatten/Sediment maskering
+ Will you overwrite existing logo file?	Vill Du skriva över aktuell logo-fil ?
+ Wrong PVD version, unable to recalculate data	Fel PDV version, kan inte återskapa data
+ X Diameter	X Diameter
+ X Y Diameter	X Y Diameter
+ Y Diameter	Y Diameter
+ You must Agree to the End User License Agreement Details before Registering this Product.	Du måste acceptera slutanvändare licensöverenskommelen innan produkten kan registreras
+ Your Company Logo could not be found - please remember to load it.	Din företagslogo kan inte återfinnas- kom ihåg att läsa in denna
+ Zone	Zon
+ Zoom In	Zooma in
+ Zoom Out	Zooma ut

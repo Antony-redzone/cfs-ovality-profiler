@@ -1,0 +1,9 @@
+[SCC]
+SCC=This is a source code control file
+[ClearLineProfilerV6.vbp]
+SCC_Project_Name ="$/", AAAAAAAA
+SCC_Aux_Path =\\10.64.0.247\freenas\CBS Server\SourceSafe\Profiler 6.2.3
+
+[clearline.vcproj]
+SCC_Aux_Path = "S:\Profiler 6.2.3 SourceSafe"
+SCC_Project_Name = "$/ProfilerV6.2.3VB", BAAAAAAA

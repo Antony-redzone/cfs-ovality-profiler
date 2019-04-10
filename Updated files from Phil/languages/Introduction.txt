@@ -1,0 +1,6 @@
+English	Continue	Other	Setup	Registration type	Viewer
+German	Fahren Sie	Anderes	Einstellung	Ausrichtung Art	Projektor
+Hungarian	Folytatódik	Más	Beállít	Regisztráció típusa	Megjelenít
+Swedish	Continue	Other	Setup	Registration type	Viewer
+FrenchCanadian	Continuez	Autre	Installation	Type d'enregistrement	Visionneuse
+Spanish	continuar	Otro	Disposición	Tipo de inscripción	Visor

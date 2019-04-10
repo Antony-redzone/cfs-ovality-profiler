@@ -1,0 +1,299 @@
+AutoTune	AutoTune	Caption	Image Processing
+AutoTune	DistanceInfoFrame	Caption	Distance Information
+AutoTune	FinishDistLabel	Caption	Finish Distance
+AutoTune	StartDistLabel	Caption	Start Distance
+AutoTune	DistFinishUnitLabel	Caption	m
+AutoTune	DistStartUnitLabel	Caption	m
+AutoTune	TuningFrame	Caption	Tuning
+AutoTune	DetailsExpand	Caption	+
+AutoTune	PVEnhance	ToolTipText	Color
+AutoTune	ShowSettings_lbl	Caption	Show settings in video image
+AutoTune	Details_lbl	Caption	Details ...
+AutoTune	GT_lbl	Caption	Pickup Level
+AutoTune	SDX_lbl	Caption	Laser width
+AutoTune	PVContrast_lbl	Caption	Zone
+AutoTune	PVEnhancelbl	Caption	Color
+AutoTune	MaskFrame	Caption	Mask
+AutoTune	cmdSetMaskSectors	ToolTipText	Set Mask Sectors for Centre
+AutoTune	cmdClearMask	ToolTipText	Clear Mask
+AutoTune	cmdSetMask	ToolTipText	Set Mask
+AutoTune	WaterLevelFrame	Caption	Water Level
+AutoTune	WaterLevelRefShapeMove	ToolTipText	Move Reference Shape
+AutoTune	WaterLevelClear	ToolTipText	Clear Water Level
+AutoTune	SetWaterLevelBtn	ToolTipText	Set Water Level
+AutoTune	Label1	Caption	Invert water level
+ClearLineProfilerV6	ClearLineProfilerV6	Caption	Profiler V6.0.0
+ClearLineScreen	ClearLineScreen	Caption	Profiler Screen
+ClearLineScreen	AreaMeasure	Caption	23.4%
+ClearLineScreen	PVDimensionLabel	Caption	47
+ClearLineScreen	ScaleSetting	ToolTipText	Scale settings
+ClearLineScreen	Y_Units	Caption	mm
+ClearLineScreen	Y_Units	ToolTipText	Units
+ClearLineScreen	AVITimeLabel	Caption	0:00 / 0:00
+ClearLineScreen	BrushSizeArray	Caption	Brush Size
+ClearLineScreen	BrushSize1(1)	Caption	&1
+ClearLineScreen	BrushSize2(2)	Caption	&2
+ClearLineScreen	BrushSize3(3)	Caption	&3
+ClearLineScreen	BrushSize4(4)	Caption	&4
+ClearLineScreen	BrushSize5(5)	Caption	&5
+ClearLineScreen	BrushSize6(6)	Caption	&6
+ClearLineScreen	BrushSize7(7)	Caption	&7
+ClearLineScreen	BrushSize8(8)	Caption	&8
+ClearLineScreen	BrushSize9(9)	Caption	&9
+ClearLineScreen	BrushSize10(10)	Caption	&10
+ClearLineScreen	EraseSizeArray	Caption	EraseSize
+ClearLineScreen	EraseSize1(1)	Caption	&1
+ClearLineScreen	DotSizeArray	Caption	Dot Size
+ClearLineScreen	DotSize1(1)	Caption	&1
+ClearLineScreen	BrushColor	Caption	Brush Color
+ClearLineScreen	Tools	Caption	Tools
+ClearLineScreen	Modify2	Caption	M&odify
+ClearLineScreen	Delete2	Caption	Dele&te
+ClearLineScreen	Option1	Caption	Options
+ClearLineScreen	autosnap	Caption	Auto &Snap
+ClearLineScreen	autotriangle	Caption	Auto &Triangle 
+ClearLineScreen	autotermination	Caption	Auto &Termination
+ClearLineScreen	attachdrawing	Caption	Attach &Drawing
+ClearLineScreen	TerPL(1)	Caption	&Terminate Line
+ClearLineScreen	NormalCircle	Caption	&Circle
+ClearLineScreen	EggShapes	Caption	E&gg Shape
+ClearLineScreen	EllipseCircle	Caption	&Ellipse
+ClearLineScreen	Length1(1)	Caption	&Length
+ClearLineScreen	FillingMethod	Caption	Filling Method
+ClearLineScreen	SolidFilling	Caption	Solid
+ClearLineScreen	PatternFilling	Caption	Tiling Pattern
+ClearLineScreen	OnScreenTextMenu	Caption	OnScreenText
+ClearLineScreen	OnscreenTextFontMenu	Caption	Font
+ClearLineScreen	OnScreenTextBackgroundColourMenu	Caption	Background Colour
+ClearLineScreen	OnscreenTextDefaultMenu	Caption	Rest to default
+ClearLineScreen	OnscreenTextDeleteMenu	Caption	Delete
+ClearLineScreen	OnscreenTextDeleteAllMenu	Caption	Delete All
+V6Splash	cmdRegister	Caption	Register Now
+V6Splash	TradeMarkLabel	Caption	TM
+V6Splash	lblRegistered	Caption	Unregistered Copy
+V6Splash	lblRevision	Caption	0
+V6Splash	lblMinor	Caption	0 .
+V6Splash	lblMajor	Caption	6 .
+V6Splash	lblVersion	Caption	Version
+V6Splash	lblCompany	Caption	Copyright Cleanflow Systems 2003 - 2006
+PVReportMultiProfilex3	PVReportMultiProfilex3	Caption	Multi Profile Report x 3
+PVReportMultiProfilex3	ScaleButton05	Caption	0.5
+PVReportMultiProfilex3	ScaleButton10	Caption	1
+PVReportMultiProfilex3	ScaleButton15	Caption	1.5
+PVReportMultiProfilex3	ScaleButton20	Caption	2
+PVReportMultiProfilex3	CompanyNameLabel	Caption	CleanFlow Systems
+PVReportMultiProfilex3	PipeDiameterUnitLabel	Caption	mm
+PVReportMultiProfilex3	PipeLengthUnitLabel	Caption	m
+PVReportMultiProfilex3	DateLabelData	Caption	12:00:00 a.m.
+PVReportMultiProfilex3	PipeDiameterData	Caption	0
+PVReportMultiProfilex3	PipeLengthData	Caption	0
+PVReportMultiProfilex3	SideIDLabel	Caption	SideID:
+PVReportMultiProfilex3	DateLabel	Caption	Date:
+PVReportMultiProfilex3	PipeDiameterLabel	Caption	Pipe Diameter:
+PVReportMultiProfilex3	PipeLengthLabel	Caption	Pipe Length:
+PVReportMultiProfilex3	CityLabel	Caption	City:
+PVReportMultiProfilex3	PipeMaterialLabel	Caption	Pipe Material:
+PVReportMultiProfilex3	FinishLocationLabel	Caption	Finish Location:
+PVReportMultiProfilex3	FinishNodeLabel	Caption	Finish Node:
+PVReportMultiProfilex3	AssetNoLabel	Caption	Asset No:
+PVReportMultiProfilex3	StartLocationLabel	Caption	Start Location:
+PVReportMultiProfilex3	StartNodeLabel	Caption	Start Node:
+PVReportMultiProfilex3	YScaleLabel(0)	Caption	6
+PVReportMultiProfilex3	YScaleLabel(4)	Caption	6
+PVReportMultiProfilex3	YScaleLabel(2)	Caption	12
+PVReportMultiProfilex3	Explination	Caption	Ovality 'q' (as per ASTM F 1216 Standard Practice) as a percentage of original pipe versus distance
+PVReportMultiProfilex3	GraphUnitLbl	Caption	m
+PVReportMultiProfilex3	YScaleLabel(3)	Caption	9
+PVReportMultiProfilex3	YScaleLabel(1)	Caption	3
+PVReportMultiProfilex3	UnitLabel	Caption	%
+PVReportMultiProfilex3	ObservationsLabel(2)	Caption	Observation Text here
+PVReportMultiProfilex3	ObservationsLabel(1)	Caption	Observation Text here
+PVReportMultiProfilex3	CleanFlowSystemsWebAddressLabel	Caption	www.cleanflowsystems.com
+PVReportMultiProfilex3	CopyrightLabel	Caption	Copyright 2006
+PVReportMultiProfilex3	PageLabel	Caption	Page: 1/1
+PVReportMultiProfilex3	PhLabel	Caption	Ph:
+PVReportMultiProfilex3	PrintedData	Caption	9/08/2006
+PVReportMultiProfilex3	PrintedLabel	Caption	Printed:
+PVReportMultiProfilex3	lblTitle	Caption	Flat Profile Report
+PVReportMultiProfilex3	AllFramesButtons	Caption	All Frames
+PVReportMultiProfilex3	NoOfPagesLabel	Caption	Page 1 of 2
+OptionsPage	OptionsPage	Caption	Options
+OptionsPage	FisheyeSettingsFrame	Caption	Lens Correction Settings
+OptionsPage	CompanyDetailsFrame	Caption	Company Details
+OptionsPage	lblCompanyName	Caption	Company Name
+OptionsPage	lblPhoneNo	Caption	Phone No.
+OptionsPage	Label2	Caption	Logo
+OptionsPage	VideoInputSettingsFrame	Caption	Video Input Settings
+OptionsPage	cmdDeviceSetting	Caption	Input Select
+OptionsPage	Label6	Caption	Video Device Select
+OptionsPage	lblVideoSettings	Caption	Video Input Select
+OptionsPage	RefShapeFrame	Caption	Reference Shape
+OptionsPage	ThreeDRenderingSettingFrame	Caption	3D Rendering Setting
+OptionsPage	SystemSettingsFrame	Caption	System Settings
+OptionsPage	Label8	Caption	Language
+OptionsPage	Units_lbl	Caption	Units
+PipelineDetails	PipelineDetails	Caption	Pipeline Details
+PipelineDetails	CommentsFrame	Caption	General Comments
+PipelineDetails	Label5	Caption	Pipeline Length
+PipelineDetails	lblPipeLengthUnit	Caption	m
+PipelineDetails	OutsideDiameter_lbl	Caption	Outside Diameter
+PipelineDetails	unit2	Caption	mm
+PipelineDetails	InternalDiameterExpected_lbl	Caption	Internal Diameter (Expected)
+PipelineDetails	unit1	Caption	mm
+PipelineDetails	Label2	Caption	Material
+PipelineDetails	FinishNodeFrame	Caption	Finish Node
+PipelineDetails	FinishNodeNo_lbl	Caption	Finish No
+PipelineDetails	Label4	Caption	Location
+PipelineDetails	StartNodeFrame	Caption	Start Node
+PipelineDetails	StartNodeNo_lbl	Caption	Start No
+PipelineDetails	Label3	Caption	Location
+PipelineDetails	Label8	Caption	Time
+PipelineDetails	Label7	Caption	Date
+PipelineDetails	Label6	Caption	City
+PipelineDetails	SiteID_lbl	Caption	Site ID:
+PipelineDetails	AssetNo_lbl	Caption	Asset No.
+PipelineDetails	unit3	Caption	mm
+PipelineDetails	Label1	Caption	m
+PipelineDetails	Unit6	Caption	m
+PrecisionVisionGraph	PrecisionVisionGraph	Caption	Precision Vision Graphs
+PrecisionVisionGraph	FlatTM1	Caption	TM
+PrecisionVisionGraph	PVGraphSelect(5)	Caption	Capacity
+PrecisionVisionGraph	PVGraphSelect(4)	Caption	XY Diameter
+PrecisionVisionGraph	PVGraphSelect(3)	Caption	Max Diameter
+PrecisionVisionGraph	PVGraphSelect(2)	Caption	Ovality
+PrecisionVisionGraph	PVGraphSelect(1)	Caption	True Diameter
+PrecisionVisionGraph	PVGraphSelect(0)	Caption	Flat
+PrecisionVisionGraph	PVYScaleSetting(5)	Caption	x1
+PrecisionVisionGraph	PVYScaleSetting(4)	Caption	x50
+PrecisionVisionGraph	PVYScaleSetting(3)	Caption	x25
+PrecisionVisionGraph	PVYScaleSetting(2)	Caption	x10
+PrecisionVisionGraph	PVYScaleSetting(1)	Caption	x5
+PrecisionVisionGraph	PVYScaleSetting(0)	Caption	x2
+PrecisionVisionGraph	DiameterHistogramTitle	Caption	Diameter Histogram
+PrecisionVisionGraph	HistogramKeyMedian	Caption	Median Diameter
+PrecisionVisionGraph	HistogramKeyMax	Caption	Maximum
+PrecisionVisionGraph	HistogramKeyMin	Caption	Minimum
+PrecisionVisionGraph	DiameterHistogramSubTitle	Caption	Diameter Histogram
+PrecisionVisionGraph	ObservationText(1)	Caption	Obs 1
+PrecisionVisionGraph	PVObsDistanceUnit	Caption	m
+PrecisionVisionGraph	Label_GraphName(5)	Caption	Capacity
+PrecisionVisionGraph	Label_GraphNameShadow(5)	Caption	Capacity
+PrecisionVisionGraph	Label_GraphName(4)	Caption	XY Diameter
+PrecisionVisionGraph	Label_GraphNameShadow(4)	Caption	XY Diameter
+PrecisionVisionGraph	Label_GraphName(3)	Caption	Max Diameter
+PrecisionVisionGraph	Label_GraphNameShadow(3)	Caption	Max Diameter
+PrecisionVisionGraph	Label_GraphName(2)	Caption	Ovality
+PrecisionVisionGraph	Label_GraphNameShadow(2)	Caption	Ovality
+PrecisionVisionGraph	Label_GraphName(1)	Caption	True Diameter
+PrecisionVisionGraph	Label_GraphNameShadow(1)	Caption	True Diameter
+PrecisionVisionGraph	Y_Units	Caption	   m
+PrecisionVisionGraph	Y_Units	ToolTipText	"Units (s, m or ft)"
+PrecisionVisionGraph	PVXScaleLabelC(0)	Caption	50
+PrecisionVisionGraph	PVXScaleLabelUnits(0)	Caption	%
+PrecisionVisionGraph	PVXScaleLabelL(0)	Caption	-50
+PrecisionVisionGraph	PVXScaleLabelR(0)	Caption	50
+PrecisionVisionGraph	PVXScaleLabelR(2)	Caption	50
+PrecisionVisionGraph	PVXScaleLabelL(2)	Caption	-50
+PrecisionVisionGraph	PVXScaleLabelUnits(2)	Caption	%
+PrecisionVisionGraph	PVXScaleLabelC(2)	Caption	50
+PrecisionVisionGraph	PVXScaleLabelR(3)	Caption	50
+PrecisionVisionGraph	PVXScaleLabelL(3)	Caption	-50
+PrecisionVisionGraph	PVXScaleLabelUnits(3)	Caption	%
+PrecisionVisionGraph	PVXScaleLabelC(3)	Caption	50
+PrecisionVisionGraph	PVXScaleLabelC(4)	Caption	50
+PrecisionVisionGraph	PVXScaleLabelUnits(4)	Caption	%
+PrecisionVisionGraph	PVXScaleLabelL(4)	Caption	-50
+PrecisionVisionGraph	PVXScaleLabelR(4)	Caption	50
+PrecisionVisionGraph	PVXScaleLabelC(1)	Caption	50
+PrecisionVisionGraph	PVXScaleLabelUnits(1)	Caption	%
+PrecisionVisionGraph	PVXScaleLabelL(1)	Caption	-50
+PrecisionVisionGraph	PVXScaleLabelR(1)	Caption	50
+PrecisionVisionGraph	PVXScaleLabelR(5)	Caption	50
+PrecisionVisionGraph	PVXScaleLabelL(5)	Caption	-50
+PrecisionVisionGraph	PVXScaleLabelUnits(5)	Caption	%
+PrecisionVisionGraph	PVXScaleLabelC(5)	Caption	50
+PrecisionVisionGraph	FlatTM2	Caption	TM
+PrecisionVisionGraph	Label_GraphName(0)	Caption	Flat
+PrecisionVisionGraph	Label_GraphNameShadow(0)	Caption	Flat
+PrecisionVisionGraph	ScaleSetting	Caption	X
+Registration	Registration	Caption	Registration
+Registration	Cancel	Caption	Close
+Registration	Cancel	ToolTipText	Cancel
+Registration	IDecline	Caption	I Decline
+Registration	Agree	Caption	I Agree
+Registration	Register	Caption	Register
+Registration	EMail	Caption	EMail Us
+Registration	Label18	Caption	Reg Code
+Registration	Label19	Caption	End User License Agreement
+Registration	Label16	Caption	Product No
+Registration	UserName_lbl	Caption	User Name
+Registration	Label2	Caption	OR Contact Us at :
+Registration	Label4	Caption	Phone : 64 9 414 6094
+Registration	Label7	Caption	Fax : 64 9 414 6095
+Fisheye	Fisheye	Caption	Lens Correction
+Fisheye	fmAuto	Caption	Automatic Calibration
+Fisheye	btnAutoCal	Caption	Go!
+Fisheye	btnAutoCal	ToolTipText	Starts/Stops automatic calibration.
+Fisheye	cmdStop	Caption	Stop
+Fisheye	lblFisheyeContrast	Caption	Contrast
+Fisheye	lblCalibrationTitle	Caption	Lens Correction
+Fisheye	btnLoad	Caption	Load
+Fisheye	btnLoad	ToolTipText	Loads a calibration setting.
+Fisheye	btnSave	Caption	Save
+Fisheye	btnSave	ToolTipText	Saves calibration setting.
+Fisheye	lblVideoResolution	Caption	Video Resolution
+Fisheye	lblDisplayFisheye	Caption	Show settings in video image
+Fisheye	lblOriginalResolutionlbl	Caption	FEC Resolution
+Fisheye	lblParameter	Caption	Parameter
+Fisheye	adjy_lbl	Caption	Camera Center Y
+Fisheye	adjx_lbl	Caption	Camera Center X
+Fisheye	FishEyeON_lbl	Caption	OFF
+Fisheye	CameraModelLabel	Caption	Camera Model
+PVReportSingle	PVReportSingle	Caption	Print Preview
+PVReportSingle	CompanyNameLabel	Caption	CleanFlow Systems
+PVReportSingle	UnitLabel	Caption	%
+PVReportSingle	lblTitle	Caption	Pipe Flat Analysis Report
+PVReportSingle	PrintedLabel	Caption	Printed:
+PVReportSingle	PrintedData	Caption	9/08/2006
+PVReportSingle	StartNodeLabel	Caption	Start Node:
+PVReportSingle	StartLocationLabel	Caption	Start Location:
+PVReportSingle	AssetNoLabel	Caption	Asset No:
+PVReportSingle	FinishNodeLabel	Caption	Finish Node:
+PVReportSingle	FinishLocationLabel	Caption	Finish Location:
+PVReportSingle	PipeMaterialLabel	Caption	Pipe Material:
+PVReportSingle	CityLabel	Caption	City:
+PVReportSingle	PipeLengthLabel	Caption	Pipe Length:
+PVReportSingle	PipeDiameterLabel	Caption	Pipe Diameter:
+PVReportSingle	DateLabel	Caption	Date:
+PVReportSingle	SideIDLabel	Caption	SideID:
+PVReportSingle	PipeLengthData	Caption	0
+PVReportSingle	PipeDiameterData	Caption	0
+PVReportSingle	DateLabelData	Caption	12:00:00 a.m.
+PVReportSingle	PhLabel	Caption	Ph:
+PVReportSingle	PageLabel	Caption	Page: 1/1
+PVReportSingle	CommentsLabel	Caption	Comments
+PVReportSingle	LimitLinesLabel	Caption	Limit Lines
+PVReportSingle	UpperLimitLabel	Caption	Upper limit =
+PVReportSingle	LowerLimitLabel	Caption	Lower Limit=
+PVReportSingle	UpperLimitData	Caption	0
+PVReportSingle	LowerLimitData	Caption	0
+PVReportSingle	PipeLengthUnitLabel	Caption	m
+PVReportSingle	PipeDiameterUnitLabel	Caption	mm
+PVReportSingle	GraphUnitLabel	Caption	Meters
+PVReportSingle	YScaleLabel(1)	Caption	3
+PVReportSingle	YScaleLabel(2)	Caption	12
+PVReportSingle	YScaleLabel(3)	Caption	9
+PVReportSingle	YScaleLabel(4)	Caption	6
+PVReportSingle	CopyrightLabel	Caption	Copyright 2005
+PVReportSingle	CleanFlowSystemsWebAddressLabel	Caption	www.cleanflowsystems.com
+PVReportSingle	Explination	Caption	Ovality 'q' (as per ASTM F 1216 Standard Practice) as a percentage of original pipe versus distance
+PVReportSingle	YScaleLabel(0)	Caption	6
+PVReportSingle	FloatingTextMenu	Caption	FloatingText
+PVReportSingle	FloatingTextFontMenu	Caption	Font
+PVReportSingle	FloatingTextBackgroundColourMenu	Caption	Background Colour
+PVReportSingle	FloatingTextDefaultMenu	Caption	Rest to default
+PVReportSingle	FloatingTextDeleteMenu	Caption	Delete
+PVReportSingle	FloatingTextDeleteAllMenu	Caption	Delete All
+CLPProgressBar	CLPProgressBar	Caption	Processing
+CLPProgressBar	PercentageLabel	Caption	0%
+CLPProgressBar	ProgressTitle	Caption	Loading

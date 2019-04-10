@@ -1,0 +1,22 @@
+version	1				
+Name	Springfield Eastern A			
+Use	All				
+CentreX	0				
+CentreY	0				
+NoArcs	2				
+NoLines	2				
+Scale	2			
+					
+[Arcs]					
+Arc	x	y	Radius	Start	End
+1	0	0.452380952	0.5	0	180
+2	0	-0.452380952	0.5	180	360
+
+
+
+[Lines]					
+Line	Point 1X	Point 1Y	Point 2X	Point 2Y	
+1	-0.5	0.452380952	-0.5	-0.452380952
+2	0.5	-0.452380952	0.5	0.452380952
+
+	

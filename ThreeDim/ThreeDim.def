@@ -1,0 +1,29 @@
+LIBRARY   threedim
+DESCRIPTION "Three D"
+EXPORTS
+	d3d_initialise @1
+	d3d_destroy @2
+	d3d_refresh @3
+	d3d_left_button_down @4
+	d3d_right_button_down @5
+	d3d_mousemove_and_down @6
+	d3d_keydown @7
+	d3d_laser_focus @8
+	d3d_camselect @9
+	d3d_play_speed @10
+	d3d_zoom_speed @11
+	d3d_pipe_scale @12
+	d3d_reset @13
+	d3d_scene_on_off @14
+	d3d_rotate_pipe_z @15
+	d3d_rotate_pipe_y @16
+	d3d_capture_window @17
+	d3d_next_pipe_texture @18
+	d3d_getversion @ 19
+	d3d_pvgraphtype @ 20
+	d3d_pipe_colour_limits @ 21
+	d3d_export_stl @ 22
+	d3d_setlanguage @ 23
+	d3d_directxversion @ 24 
+
+	

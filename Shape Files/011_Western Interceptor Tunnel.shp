@@ -1,0 +1,15 @@
+version	1				
+Name	Western Interceptor Tunnel			
+Use	All				
+CentreX	0				
+CentreY	0				
+NoArcs	4				
+NoLines	0				
+Scale	1			
+					
+[Arcs]					
+Arc	x	y	Radius	Start	End
+1	0	0	1	0	180
+2	1.4	0	2.4	180	206.12986124
+3	0	-0.56666666666666666666666666666667	0.9	213.0102741	326.9897259
+4	-1.4	0	2.4	333.87013876	0

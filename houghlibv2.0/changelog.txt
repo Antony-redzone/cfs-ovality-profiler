@@ -1,0 +1,102 @@
+1/9/02 - 3 hours
+
+made avi files
+Simple colour thresholding + hough implementation
+
+2/9/02 - 2 hours
+
+hough working, use distance to pink for segmentation
+
+3/9/02 - 2 hours
+
+tried contour tracing using hysteresis thresholding.
+works, but gets outline of hole and misses top of circle
+
+4/9/02 - 2 hours
+
+tried nonmaximum supression, on raw image doesn't work well, tried with
+interlace off, some improvement.
+
+7/9/02 - 3 hours
+
+got nonmaximum supression to work by using laplacian with offset of 2 pixels
+tried radius independent hough but not very accurate.
+tried zero crossings of first derivative, works well.
+implemented profile tracker using contour tracing 
+wrote opengl profile viewer, works ok
+
+10/9/02 - 1 hour
+
+better profile viewer with different views and grids
+
+12/9/02 - 2 hours
+
+mapping image data to profile for viewer
+
+14/9/02 - 1 hour
+
+VB interface testing, seems to work.
+
+18/22/02 - 3 hours
+
+recursive first derivative of gaussian implementation with fp math
+
+25/9/02 - 2 hours
+
+meeting with CBS
+gaussian implementation using integer maths
+
+26/9/02 - 2 hours
+
+implemented edge points list to speed upfinding the profile 
+implementation of circle location using random points method
+
+27/9/02 - 2 hours
+
+random points method works well, removed hough code and tidied source up
+
+8/12/02 - 4 hours
+
+get directshow working, capture is ok
+use samplegrabber filter and callback
+
+2do
+
+overlay
+file i/o
+snapshot
+buffer for comms with vb
+faster gaussian
+
+10/12/02 - 4 hours
+
+did overlay by writing to bitmap
+did file i/o, using more filters
+
+11/9/02 - 4 hours
+
+did faster gaussian using shift buffer
+need to do parameter setting for video
+
+12/9/02 - 4 hours
+
+worked on setting video parameters
+tried with other hardware
+
+13/9/02
+
+functions that call movie
+
+Laserprofiler::getblueim
+Laserprofiler::getgreenim
+Laserprofiler::getredim
+Laserprofiler::setim
+Laserprofiler::setredim
+Laserprofiler::setblueim
+Laserprofiler::framecb
+Laserprofiler::findcentre
+Laserprofiler::display
+Laserprofiler::threshold
+Laserprofiler::gradientimage
+Laserprofiler::BlankVideo
+Laserprofiler::GrayVideo

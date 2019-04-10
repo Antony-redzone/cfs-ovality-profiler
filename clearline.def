@@ -1,0 +1,35 @@
+LIBRARY   clearline
+DESCRIPTION "clearline.dll"
+EXPORTS
+	clearline_CalculateFlat3d @1
+	clearline_CalculateCapacity @2
+	clearline_CalculateOvality @3
+	clearline_CalculateXYDiameter @4
+	clearline_CalculateDiameterMaxMin @5
+	clearline_CalculateDeltaMaxMin @6
+	clearline_CalculateDiameterMedian @7
+	clearline_CalculateCentre @8
+	clearline_LoadPVD_Data @9
+	clearline_RefShapeDistCalc @10
+	clearline_CalculateDebugOvality @11
+	clearLine_SmoothOutGraphSingle @12
+	clearline_AutoRotate @13
+	clearline_getversion @14
+	clearline_CalculateFractile @15
+	clearline_CalculatePercentile @16
+	clearline_MoveFileData @17
+	clearline_EmbedFileData @18
+	clearline_ExtractEmbedFile @19
+	clearline_CalculateShapeCentre @20
+	clearLine_FilterGraphSingle @21
+	clearLine_FilterGraphDouble @22
+	clearLine_EditProfile @23
+	clearLine_SmoothOutGraphDouble @24
+	clearline_CalculateExceededLimits @25
+	clearline_CalculateDeflectionXY @26
+	clearline_CalculateDeflectionXYSmooth @27
+	clearline_calcualteInclination @28
+	clearline_calcualteLayOfPipe @29
+	clearline_calculateLayOfPipe_Richard @30
+
+

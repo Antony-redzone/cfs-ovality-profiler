@@ -1,0 +1,535 @@
+AutoTune	AutoTune	Caption	Image Processing	Beeld verwerking
+AutoTune	SetGraphs	Caption	Set	Bewaren
+AutoTune	Graphs	Caption	Draw Graphs while Recording	Teken grafiek onder het opnemen
+AutoTune	Set	Caption	Set	Bewaren
+AutoTune	ProfIgnore	Caption	Ignore Water Level in Profile	Niet op waterpijl in buis letten
+AutoTune	WaterLevelClear	Caption	Clear	Verwijder
+AutoTune	DistLocationClear	Caption	Clear	Verwijder
+AutoTune	SetWaterLevel	Caption	Set Water Level	Waterpijl vastleggen
+AutoTune	DefineDistLocation	Caption	Define Distance Counter Location	Locatie van meterteller
+AutoTune	Start	Caption	Start	Start
+AutoTune	ManualTune	Caption	Manual Tune	Handmatig afstemmen
+AutoTune	QuickTune	Caption	Quick Tune	Snel afstemmen
+AutoTune	StandardTune	Caption	Standard Tune	Standaard afstemmen
+AutoTune	DetailedTune	Caption	Detailed Tune	Gedetaillerd afstemmen
+AutoTune	Finish	Caption	Finish	Afsluiten
+AutoTune	ShowTests	Caption	Show Tuning Tests	Afstemmen afbeelden
+AutoTune	Label1	Caption	Precision	Precisie
+AutoTune	Label2	Caption	Progress	Voortgang
+AutoTune	Label3	Caption	Laser Brightness	Laser intensieteit
+ClearLineProfilerV4	ClearLineProfilerV4	Caption	Clearline Profiler	Clearline Profiler
+ClearLineScreen	ClearLineScreen	Caption	ClearLine Screen	Clearline Screen
+ClearLineScreen	ConfigToolBar1.Buttons.Item(VideoAndSnapShot)	ToolTipText	Video	Video
+ClearLineScreen	ConfigToolBar1.Buttons.Item(PrecisionVision)	ToolTipText	Precision Vision	Precision Vision
+ClearLineScreen	ConfigToolBar1.Buttons.Item(3D)	ToolTipText	3D	3D
+ClearLineScreen	ConfigToolBar1.Buttons.Item(PicInPic)	ToolTipText	Picture In Picture	Beeld in beeld
+ClearLineScreen	PopupCalibrationTypes.Buttons.Item(CalPoleB)	Caption	C-200	C-200
+ClearLineScreen	PopupCalibrationTypes.Buttons.Item(CalPoleB)	ToolTipText	Calibration for Tractor Mounted Pole B system	Calibratie tbv B-systeem
+ClearLineScreen	PopupCalibrationTypes.Buttons.Item(CalPoleA)	Caption	C-100	C-100
+ClearLineScreen	PopupCalibrationTypes.Buttons.Item(CalPoleA)	ToolTipText	Calibration for Tractor Mounted Pole A system	Calibratie tbv A-systeem
+ClearLineScreen	PopupCalibrationTypes.Buttons.Item(CalManual)	Caption	Manual	Handmatig 
+ClearLineScreen	PopupCalibrationTypes.Buttons.Item(CalManual)	ToolTipText	Manual Calibration	Handmatig calibreren
+ClearLineScreen	PopupDrawShapes.Buttons.Item(DrawInternalDia)	Caption	Internal Dia	Interne diameter
+ClearLineScreen	PopupDrawShapes.Buttons.Item(DrawInternalDia)	ToolTipText	Expected Internal Diameter	Verwachte int. Diameter
+ClearLineScreen	PopupDrawShapes.Buttons.Item(DrawOutsideDia)	Caption	Outside Dia	Buitendiameter
+ClearLineScreen	PopupDrawShapes.Buttons.Item(DrawOutsideDia)	ToolTipText	Expected Outside Diameter	Verwachte buitendiameter
+ClearLineScreen	PopupDrawShapes.Buttons.Item(DrawRefShape)	Caption	Reference	Referentie
+ClearLineScreen	PopupDrawShapes.Buttons.Item(DrawRefShape)	ToolTipText	Draw Reference Shape	Teken referentieomtrek
+ClearLineScreen	PopupDrawShapes.Buttons.Item(ShapeType)	Caption	Type	Type
+ClearLineScreen	PopupDrawShapes.Buttons.Item(ShapeType)	ToolTipText	Shape Type	Vorm type
+ClearLineScreen	ApproxArea	ToolTipText	Integrated Area Calculation	oppervlakte berekenen
+ClearLineScreen	Chk4AttachDrawing	Caption	Check1	Nakijken1
+ClearLineScreen	BrushC	Caption	Check1	Nakijken1
+ClearLineScreen	Undo	ToolTipText	Undo	Ongedaan maken
+ClearLineScreen	Redo	ToolTipText	Redo	Opnieuw
+ClearLineScreen	AreaMeasure	Caption	23.40%	23.40%
+ClearLineScreen	DimenMeasure	Caption	153mm, 63.9%	153mm, 63,9%
+ClearLineScreen	PVDimensionLabel	Caption	47	47
+ClearLineScreen	ScaleSetting	ToolTipText	Scale settings	Schaal instellingen
+ClearLineScreen	Y_Units	Caption	mm	mm
+ClearLineScreen	Y_Units	ToolTipText	Units (mm or in)	Afstand(mm/inch)
+ClearLineScreen	MTToolbar1.Buttons.Item(ConnectVid)	ToolTipText	Connect Video	Videobeeld aansluiten
+ClearLineScreen	MTToolbar1.Buttons.Item(SnapImage)	ToolTipText	Capture image	Video opnemen
+ClearLineScreen	MTToolbar1.Buttons.Item(Calibration)	ToolTipText	Calibration	Calibratie
+ClearLineScreen	MTToolbar1.Buttons.Item(DrawShapes)	ToolTipText	Circle, Ellipse, Egg Shape	Circel,Elips,Ei-profiel
+ClearLineScreen	MTToolbar1.Buttons.Item(Move)	ToolTipText	Move	Verplaats
+ClearLineScreen	MTToolbar1.Buttons.Item(Select)	ToolTipText	Select	Selecteer
+ClearLineScreen	MTToolbar1.Buttons.Item(NormalLine)	ToolTipText	Line	Lijn
+ClearLineScreen	MTToolbar1.Buttons.Item(PolyLine)	ToolTipText	PolyLine	Meerhoekige lijn
+ClearLineScreen	MTToolbar1.Buttons.Item(Orthogonal)	ToolTipText	Perpendicular line to main circle	
+ClearLineScreen	MTToolbar1.Buttons.Item(Fill)	ToolTipText	Area Calculation by Filling	
+ClearLineScreen	MTToolbar1.Buttons.Item(ApproxArea)	ToolTipText	Integrated Area Calculation	
+ClearLineScreen	MTToolbar1.Buttons.Item(Clear)	ToolTipText	Clear	Leeg maken
+ClearLineScreen	MTToolbar1.Buttons.Item(Delete)	ToolTipText	Delete	Verwijder
+ClearLineScreen	MTToolbar1.Buttons.Item(Text)	ToolTipText	Text	Tekst
+ClearLineScreen	MTToolbar1.Buttons.Item(Rotate)	ToolTipText	Rotate	Roteren
+ClearLineScreen	MTToolbar1.Buttons.Item(Modify)	ToolTipText	Modify	Veranderen
+ClearLineScreen	MTToolbar1.Buttons.Item(Dimension)	ToolTipText	Dimension	Dimensie
+ClearLineScreen	MTToolbar1.Buttons.Item(ColorSelection)	ToolTipText	Color Selection	Kleurenpalet
+ClearLineScreen	MTToolbar1.Buttons.Item(PVRecord)	ToolTipText	Record	Opnemen
+ClearLineScreen	MTToolbar1.Buttons.Item(PVPlayPause)	ToolTipText	Play/Pause	Afspelen
+ClearLineScreen	MTToolbar1.Buttons.Item(PVStepForward)	ToolTipText	Step Forward	Snel vooruit
+ClearLineScreen	MTToolbar1.Buttons.Item(PVStepRewind)	ToolTipText	Step Rewind	Snel achteruit
+ClearLineScreen	MTToolbar1.Buttons.Item(AVIPlayPause)	ToolTipText	Play/Pause	Pause
+ClearLineScreen	MTToolbar1.Buttons.Item(AVIStepForward)	ToolTipText	Step Forward	Snel vooruit
+ClearLineScreen	MTToolbar1.Buttons.Item(AVIStepRewind)	ToolTipText	Step Rewind	Snel achteruit
+ClearLineScreen	Label28	Caption	Threshold	Drempel
+ClearLineScreen	Label60	Caption	ShapeNo	Profielnummer
+ClearLineScreen	Label21	Caption	Dot Size	Punt
+ClearLineScreen	Label8	Caption	(x1, y1)	(x1, y1)
+ClearLineScreen	Label9	Caption	(x2, y2)	(x2, y2)
+ClearLineScreen	Label10	Caption	(x3, y3)	(x3, y3)
+ClearLineScreen	Label13	Caption	Angle1	Hoek1
+ClearLineScreen	Label14	Caption	Angle2	hoek2
+ClearLineScreen	Label15	Caption	Angle	Hoek
+ClearLineScreen	Label11	Caption	Area	Oppervlakte
+ClearLineScreen	Label12	Caption	Length	Lengte
+ClearLineScreen	Label4	Caption	X	X
+ClearLineScreen	Label23	Caption	Y	Y
+ClearLineScreen	Label57	Caption	Length(Pixel)	Lengte(Pixels)
+ClearLineScreen	Label63	Caption	Circumference	
+ClearLineScreen	Label34	Caption	Cir.	
+ClearLineScreen	Label50	Caption	%	%
+ClearLineScreen	Label33	Caption	Radius	Radius
+ClearLineScreen	Label32	Caption	mm	mm
+ClearLineScreen	Label24	Caption	Radius	Radius
+ClearLineScreen	Label27	Caption	Ratio	
+ClearLineScreen	BrushSizeArray	Caption	Brush Size	
+ClearLineScreen	BrushSize1(1)	Caption	&1	&1
+ClearLineScreen	BrushSize2(2)	Caption	&2	&2
+ClearLineScreen	BrushSize3(3)	Caption	&3	&3
+ClearLineScreen	BrushSize4(4)	Caption	&4	&4
+ClearLineScreen	BrushSize5(5)	Caption	&5	&5
+ClearLineScreen	BrushSize6(6)	Caption	&6	&6
+ClearLineScreen	BrushSize7(7)	Caption	&7	&7
+ClearLineScreen	BrushSize8(8)	Caption	&8	&8
+ClearLineScreen	BrushSize9(9)	Caption	&9	&9
+ClearLineScreen	BrushSize10(10)	Caption	&10	&10
+ClearLineScreen	EraseSizeArray	Caption	EraseSize	Verwijdergrootte
+ClearLineScreen	EraseSize1(1)	Caption	&1	&1
+ClearLineScreen	DotSizeArray	Caption	Dot Size	Puntgrootte
+ClearLineScreen	DotSize1(1)	Caption	&1	&1
+ClearLineScreen	BrushColor	Caption	Brush Color	
+ClearLineScreen	Tools	Caption	Tools	Gereedschappen
+ClearLineScreen	Modify2	Caption	M&odify	
+ClearLineScreen	Delete2	Caption	Dele&te	
+ClearLineScreen	Option1	Caption	Options	Opties
+ClearLineScreen	autosnap	Caption	Auto &Snap	
+ClearLineScreen	autotriangle	Caption	Auto &Triangle 	
+ClearLineScreen	autotermination	Caption	Auto &Termination	
+ClearLineScreen	attachdrawing	Caption	Attach &Drawing	
+ClearLineScreen	TerPL(1)	Caption	&Terminate Line	
+ClearLineScreen	NormalCircle	Caption	&Circle	
+ClearLineScreen	EggShapes	Caption	E&gg Shape	
+ClearLineScreen	EllipseCircle	Caption	&Ellipse	
+ClearLineScreen	Length1(1)	Caption	&Length	
+ClearLineScreen	FillingMethod	Caption	Filling Method	Vulmethode
+ClearLineScreen	SolidFilling	Caption	Solid	Gevuld
+ClearLineScreen	PatternFilling	Caption	Tiling Pattern	
+ColorSelection	ColorSelection	Caption	Color Selection	Kleurselectie
+ColorSelection	ApplyButton	Caption	Apply	Uitvoeren
+ColorSelection	Picture6	ToolTipText	This color change affects only before angle components are drawn.	Deze kleurveranderingen zijn van pas bij nieuwe tekeningen
+ColorSelection	DefaultButton	Caption	Default	
+ColorSelection	CancelButton	Caption	Cancel	Annuleer
+ColorSelection	Label12	Caption	Text Size Indicator	Tekstgrootte Indicator
+ColorSelection	Label11	Caption	Selection Boundary	Selectiegrens
+ColorSelection	Label10	Caption	Rotating Object	Draaiend object
+ColorSelection	Label9	Caption	Moving Object	Verplaatsend object
+ColorSelection	Label8	Caption	Being-Drawn Object	Getekend object
+ColorSelection	Label7	Caption	Joint Circle	Mof cirkel
+ColorSelection	Label6	Caption	Angle Component	Hoek component
+ColorSelection	Label6	ToolTipText	Objects like two lines and an arc to represent an angle.	
+ColorSelection	Label5	Caption	Area Filling	Oppervlakte opvullen
+ColorSelection	Label4	Caption	Chosen Modification Circle	Gekozen Cirkel
+ColorSelection	Label3	Caption	Modification Circle	Veranderen cirkel 
+ColorSelection	Label2	Caption	Selected Object	Geselecteerd object
+ColorSelection	Label1	Caption	Normal Drawing	Standaard tekening
+CuesSplash	cmdRegister	Caption	Register Now	Registreer NU
+CuesSplash	TradeMarkLabel	Caption	TM	TM
+CuesSplash	lblRegistered	Caption	Unregistered Copy	Ongeregistreerde versie
+CuesSplash	lblRevision	Caption	0	0
+CuesSplash	lblMinor	Caption	1 .	1 .
+CuesSplash	lblMajor	Caption	4 .	4 .
+CuesSplash	lblVersion	Caption	Version	Versie
+CuesSplash	lblCompany	Caption	Copyright Cleanflow Systems 2002	Copyright Cleanflow Systems 2002
+CuesSplash	lblProductName	Caption	Standard Edition	Standard Edition
+FontDialog	FontDialog	Caption	Select Font	Selecteer font
+FontDialog	Color	Caption	Color	Kleur
+FontDialog	Size_lbl	Caption	Size	Grootte
+FontDialog	Style_lbl	Caption	Style	Stijl
+FontDialog	Font_lbl	Caption	Font	Font
+ImageProcess	ImageProcess	Caption	Manual Tune	Handmatig afstemmen
+ImageProcess	DarkPipe	Caption	Dark Pipe	Donkere buis
+ImageProcess	LightPipe	Caption	Light Pipe	Verlichte buis
+ImageProcess	ProfPoints	Caption	Current Frame	Huidig frame
+ImageProcess	Label5	Caption	Video so Far	Al verwerkte beelden
+ImageProcess	Label6	Caption	% of Profile Points Captured	% Verwerkt
+ImageProcess	Green	Caption	Show Green?	Groen laten zien ?
+ImageProcess	Prof	Caption	Show White Profile?	Wit profiel laten zien ?
+ImageProcess	X	Caption	X Direction	X richting
+ImageProcess	Y	Caption	Y Direction	Y richting
+ImageProcess	XThreshold	Caption	X Para	X Parameter
+ImageProcess	Label1	Caption	Y Para	Y Parameter
+ImageProcess	Label3	Caption	Pickup Level	Opneemwaarde
+ImageProcess	Label2	Caption	X Width	X breedte
+ImageProcess	Label4	Caption	Y Width	Y breedte
+ImageProcess	Save	Caption	Save	Opslaan
+InputCalLen	InputCalLen	Caption	Calibration	Calibratie
+InputCalLen	Label1	Caption	Enter calibration length:	Voer Calibratielengte in :
+Observations	Observations	Caption	Observations	Waarnemingen
+Observations	PopupReportsToolbar.Buttons.Item(Custom1)	Caption	Custom1	
+Observations	PopupReportsToolbar.Buttons.Item(Custom1)	ToolTipText	Custom1	
+Observations	PopupReportsToolbar.Buttons.Item(PVLandscape)	Caption	Analysis Graph	Analyse grafiek
+Observations	PopupReportsToolbar.Buttons.Item(PVLandscape)	ToolTipText	Analysis Graph	Analyse grafiek
+Observations	PopupReportsToolbar.Buttons.Item(PVPortrait)	Caption	Profile	Profiel
+Observations	PopupReportsToolbar.Buttons.Item(PVPortrait)	ToolTipText	Profile Snap-shot	Profiel foto
+Observations	PopupReportsToolbar.Buttons.Item(SnapShot)	Caption	Snap Shot	Foto
+Observations	PopupReportsToolbar.Buttons.Item(SnapShot)	ToolTipText	Snap Shot Landscape	Foto Breedte
+Observations	PopupViewToolbar.Buttons.Item(PVGPage)	Caption	Precision Vision	Precision Vision
+Observations	PopupViewToolbar.Buttons.Item(PVGPage)	ToolTipText	Precision Vision	Precision Vision
+Observations	PopupViewToolbar.Buttons.Item(ObsPage)	Caption	Observations	Waarnemingen
+Observations	PopupViewToolbar.Buttons.Item(ObsPage)	ToolTipText	Observations	Waarnemingen
+Observations	PopupViewToolbar.Buttons.Item(PipeDetailsPage)	Caption	Pipeline Details	Strenggegevens
+Observations	PopupViewToolbar.Buttons.Item(PipeDetailsPage)	ToolTipText	Pipeline Details	Strenggegevens
+Observations	PopupViewToolbar.Buttons.Item(OptionsPage)	Caption	Options	Opties
+Observations	PopupViewToolbar.Buttons.Item(OptionsPage)	ToolTipText	Options	Opties
+Observations	PipeDetailsToolbar.Buttons.Item(OpenFile)	ToolTipText	Open File	Open file
+Observations	PipeDetailsToolbar.Buttons.Item(SaveToFile)	ToolTipText	Save To File	Opslaan als
+Observations	PipeDetailsToolbar.Buttons.Item(ViewSelection)	ToolTipText	View Selection	Bekijk selectie
+Observations	PipeDetailsToolbar.Buttons.Item(Reports)	ToolTipText	Reports	Rapporten
+Observations	PipeDetailsToolbar.Buttons.Item(Information)	ToolTipText	Information and Help	Informatie en help
+Observations	Recommendations_lbl	Caption	Comments:	Opmerking:
+Observations	Observation_lbl	Caption	Observation:	Waarneming:
+Observations	Distance_units	Caption	ft	ft
+Observations	Distance_lbl	Caption	Distance:	Afstand:
+Observations	OutsideDiameter_lbl	Caption	Outside Diameter	buitendiameter
+Observations	OutsideDiameter_units	Caption	in	inch
+Observations	InternalDiameterExpected_lbl	Caption	Internal Diameter (Expected)	Interne diameter(verwacht)
+Observations	InternalDiameterExpected_units	Caption	in	inch
+Observations	FinishNodeNo_lbl	Caption	Finish No	Eindschacht
+Observations	StartNodeNo_lbl	Caption	Start No	Beginschacht
+Observations	AssetNo_lbl	Caption	Asset No.	Kaartnr.
+Observations	SiteID_lbl	Caption	Site ID	Riool ID
+OptionsPage	OptionsPage	Caption	Options	Opties
+OptionsPage	PopupReportsToolbar.Buttons.Item(Custom1)	Caption	Custom1	
+OptionsPage	PopupReportsToolbar.Buttons.Item(Custom1)	ToolTipText	Custom1	
+OptionsPage	PopupReportsToolbar.Buttons.Item(PVLandscape)	Caption	Analysis Graph	Analyse grafiek
+OptionsPage	PopupReportsToolbar.Buttons.Item(PVLandscape)	ToolTipText	Analysis Graph	Analyse grafiek
+OptionsPage	PopupReportsToolbar.Buttons.Item(PVPortrait)	Caption	Profile	Profiel
+OptionsPage	PopupReportsToolbar.Buttons.Item(PVPortrait)	ToolTipText	Profile Snap-shot	Profiel foto
+OptionsPage	PopupReportsToolbar.Buttons.Item(SnapShot)	Caption	Snap Shot	Foto
+OptionsPage	PopupReportsToolbar.Buttons.Item(SnapShot)	ToolTipText	Snap Shot Landscape	Foto Breedte
+OptionsPage	PopupViewToolbar.Buttons.Item(PVGPage)	Caption	Precision Vision	Precision Vision
+OptionsPage	PopupViewToolbar.Buttons.Item(PVGPage)	ToolTipText	Precision Vision Graph	Precision Vision grafiek
+OptionsPage	PopupViewToolbar.Buttons.Item(ObsPage)	Caption	Observations	Waarnemingen
+OptionsPage	PopupViewToolbar.Buttons.Item(ObsPage)	ToolTipText	Observations	Waarnemingen
+OptionsPage	PopupViewToolbar.Buttons.Item(PipeDetailsPage)	Caption	Pipeline Details	Strenggegevens
+OptionsPage	PopupViewToolbar.Buttons.Item(PipeDetailsPage)	ToolTipText	Pipeline Details	Strenggegevens
+OptionsPage	PopupViewToolbar.Buttons.Item(OptionsPage)	Caption	Options	Opties
+OptionsPage	PopupViewToolbar.Buttons.Item(OptionsPage)	ToolTipText	Options	Opties
+OptionsPage	Label8	Caption	Language	Taal
+OptionsPage	PipeDetailsToolbar.Buttons.Item(Apply)	ToolTipText	Apply changes	Opslaan
+OptionsPage	PipeDetailsToolbar.Buttons.Item(ChangeLogo)	ToolTipText	Change Logo	Logo
+OptionsPage	PipeDetailsToolbar.Buttons.Item(OpenFile)	ToolTipText	Open File	Open file
+OptionsPage	PipeDetailsToolbar.Buttons.Item(SaveToFile)	ToolTipText	Save To File	Opslaan als
+OptionsPage	PipeDetailsToolbar.Buttons.Item(ViewSelection)	ToolTipText	View Selection	Bekijk selectie
+OptionsPage	PipeDetailsToolbar.Buttons.Item(Reports)	ToolTipText	Reports	Rapporten
+OptionsPage	PipeDetailsToolbar.Buttons.Item(Information)	ToolTipText	Information and Help	Informatie en help
+OptionsPage	Label5	Caption	Page size	Pagina grootte
+OptionsPage	Label4	Caption	Page and Print Settings	Pagina en printer Instellingen
+OptionsPage	Optimize	Caption	Optimize	Optimaliseer
+OptionsPage	VideoSettings	Caption	Configure	Configureer
+OptionsPage	Label6	Caption	Tuning Style	Methode voor afstelling
+OptionsPage	Label3	Caption	Video Settings	Video opties
+OptionsPage	lblCompanyName	Caption	Company Name	Naam Bedrijf
+OptionsPage	lblPhoneNo	Caption	Phone No.	Tel.
+OptionsPage	Label2	Caption	Logo	Logo
+OptionsPage	Label1	Caption	Registration Details	Registratiedetails
+OptionsPage	Units_lbl	Caption	Units	Afstand
+OptionsPage	autosnap	Caption	Automatic Line Snap	
+OptionsPage	Label7	Caption	Add Modules	Toevoegen modules
+OptionsPage	Label9	Caption	Precision Vision Drawing Scale	Precision Vision Schaal
+PipelineDetails	PipelineDetails	Caption	Pipeline Details	Strenggegevens
+PipelineDetails	PopupReportsToolbar.Buttons.Item(Custom1)	Caption	Custom1	
+PipelineDetails	PopupReportsToolbar.Buttons.Item(Custom1)	ToolTipText	Custom1	
+PipelineDetails	PopupReportsToolbar.Buttons.Item(PVLandscape)	Caption	Analysis Graph	Analyse grafiek
+PipelineDetails	PopupReportsToolbar.Buttons.Item(PVLandscape)	ToolTipText	Analysis Graph	Analyse grafiek
+PipelineDetails	PopupReportsToolbar.Buttons.Item(PVPortrait)	Caption	Profile	Profiel
+PipelineDetails	PopupReportsToolbar.Buttons.Item(PVPortrait)	ToolTipText	Profile Snap-shot	Profiel foto
+PipelineDetails	PopupReportsToolbar.Buttons.Item(SnapShot)	Caption	Snap Shot	Foto
+PipelineDetails	PopupReportsToolbar.Buttons.Item(SnapShot)	ToolTipText	Snap Shot Landscape	Foto Breedte
+PipelineDetails	PopupViewToolbar.Buttons.Item(PVGPage)	Caption	Precision Vision	Precision Vision
+PipelineDetails	PopupViewToolbar.Buttons.Item(PVGPage)	ToolTipText	Precision Vision Graph	Precision Vision grafiek
+PipelineDetails	PopupViewToolbar.Buttons.Item(ObsPage)	Caption	Observations	Waarnemingen
+PipelineDetails	PopupViewToolbar.Buttons.Item(ObsPage)	ToolTipText	Observations	Waarnemingen
+PipelineDetails	PopupViewToolbar.Buttons.Item(PipeDetailsPage)	Caption	Pipeline Details	Strenggegevens
+PipelineDetails	PopupViewToolbar.Buttons.Item(PipeDetailsPage)	ToolTipText	Pipeline Details	Strenggegevens
+PipelineDetails	PopupViewToolbar.Buttons.Item(OptionsPage)	Caption	Options	Opties
+PipelineDetails	PopupViewToolbar.Buttons.Item(OptionsPage)	ToolTipText	Options	Opties
+PipelineDetails	PipeDetailsToolbar.Buttons.Item(OpenFile)	ToolTipText	Open File	Open file
+PipelineDetails	PipeDetailsToolbar.Buttons.Item(SaveToFile)	ToolTipText	Save To File	Opslaan als
+PipelineDetails	PipeDetailsToolbar.Buttons.Item(ViewSelection)	ToolTipText	View Selection	Bekijk selectie
+PipelineDetails	PipeDetailsToolbar.Buttons.Item(Reports)	ToolTipText	Reports	Rapporten
+PipelineDetails	PipeDetailsToolbar.Buttons.Item(Information)	ToolTipText	Information and Help	Informatie en help
+PipelineDetails	Label5	Caption	Pipeline Length	Strenglengte
+PipelineDetails	lblPipeLengthUnit	Caption	ft	ft
+PipelineDetails	OutsideDiameter_lbl	Caption	Outside Diameter	Buitendiameter
+PipelineDetails	unit2	Caption	in	inch
+PipelineDetails	InternalDiameterExpected_lbl	Caption	Internal Diameter (Expected)	Interne diameter(verwacht)
+PipelineDetails	unit1	Caption	in	inch
+PipelineDetails	Label2	Caption	Material	Materiaal
+PipelineDetails	FinishNodeNo_lbl	Caption	Finish No	Schachtnr.
+PipelineDetails	Label4	Caption	Location	Locatie
+PipelineDetails	FinishNodeCaption	Caption	Finish Node:	Eindschacht
+PipelineDetails	StartNodeCaption	Caption	Start Node:	Beginschacht
+PipelineDetails	StartNodeNo_lbl	Caption	Start No	Schachtnr.
+PipelineDetails	Label3	Caption	Location	Locatie
+PipelineDetails	Label8	Caption	Time	Tijd
+PipelineDetails	Label7	Caption	Date	Datum
+PipelineDetails	Label6	Caption	City	Plaats
+PipelineDetails	SiteID_lbl	Caption	Site ID:	Riool ID
+PipelineDetails	AssetNo_lbl	Caption	Asset No.	Kaartnr.
+PipelineDetails	Unit6	Caption	ft	ft
+PipelineDetails	unit3	Caption	in	inch
+PipelineDetails	Label53	Caption	To	Naar
+PipelineDetails	Label51	Caption	From	Van
+PipelineDetails	text	Caption	Dimension:	Grootte:
+PipelineDetails	Label62	Caption	%	%
+PipelineDetails	Label52	Caption	Clock Positions:	Klok
+PipelineDetails	Label56	Caption	Area Loss:	Verloren oppervlakte
+PipelineDetails	Label67	Caption	%	%
+PrecisionVisionGraph	PrecisionVisionGraph	Caption	Precision Vision Graphs	Precision Vision Grafiek
+PrecisionVisionGraph	PopupReportsToolbar.Buttons.Item(Custom1)	Caption	Custom1	
+PrecisionVisionGraph	PopupReportsToolbar.Buttons.Item(Custom1)	ToolTipText	Custom1	
+PrecisionVisionGraph	PopupReportsToolbar.Buttons.Item(PVLandscape)	Caption	Analysis Graph	Analyse grafiek
+PrecisionVisionGraph	PopupReportsToolbar.Buttons.Item(PVLandscape)	ToolTipText	Analysis Graph	Analyse grafiek
+PrecisionVisionGraph	PopupReportsToolbar.Buttons.Item(PVPortrait)	Caption	Profile	Profiel
+PrecisionVisionGraph	PopupReportsToolbar.Buttons.Item(PVPortrait)	ToolTipText	Profile Snap-shot	Profiel foto
+PrecisionVisionGraph	PopupReportsToolbar.Buttons.Item(SnapShot)	Caption	Snap Shot	Foto
+PrecisionVisionGraph	PopupReportsToolbar.Buttons.Item(SnapShot)	ToolTipText	Snap Shot Landscape	Foto Breedte
+PrecisionVisionGraph	PopupViewToolbar.Buttons.Item(PVGPage)	Caption	Precision Vision	Precision Vision
+PrecisionVisionGraph	PopupViewToolbar.Buttons.Item(PVGPage)	ToolTipText	Precision Vision Graph	Precision Vision Grafiek
+PrecisionVisionGraph	PopupViewToolbar.Buttons.Item(ObsPage)	Caption	Observations	Waarnemingen
+PrecisionVisionGraph	PopupViewToolbar.Buttons.Item(ObsPage)	ToolTipText	Observations	Waarnemingen
+PrecisionVisionGraph	PopupViewToolbar.Buttons.Item(PipeDetailsPage)	Caption	Pipeline Details	Strenggegevens
+PrecisionVisionGraph	PopupViewToolbar.Buttons.Item(PipeDetailsPage)	ToolTipText	Pipeline Details	Strenggegevens
+PrecisionVisionGraph	PopupViewToolbar.Buttons.Item(OptionsPage)	Caption	Options	Opties
+PrecisionVisionGraph	PopupViewToolbar.Buttons.Item(OptionsPage)	ToolTipText	Options	Opties
+PrecisionVisionGraph	PDisplayStartDist	Caption	0	0
+PrecisionVisionGraph	PDisplayFinishDist	Caption	2000	2000
+PrecisionVisionGraph	ScaleSetting	ToolTipText	Scale settings	Schaal instellingen
+PrecisionVisionGraph	Y_Units	ToolTipText	Units (s, m or ft)	Afstand
+PrecisionVisionGraph	LoadingMsg	Caption	Frame1	
+PrecisionVisionGraph	LoadMsgLabel(0)	Caption	Loading file ...	Bestand word geladen
+PrecisionVisionGraph	LoadMsgTakeNote(1)	Caption	!	
+PrecisionVisionGraph	LoadMsgTakeNote(0)	Caption	!	
+PrecisionVisionGraph	PVToolbar.Buttons.Item(Capacity)	ToolTipText	Capacity	Capaciteit
+PrecisionVisionGraph	PVToolbar.Buttons.Item(Ovality)	ToolTipText	Ovality	Ovaliteit
+PrecisionVisionGraph	PVToolbar.Buttons.Item(Delta)	ToolTipText	Delta	Delta
+PrecisionVisionGraph	PVToolbar.Buttons.Item(Flat3D)	ToolTipText	Flat	Plat
+PrecisionVisionGraph	PVToolbar.Buttons.Item(3D)	ToolTipText	3D	3D
+PrecisionVisionGraph	PVToolbar.Buttons.Item(OpenFile)	ToolTipText	Open File	Open file
+PrecisionVisionGraph	PVToolbar.Buttons.Item(SaveToFile)	ToolTipText	Save To File	Opslaan als
+PrecisionVisionGraph	PVToolbar.Buttons.Item(ViewSelection)	ToolTipText	View Selection	Bekijk selectie
+PrecisionVisionGraph	PVToolbar.Buttons.Item(Reports)	ToolTipText	Reports	Rapporten
+PrecisionVisionGraph	PVToolbar.Buttons.Item(Information)	ToolTipText	Information and Help	Informatie en help
+PrecisionVisionGraph	PVXScaleLabelR	Caption	50	50
+PrecisionVisionGraph	PVXScaleLabelL	Caption	-50	-50
+PrecisionVisionGraph	PVXScaleLabelUnits	Caption	%	%
+PrecisionVisionGraph	PVXScaleLabelC	Caption	50	50
+PrecisionVisionGraph	Label_GraphName	Caption	Capacity	Capaciteit
+PrecisionVisionGraph	Label_GraphNameShadow	Caption	Capacity	Capaciteit
+Registration	Registration	Caption	Registration	Registratie 
+Registration	Cancel	Caption	Close	Afsluiten
+Registration	Cancel	ToolTipText	Cancel	Annuleer
+Registration	IDecline	Caption	I Decline	Ik zie er van af
+Registration	Agree	Caption	I Agree	Akkoord
+Registration	Register	Caption	Register	Registreer
+Registration	EMail	Caption	EMail Us	Zend E-mail
+Registration	Label19	Caption	End User License Agreement	Eindgebruikerslicentie
+Registration	Label16	Caption	Product No	Product Nr.
+Registration	Label18	Caption	Reg Code	Registratiecode
+Registration	Label2	Caption	OR Contact Us at :	OR Contact Us at :
+Registration	Label4	Caption	Phone : 64 9 414 6094	Phone : 64 9 414 6094
+Registration	Label7	Caption	Fax : 64 9 414 6095	Fax : 64 9 414 6095
+LaserImageReportPVG	LaserImageReportPVG	Caption	Clearline Profiler - Precision Vision Report	Clearline Profiler - Precision Vision Report
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(YourLogoGoesHere_Label)	Caption	Your Logo goes here                   	Uw logo gaat hier
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(ReportTitle)	Caption	Pipeline Capacity Report	BuisCapaciteit rapport
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(PrintedDate)	Caption	PrintedDate	Printdatum
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(Dia_lbl)	Caption	Diameter	Diameter
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(Material_lbl)	Caption	Material	Materiaal
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(Label3)	Caption	Comments	Opmerkingen
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(Dia1)	Caption	mm	mm
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(StartNode_lbl)	Caption	Start Node	Beginschacht
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(StartName_lbl)	Caption	Name	Naam
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(StartLocation_lbl)	Caption	Location	Locatie
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(FinishNode_lbl)	Caption	Finish Node	schachtnr.
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(FinishName_lbl)	Caption	Name	Naam
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(FinishLocation_lbl)	Caption	Location	Locatie
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(City_lbl)	Caption	City	Plaats
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(AssetNo_lbl)	Caption	Asset No	Kaartnr.
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(Date_lbl)	Caption	Date	Datum
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(Time_lbl)	Caption	Time	Tijd
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(SiteID_lbl)	Caption	SiteID	Riool ID
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(PipeLength_lbl)	Caption	Pipe Length	Strenglengte
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(PipeLenUnit_lbl)	Caption	m	m
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(Distance_lbl)	Caption	Distance	Afstand
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(Distance_Units)	Caption	(m)	(m)
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(Label27)	Caption	Observation	Waarnemingen
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(PVXScaleUnits)	Caption	%	%
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(PVXScaleLabelL)	Caption	-50	-50
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(PVXScaleLabelR)	Caption	50	50
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(PVXScaleLabelC)	Caption	0	0
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(Watermark)	Caption	Unregistered Software	Ongeregistreerde Software
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(lblRegistration)	Caption	Report produced on an unregistered copy of ClearLine Profiler	Dit raport is van een ongeregistreerde versie van Clearline Profiler
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(lblLimitLines)	Caption	Limit Lines	Limietlijnen
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(lblLeft)	Caption	LeftLabel	Linkslabel
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(lblRight)	Caption	RightLabel	Rechtslabel
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(lblExplanation)	Caption	* Frame number versus the percentage change in dimension of pipe.	* Framenr. Staat tot verandering van percentage van dimensie van de buis]
+LaserImageReportPVG	Sections.Item(Section3).Controls.Item(CompanyName_lbl)	Caption	Company Name	Naam bedrijf
+LaserImageReportPVG	Sections.Item(Section3).Controls.Item(Ph)	Caption	Ph:	
+LaserImageReportPVG	Sections.Item(Section3).Controls.Item(Label19)	Caption	Page :	
+LaserImageReportPVG	Sections.Item(Section3).Controls.Item(PageNo_Lbl)	Caption	Page :	
+LaserImageReportPVG	Sections.Item(Section3).Controls.Item(Phone_lbl)	Caption	Phone No	Tel
+LaserImageReportPVG	Sections.Item(Section3).Controls.Item(TM_Label)	Caption	TM	TM
+PVGraphReport	PVGraphReport	Caption	Clearline Profiler - Precision Vision Graph Report	Clearline Profiler - Precision Vision Grafiekraport
+PVGraphReport	Sections.Item(Section2).Controls.Item(YourLogoGoesHere_Label)	Caption	Your Logo goes here                         	Uw logo gaat hier
+PVGraphReport	Sections.Item(Section2).Controls.Item(ReportTitle)	Caption	Pipeline Capacity Analysis Report	BuisCapaciteit analyse rapport
+PVGraphReport	Sections.Item(Section2).Controls.Item(PrintedDate)	Caption	PrintedDate	Printdatum
+PVGraphReport	Sections.Item(Section1).Controls.Item(SiteID_lbl)	Caption	SiteID:	Riool ID
+PVGraphReport	Sections.Item(Section1).Controls.Item(SiteID)	Caption	siteid	Riool ID
+PVGraphReport	Sections.Item(Section1).Controls.Item(AssetNo_lbl)	Caption	Asset No:	Kaartnr.
+PVGraphReport	Sections.Item(Section1).Controls.Item(AssetNo)	Caption	assetnumber	Kaartnr.
+PVGraphReport	Sections.Item(Section1).Controls.Item(StNode_lbl)	Caption	Start Node:	Beginschacht
+PVGraphReport	Sections.Item(Section1).Controls.Item(StNode)	Caption	startnode	Beginschacht
+PVGraphReport	Sections.Item(Section1).Controls.Item(FinNode_lbl)	Caption	Finish Node:	schachtnr.
+PVGraphReport	Sections.Item(Section1).Controls.Item(FinNode)	Caption	finishnode	schachtnr.
+PVGraphReport	Sections.Item(Section1).Controls.Item(PipeLength_lbl)	Caption	Pipe Length:	Strenglengte
+PVGraphReport	Sections.Item(Section1).Controls.Item(PipeLength)	Caption	pipelength	Strenglengte
+PVGraphReport	Sections.Item(Section1).Controls.Item(City_lbl)	Caption	City:	Plaats
+PVGraphReport	Sections.Item(Section1).Controls.Item(City)	Caption	city	Plaats
+PVGraphReport	Sections.Item(Section1).Controls.Item(PipeDiameter_lbl)	Caption	Pipe Diameter:	Buisdiameter
+PVGraphReport	Sections.Item(Section1).Controls.Item(PipeDiameter)	Caption	pipediameter	Buisdiameter
+PVGraphReport	Sections.Item(Section1).Controls.Item(LengthUnits)	Caption	lengthunits	Afstand
+PVGraphReport	Sections.Item(Section1).Controls.Item(DiameterUnits)	Caption	diameterunits	Diameter
+PVGraphReport	Sections.Item(Section1).Controls.Item(PipeMaterial_lbl)	Caption	Pipe Material:	Materiaal
+PVGraphReport	Sections.Item(Section1).Controls.Item(PipeMaterial)	Caption	pipematerial	Materiaal
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVXScaleUnits)	Caption	%	%
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVXScaleLabelL)	Caption	-50	-50
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVXScaleLabelR)	Caption	50	50
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVXScaleLabelC)	Caption	0	0
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVXScaleUnits2)	Caption	%	%
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVXScaleLabelL2)	Caption	-50	-50
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVXScaleLabelR2)	Caption	50	50
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVXScaleLabelC2)	Caption	0	0
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVGraphXScale_Units)	Caption	Fr	Fr
+PVGraphReport	Sections.Item(Section1).Controls.Item(Label2)	Caption	Fr	
+PVGraphReport	Sections.Item(Section1).Controls.Item(Watermark)	Caption	Unregistered Software	Ongeregistreerde software
+PVGraphReport	Sections.Item(Section1).Controls.Item(Key)	Caption	Limit Lines	Limietlijnen
+PVGraphReport	Sections.Item(Section1).Controls.Item(Explanation)	Caption	Label3	
+PVGraphReport	Sections.Item(Section1).Controls.Item(Explanation2)	Caption	Explanation2	
+PVGraphReport	Sections.Item(Section1).Controls.Item(lblLineDesc1)	Caption	line1 desc	
+PVGraphReport	Sections.Item(Section1).Controls.Item(lblLineDesc2)	Caption	line2 desc	
+PVGraphReport	Sections.Item(Section3).Controls.Item(CompanyName_lbl)	Caption	Company Name	Naam bedrijf
+PVGraphReport	Sections.Item(Section3).Controls.Item(Ph)	Caption	Ph:	
+PVGraphReport	Sections.Item(Section3).Controls.Item(Label1)	Caption	Page :	
+PVGraphReport	Sections.Item(Section3).Controls.Item(PageNo_Lbl)	Caption	Page :	
+PVGraphReport	Sections.Item(Section3).Controls.Item(Phone_lbl)	Caption	Phone No	Tel
+PVGraphReport	Sections.Item(Section3).Controls.Item(TM_Label)	Caption	TM	TM
+All	MessageBox	N/A	Please select a reference circle first.	Referentieomtrek uitkiezen
+All	MessageBox	N/A	Please ensure the main reference shape is centered.	Centreer de referentieomtrek
+All	MessageBox	N/A	You must load a media file or live footage to tune!	Livebeeld of MPEGfile moet geladen zijn om af te stemmen
+All	MessageBox	N/A	LaserLib.dll VERSION ERROR. Expecting 	
+All	MessageBox	N/A	.X, laserlib.dll is currently 	
+All	MessageBox	N/A	 - This application may not work as designed.	
+All	MessageBox	N/A	DLL ERROR - 	
+All	MessageBox	N/A	Must load a Media file first!	Eerst MPEGfile laden
+All	MessageBox	N/A	Please specify internal pipe diameter first.	Eerst interne diameter invullen
+All	MessageBox	N/A	Please specify outside pipe diameter first.	Eerst externe diameter invullen
+All	MessageBox	N/A	Please enter internal pipe diameter first and cailbrate the image.	Eerst interne diameter invullen, dan calibreren
+All	MessageBox	N/A	If PV recording is not finished the file will not be complete.	Als het PV-file niet geheel wordt opgenomen, is het file niet compleet
+All	MessageBox	N/A	Please input valid data.	Alleen geldige data
+All	MessageBox	N/A	Please calibrate first.	Eerst calibreren
+All	MessageBox	N/A	Please press left mouse button on the area to be filled. The percentage of the pipe diameter filled will be displayed in the box to the bottom left of the screen.	
+All	MessageBox	N/A	Picture file is invalid, unable to open.	Videofile kan niet geopend worden.
+All	MessageBox	N/A	The .pvd file is unsaved, do you wish to save this file?	Het PV-file is niet opgeslagen, wilt u dit nu doen?
+All	MessageBox	N/A	Please remember to register the ClearLine Profiler software.	Registreer de software
+All	MessageBox	N/A	of	of
+All	MessageBox	N/A	Disconnecting will clear all recorded PV Data. Continue?	Afsluiten zal de PV-data wissen, doorgaan?
+All	MessageBox	N/A	There must be a media file or a connection to live footage before recording can take place.	Livebeeld of MPEGfile moet geladen zijn om op te nemen
+All	MessageBox	N/A	Unable to modify the INTERNAL reference shape.	Kan het interne profiel niet veranderen
+All	MessageBox	N/A	Unable to modify the EXTERNAL reference shape.	Kan het externe profiel niet veranderen
+All	MessageBox	N/A	You must Agree to the End User License Agreement Details before Registering this Product.	
+All	MessageBox	N/A	Email not Sent. Please check your EMail Settings.	E-mail is niet verstuurd, controleer uw E-mailsettings
+All	MessageBox	N/A	Registration Request Sent.	Registratie verzonden
+All	MessageBox	N/A	Congratulations, your ClearLine Profiler Software is now registered. Please shut-down the application and restart to allow new settings to take effect.	Proficiat, Uw Clearline Profiler software is geregistreerd. Start de aplicatie opnieuw
+All	MessageBox	N/A	Registration Failed. Please Check your Registration Code.	Registratiefout. Controlleer uw registratienr
+All	MessageBox	N/A	This function is disabled while recording.	Deze functie is geblokkeerd onder het opnemen
+All	MessageBox	N/A	Must disconnect from video before analysing Precision Vision data.	Livevideo moet afgeschakeld zijn alvorens analyse
+All	MessageBox	N/A	Cannot save a .PVD file, please register the software to access this.	Kan niet opslaan, Registreer uw software
+All	MessageBox	N/A	Internal diameter must be numeric.	Interne diameter moet numeriek zijn
+All	MessageBox	N/A	Outside diameter must be numeric.	Externe diameter moet numeriek zijn
+All	MessageBox	N/A	Pipe length must be numeric.	Strenglengte moet numeriek zijn
+All	MessageBox	N/A	Must enter a valid date.	Geen geldige datum
+All	MessageBox	N/A	Must a valid time.	Geen geldige tijd
+All	MessageBox	N/A	WARNING: If Units are changed, calibration will be reset to default.	Waarschuwing: Als de afstand wordt veranderd, wordt de calibratie teniet gedaan
+All	MessageBox	N/A	Please Press Apply to confirm Changes.	Druk op uitvoeren om veranderingen op te slaan
+All	MessageBox	N/A	Please close the ClearLine Profiler application and restart to apply the change.	Start het programma opnieuw om de veranderingen uit te voeren
+All	MessageBox	N/A	Will you overwrite existing logo file?	Wilt u het bestaande Logo overschrijven?
+All	MessageBox	N/A	Invalid selection.	Ongeldige selectie
+All	MessageBox	N/A	Can't calibrate with a zero length.	Kan niet calibreren zonder lengte
+All	MessageBox	N/A	Subject, Body text, or Attachment is not specified.	Onderwerp, text of bijlage is niet aangegeven
+All	MessageBox	N/A	Invalid Path @@Please verify the Path or EMail Address.	
+All	MessageBox	N/A	Unknown Recipient.	Onbekende ontvanger
+All	MessageBox	N/A	The .pvd file is not saved, click on Save button if you wish to save this file.	Het .pvd file is niet opgeslagen.
+All	MessageBox	N/A	To open a new file, stop the recording and the video, then open the new file.	Om een nieuw file te openen moet u eerst het opnemen afsluiten
+All	MessageBox	N/A	Could not find the associated Video File:	Kon het videofile niet vinden
+All	MessageBox	N/A	Press Yes to Locate a Video File, No to continue without a Video File loaded.	Druk op ja om een videofile te zoeken, nee om door te gaan zonder video
+All	MessageBox	N/A	There is no Media File associated with this PVD file. Would you like to load one now?	Er is geen videofile gelinkt met het .pvd file, wilt udit nu laden?
+All	MessageBox	N/A	File already exists. Will you overwrite?	Het bestand bestaat al, wilt u het overschrijven?
+All	MessageBox	N/A	ClearLine Screen	Clearline screen
+All	MessageBox	N/A	Can't read file,	Kan het bestand niet lezen
+All	MessageBox	N/A	The PVD file is in a different measurement unit, please alter your measurement units before loading this file.	Het .pvd file is in een andere afstandsmaat, verander de afstandsmaat.
+All	MessageBox	N/A	File was not found.	Kon het file niet vinden
+All	MessageBox	N/A	Please delete current reference circle first.	Eerst huidige referentiecirkel verwijderen
+All	MessageBox	N/A	to	naar
+All	MessageBox	N/A	The ClearLine.inf file is READONLY. You must update ClearLine.ini path manually.	Het Clearline.inf file is read only
+All	MessageBox	N/A	ClearLine	Clearline
+All	MessageBox	N/A	Your Company Logo could not be found - please remember to load it.	Uw logo kon niet gevonden worden
+All	MessageBox	N/A	Cannot Write to ClearLine.ini File. Check that file is not Write Protected.	Kan niet naar clearline.ini schrijven, controleer of het bestand niet writeprotected is
+All	MessageBox	N/A	Media File is not a valid file name.	videofile heeft geen geldige naam
+All	MessageBox	N/A	You entered invalid data.	U heeft ongeldige data ingevoerd
+All	MessageBox	N/A	Pipeline	Streng
+All	MessageBox	N/A	Report	rapport
+All	MessageBox	N/A	Printed:	geprint :
+All	MessageBox	N/A	Distance	Afstand
+All	MessageBox	N/A	*Distance of observation versus the percentage change in dimension of pipe.	* Afstand van waarneming staat tot verandering van percentage van dimensie van de buis]
+All 	MessageBox	N/A	Upper limit =	Bovenste limiet
+All	MessageBox	N/A	Lower limit =	Onderste limiet
+All	MessageBox	N/A	Pipe	Buis
+All	MessageBox	N/A	Analysis Report	Analyse rapport
+All	MessageBox	N/A	Ovality(q)* as a percentage of original pipe versus time (frame number)	Ovaliteit als een percentage van de orginele buis ten opzichte van tijd
+All	MessageBox	N/A	*q per ASTM F 1216 Standard Practice for Rehabilitation of Existing Pipelines and Conduits by the Inversion and Curing of a Resin-Impregnated Tube.	
+All	MessageBox	N/A	% deviation from expected internal diameter versus time (frame number)	
+All	MessageBox	N/A	Save failed: Err=9,SaveInPVDFormat_V40	
+All	MessageBox	N/A	Frame No	Framenr
+All	MessageBox	N/A	Discard current drawing?	Huidige tekening verwijderen
+All	MessageBox	N/A	The file version of CLPInterface.int is not	
+All	MessageBox	N/A	This file is not loaded.	Dit bestand is niet geladen
+All	MessageBox	N/A	Image file was not found.	Videofile is niet gevonden
+All	MessageBox	N/A	file for the language	Taalbestand voor
+All	MessageBox	N/A	does not exist. Create this file first. The default language(English) is loaded for Help file.	bestaat niet(Engels wordt geladen)
+All	MessageBox	N/A	Normal Drawing	Normale tekening
+All	MessageBox	N/A	Selected Object	Gekozen object
+All	MessageBox	N/A	Modification Circle	Veranderde cirkel
+All	MessageBox	N/A	Chosen Modification Circle	Gekozen veranderde cirkel
+All	MessageBox	N/A	Area Filling	Oppervlakte opvullen
+All	MessageBox	N/A	Angle Component	Hoek component
+All	MessageBox	N/A	Objects like two lines and an arc to represent an angle.	2 lijnen en een boog om een hoek voor te stellen
+All	MessageBox	N/A	This color change affects only before angle components are drawn.	De kleurverandering geldt allen voor het tekenen
+All	MessageBox	N/A	Joint Circle	Mof cirkel
+All	MessageBox	N/A	Being-Drawn Object	Getekende object
+All	MessageBox	N/A	Moving Object	verplaatsing object
+All	MessageBox	N/A	Rotating Object	Roteren object
+All	MessageBox	N/A	Selection Boundary	Selectiegrens
+All	MessageBox	N/A	Text Size Indicator	

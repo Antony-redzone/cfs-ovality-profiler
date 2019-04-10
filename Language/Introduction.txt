@@ -1,0 +1,12 @@
+English	Continue	Other	Setup	Registration type	Viewer
+German	Fahren Sie	Anderes	Einstellung	Ausrichtung Art	Projektor
+Swedish	Continue	Other	Setup	Registration type	Viewer
+FrenchCanadian	Continuez	Autre	Installation	Type d'enregistrement	Visionneuse
+Hungarian	Folytat	más	Telepítés	Regisztráció típusa	Megjelenít?
+Japanese	Continue	Other	Setup	Registration type	Viewer
+Russian	Continue	Other	Setup	Registration type	Viewer
+Arabic	Continue	Other	Setup	Registration type	Viewer
+Spanish	continuar	otro	disposición	tipo de registro	Espectador
+
+
+

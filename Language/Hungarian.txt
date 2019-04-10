@@ -1,0 +1,427 @@
+Version=1.5	
+English	Hungarian
+This application may not work as designed.	Ez az alkalmazás nem megfelel?en m?ködik.
+of	tó(?)l
+to	ig
+3D	3D
+3D Rendering Setting	3D Renderelési beállítások
+4 in 1	4 az 1-ben
+90% - Fractile:	90% - Töredezettség:
+1KM Project Report	1KM Projekt jelentés
+1K Report	1K Jelentés
+Additional Tools	Kiegészító eszközök
+Adjust pipe scale	Cs? arány módósítása
+Aladdin Hasp	Aladdin retesz
+All Frames	Összes dia
+Analysis Report	Vizsgálati jelentés
+Apply current lens distortion settings?	Alkalmazza a jelenlegi lencsetorzítási beállításokat?
+Apply Rotation	Forgatás alkalmazása
+Apply Scale	Arány alkalmazása
+Apply Stretch	Nyúlás alkalmazása
+Apply X Pos	X Poz. alkalmazása
+ApplyY Pos	Y Poz. Alkalmazása
+Arc Size	Körív méret
+Asset No.	Ingatlanok száma
+Auto	Auto
+Automatic Calibration	Automata kalibrálás
+Automatic Counter	Automata számláló
+AutoRotate	Automata elforgatás
+Calibration	Kalibrálás
+Calibration - Horizontal	Horizontális kalibrálás
+Calibration - Standard	Standard kalibrálás
+Calibration - Vertical	Vertikális kalibrálás
+Calibration - Vertical adjustment	Vertikális kalibrálás - beállítás
+Camera	Kamera
+Camera Center X	Kamera középpont X
+Camera Center Y	Kamera középpont Y
+Camera Model	Kamera típus
+"Can not read this file, loading default settings."	"A fájl nem olvasható, alapértelmezett beállítások betöltése."
+Can not save to the application directory	Nem menthet? az alkalmazás könyvtárába
+Cancel	Mégse
+Cannot Initialise Hardware Vertexing	Hardver Vertex inicializálás sikertelen
+Cannot Initialise Mixed Vertexing	Egyesített Vertex inicializálása sikertelen
+"Cannot save a .PVD file, please register the software to access this."	".PVD fájl nem menthet?, el?bb regisztráljon a hozzáféréshez."
+Cannot Write to ClearLine.ini File. Check that file is not Write Protected.	Nem írható a(z) ClearLine.ini fájl. Ellen?rizze nem írásvédett-e.
+Can't calibrate with a zero length.	Calibrálás nulla hosszal nem lehetséges
+Can't read file	Fájl nem olvasható.
+Capacity	Kapacitás
+Capacity Analysis Report	Kapacitás analízis jelentés
+Capacity Offset by %	Kapacitás Offszet %
+Capacity Profile Report	Kapacitás profil jelentés
+Capture image	Kép készítése
+Centre Angle	Szög központosítása
+Circle	Kör
+City	Város
+Clear	Töröl
+Clear Mask	Maszk törlése
+Clear Water / Debris Mask	Víz / lerakódás maszk törlése
+ClearLine.dll is currently	Clearline.dll jelenleg
+ClearLine.dll VERSION ERROR. Expecting	Clearline.dll verzió hiba. Várakozás
+Close	Bezár
+Close Report	Jelentés bezárása
+CLPInterface  VERSION ERROR. Expecting	CLPInterface verzió hiba. Várakozás
+CLPInterface is currently	CLPInterface jelenleg
+Co	Szín
+Color	Szín
+Comments	Megjegyzések
+Company Details	Cég adatok
+Company Name	Cég neve
+Completed	Befejezett
+"Congratulations, your ClearLine Profiler Software is now registered.  Please shut-down the application and restart to allow new settings to take effect."	"Gratulálunk, az Ön ClearLine Profiler szoftvere regisztrálva van. Kérjük indítsa újra a számítógépet az új beállítások használatához."
+Connect	Csatlakozás
+Connect Video	Video csatlakoztatása
+Continue	Folytat
+Contrast	Kontraszt
+Control selection	Beállítás ellen?rzése
+Filter	Sz?r?
+Copyright 2006	Copyright 2006
+Copyright Cleanflow Systems 2003 - 2006	Copyright Cleanflow Systems 2003 - 2006
+Could not find the associated Video File:	Hozzárendelt videófájl nem található:
+Count Direction	Irány kiszámítása
+Crack Measurement Calibration	Sérülésmér? kalibrálása
+Create Viewer	Megjelenít? készítése
+Creation of Viewer files cancelled.	Megjelenít? fájljainak készítése megszakítva.
+Current Distance	Jelenlegi távolság
+Current finish distance	Jelenlegi befejezési távolság
+Current start distance	Jelenlegi kezd? távolság
+Current time from LaserLib	LaserLib jelenlegi ideje
+Date	Dátum
+Delete	Töröl
+Delete All	Mindet törli
+Delete Report	Jelentés törlése
+Delta	Delta
+Delta Max	Delta max
+Delta Min	Delta min
+Details ...	Részletek…
+Diameter (Max/Min)	Átmér? (Max/Min)
+Diameter Histogram	Átmér? Hisztogram
+Dimension	Dimenzió
+Direct X VERSION ERROR. Expecting Microsoft Direct X	DirectX verzióhiba. Várakozás Microsoft DirectX-re
+Discard current drawing?	Elveti a jelenlegi rajzot?
+Display Precision Vision Settings	Precision Vision beállítások megjelenítése
+Display Reference Shape	Segéd alakzat megjelenítése
+Distance	Távolság
+Distance at Analysis End	Távolság a vizsgálat végén
+Distance at Analysis Start	Távolság a vizsgálat elején
+Distance Information	Távolság információk
+DLL ERROR -	DLL HIBA -
+Do you want to load example .PVD on next run.	Szeretné betölteni az example.PVD-t a köv. indításnál?
+Do you want to recalculate PV Data?	Szeretné újraszámítani a PV Data -t?
+does not exist. Create this file first. The default language(English) is loaded.	nem létezik. El?ször hozza létre a fájlt. Az alapértelmezett nyelv (angol) betöltve.
+Email not Sent. Please check your EMail Settings.	Email nem lett elküldve. Ellen?rizze az Email beállításokat.
+EMail Us	Küldjön nekünk emailt
+End	Befejez
+End User License Agreement	Végelhasználói licensz szerz?dés
+Enter calibration length	Kalibrációs hossz megadása
+Export PV data in Microsoft Excel CSV format	PV adat exportálása Microsoft Excel CSV formátumba
+Export PV data in Tab Delimited Text format	PV adat exportálása Tab-al elválasztott szövegfájlba
+Export single graph in tab delimited text format	Egy grafika exportálása Tab-al elválasztott szövegfájlba
+External camera view	Küls? kamera nézet
+FEC Resolution	FEC Felbontás
+File already exists. Will you overwrite?	Fájl már létezik. Felülírja?
+file for the language	nyelv fájl
+File not able to be loaded on unregistered application	Fájl beolvasása nem lehetséges nem regisztrált alkalmazásba.
+File was not found.	Fájl nem található.
+Finish Distance	Végtávolság
+Finish Location:	Vég helység:
+Finish No	Csomóp. Befejezve
+Finish Node	Csomópont befejezve
+Finished Processing	Folyamat befejezve
+Flat	Kiterítés
+Flat3D	Kiterítés 3D
+FlyBy camera view	FlyBy kameranézet
+Font	Bet?típus
+Frame	Dia
+Frame No	Dia szám
+From	tó(?)l
+General Comments	Általános megjegyzések
+Go!	Indít!
+Horizontal	Vízszintes
+How many points of the profile do you wish to export?	A profil hány pontját kívánja exportálni?
+I Agree	Elfogadom
+I Decline	Elutasítom
+Information and Help	Információ és Segítség
+Information/Help	Információ/Segítség
+Input Select	Bemenet kiválasztása
+Integrated Area Calculation	Integrált területszámítás
+Internal Dia	Bels? átm.
+Internal Diameter	Bels? átmér?
+Invalid data	Érvénytelen adat
+Invalid Path @@Please verify the Path or EMail Address.	Érvénytelen elérési út @@Kérjük ellen?rizze az elérési utat vagy az Email címet
+Invalid selection.	Érvénytelen kiválasztás
+Invert water level	Vízszint invertálása
+Language	Nyelv
+Languages.txt file does not exist. Please create this file first. The default language(English) is loaded.	Nyelvek.txt fájl nem létezik. El?bb hozza létre a fájlt. Alapértelmezett nyelv (angol) betöltve.
+Laser width	Lézer szélesség
+laserlib.dll is currently	laserlib.dll jelenleg
+LaserLib.dll VERSION ERROR. Expecting	laserlib.dll verzió hiba. Várakozás
+Lens Correction	Lencsekorrekció
+Lens Correction Settings	Lencsekorrekciós beállítások
+Lens Distortion settings have been applied.	Lencsetorzulási beállítások alkalmazásra kerültek.
+Limit Line	Határvonal
+Limit Lines	Határvonalak
+Line	Vonal
+"Live video is not connected, device setting will not be changed"	"Él? videó nem csatlakozik, eszköz beállítások nem lettek mentve."
+Load	Betölt
+Load Custom Shape	Egyedi forma betöltése
+Loading	Betöltés
+Loading 3D data	3D adat betöltése
+Loading data	Adat betöltése
+Loads a calibration setting.	Kalibrációs beállítás betöltése
+Location	Helység
+Logo	Logó
+Lower =	Alsó=
+Lower Limit=	Alsó limit=
+Major	F?
+Map camera view	Térkép kamera nézet
+Mask	Maszk
+Mask: Distance - Counter - Text	Maszk: Távolság - Számláló - Szöveg
+Material	Anyag
+Max Diameter	Max. Átmér?
+Maximum	Maximum
+Maximum	Maximum
+Media File is not a valid file name.	Media File nem egy érvényes fájlnév
+Median Diameter	Középátmér?
+Meters	Méter
+Min Diameter	Átmér? minimum
+Minimum	Minimum
+Minor	kis
+Move	Mozgat
+Move Reference Shape	Referencia forma mozgatása
+Move Report or Text	Jelentés vagy szöveg mozgatása
+Multi Profile Report	Multi Profile jelentés
+Multi Report x3	Multi jelentes x3
+Must disconnect from video before analysing Precision Vision data.	A Precision Vision adat analizálása el?tt le kell csatlakoztatni a videót.
+Must enter a valid date	Adjon meg egy valós dátumot
+Must enter a valid time	Adjon meg egy valós id?t
+Must have a pvd file loaded	egy pvd fájlt be kell tölteni
+Must load a Media file first!	El?bb egy média fájlt kell betölteni!
+New Distance	Új távolság
+New finish distance	Új befejezési távolság
+New Label	Új címke
+New start distance	Új kezd? távolság
+"No Capture Device, Please install a capture card and/or drivers."	"Nincs Videofelvev? eszköz, telepítse az eszközt és/vagy drivereket"
+No Of Panels	Panelek száma
+Not set.	Nincs beállítva
+Observation Text here	Megjegyzés szöveg itt
+Observations Report	Megjegyzések jelentése
+OFF	KI
+ON	BE
+OnScreenText	OnScreen szöveg
+Open File	Fájl megnyitása
+Options	Opciók
+or above. Microsoft Direct X is currently	vagy afelett. Microsoft DirectX jelenleg
+OR Contact Us at :	Vagy lépjen kapcsolatba velünk:
+Origin X	Eredeti X
+Origin Y	Eredeti Y
+Outside Dia	Küls? átm.
+Outside Diameter	Küls? átmér?
+Outside diameter must be numeric	Küls? átmér? numerikus adat lehet
+Ovality	Ovalitás
+Ovality 'q' (as per ASTM F 1216 Standard Practice) as a percentage of original pipe versus distance	"Ovalitás ""q"" (ASTM F 1216 szerinti standard gyakorlat), mint százalékos érték az eredeti cs? és a távolság között"
+Oversamples	Oversamples
+Page	Oldal
+Page 1 of 2	Oldal 1 a 2 -b?l
+Page: 1	Oldal: 1
+Page: 1/1	Oldal : 1/1
+Page: 2	Oldal: 2
+'Pan and Tilt' camera view	Panoráma kamera nézet
+Parameter	Paraméter
+Pause	Szünet
+Percentage variation in radius	Sugár százalékos változása
+Perpendicular line to main circle	Alapkörre mer?leges vonal
+Ph:	Tel:
+Phone : 64 9 479 9901	Tel: 64 9479 9901
+Phone No.	Telefonszám
+Pickup Level	Felvételi szint
+"Picture file is invalid, unable to open."	"Képfájl érvénytelen, megnyitás sikertelen."
+Pipe Capacity Analysis Report	Cs?kapacitás analizálási jelentés
+Pipe Diameter:	Cs?átmér?:
+Pipe length must be numeric	Cs? hossza numerikus adat lehet
+Pipe Length:	Cs?hossz:
+Pipe Material:	Cs?anyag:
+Pipeline Details	Cs?vezeték részletek
+Pipeline Length	Cs?vezeték hossza
+"Play 3D back, press again to change speed"	"3D lejátszás visszafelé, nyomja mégegyszer a sebesség változtatásához."
+"Play 3D, press again to change speed"	"3D lejátszás, nyomja mégegyszer a sebesség változtatásához."
+Play/Pause	Lejátszás/Szünet
+Please calibrate first.	Kérem el?sz?r kalibrálja a berendezést
+Please close the ClearLine Profiler application and restart to apply the change.	Kérjük zárja be a ClearLine Profiler alkalmazást és indítsa újra a számítógépet a változtatások mentéséhez.
+Please ensure the main reference shape is centered.	"Bizonyosodjon meg róla, hogy az alapforma központos."
+Please enter internal pipe diameter first and calibrate the image.	"Kérem, el?sz?r adja meg a bels? átmér?t, majd kalibrálja a képet"
+Please input valid data	Kérem adjon meg valós adatot.
+Please Press Apply to confirm Changes.	Kérem nyomja meg az alkalmaz gombot a változtatások mentéséhez.
+Please press left mouse button on the area to be filled. The percentage of the pipe diameter filled will be displayed in the box to the bottom left of the screen.	Kérem használja az egér bal gombját a terület kitöltéséhez. A kitöltött cs?átmér? százaléka a kijelz? bal alján a dobozban fog megjelenni.
+Please remember to register the ClearLine Profiler software.	Kérem ne felejtse el regisztrálni a ClearLine Profiler szoftvert.
+Please select a reference circle first.	Kérem el?sz?r válasszon egy referenciakört.
+Please specify a valid Expected Internal Diameter before calibrating	A kalibrálás el?tt határozza meg a várható bels? átmér?t
+Please specify internal diameter first.	Kérjük el?bb adja meg a bels? átmér?t.
+Please specify internal pipe diameter first.	Kérjük el?bb adja meg a bels? cs?átmér?t.
+Please Try Mixed or Software Vertexing	"Probálja meg az egyesített, vagy a szoftveres vertexelést"
+Please Try Software Vertexing	Probálja meg a szoftveres vertexelést
+PolyLine	Szegmensvonal
+Precision Vision	Precision Vision
+Precision Vision Graphs	Precision Vision diagrammok
+Precision Vision settings	Precision Vision beállítások
+"Press Yes to Locate a Video File, No to continue without a Video File loaded."	"Nyomj IGEN-t videofájl betöltéséhez, NEM-et videofjl betöltés mell?zéséhez"
+Print	Nyomtat
+Printed:	Nyomtatva:
+PrinterSettings	Nyomtató beállítások
+Process Image	Kép feldolgozása
+Process Method	Feldolgozás módja
+Processing	Feldolgozás
+Processing Data	Adatok feldolgozása
+Product No	Termék Nr
+Profile	Profil
+Profile Report	Profil jelentés
+Profiler Screen	Profiler képerny?
+Project Report	Projektjelentés
+Pulse Size	Pulzáció mérete
+PV Graph	PV diagram
+PV Screen	PV képerny?
+Radius	Sugár 
+Recalculate Distance Scale	Távolság lépték újraszámítása
+Recalculate PV Data	PV adat újraszámítása
+Record	Felvétel
+Reference	Referencia
+Reference Shape	Referencia alak
+Refernce Shape Control	Referencia alak ellen?rzés
+Reg Code	Reg. Kód
+Register	Regisztrál
+Register Now	Regisztrál most
+Registration	Regisztráció
+Registration Code	Regisztrációs kód
+Registration Failed. Please Check your Registration Code.	Regisztráció sikertelen. Kérjük ellen?rizze a regisztrációs kódot.
+Registration Request Sent.	Regisztrációs kérelem elküldve.
+Registration type	Regisztráció típusa
+Re-Painting	Újraszínezés
+Report saved to PVD	Jelentés mentve PVD-be
+Report type	Jelentés típusa
+Reports	Jelentések
+Reset to default	Alapértelmezett beállítások visszaállítása
+Reset tools	Eszközök visszaállítása
+Revision	Revízió
+RinkerEllipse	RinkerEllipse
+Rotate Left	Forgatás balra
+Rotate pipe anti-clockwise	Cs? forgatása órairánnyal szemben
+Rotate pipe clockwise	Cs? forgatása órairányban
+Rotate Right	Forgatás jobbra
+SampleRate	Minták száma
+Samples	Minták
+Save	Mentés
+Save Grid	Rács mentése
+Save Report To PVD	Jelentés mentése PVD-be.
+Save Rotated Data	Elforgatott adat mentése
+Save To File	Mentés fájlba
+Saves calibration setting.	Kalibrációs beállításokat menti.
+Saving to the same file name.	Mentés ugyanezzel a fájl névvel.
+Scale	Skála
+Scale settings	Skála beállítások
+Scanning	Szkennelés
+Security failure. Unable to register application.	Biztonsági hiba. Nem sikerült regisztrálni az alkalmazást.
+Semieliptical	Fél-elliptikus
+Set Finish Recording Marker	Felvételleállító jel beállítása
+Set Mask	Maszk beállítása
+Set Mask Sectors for Centre	Szektormaszk beállítása középre
+Set PosX	X pozíció beállítása
+Set PosY	Y pozíció beállítása
+Set Rot	Forgatás beállítása
+Set Start Recording Marker	Felvételindító jel beállítása
+Set Water / Debris Mask	Víz / lerakódás maszk beállítása
+Set Water Level	Vízszint beállítása
+Setup	Telepítés
+Show settings in video image	Beállítások mutatása a videóképen
+Site ID:	Oldal ID:
+SnapShot	Pillanatkép
+Software	Szoftver
+Solid	Solid
+Sonar	Szonár
+Sonar Config	Szonár beállítások
+Sonar Registration	Szonár regisztárálása
+"Sorry, Hardware Vertexing is not available on your Graphics Processing Unit"	Hardveres vertexelés az Ön grafikai egységével nem lehetséges
+"Sorry, Mixed Vertexing is not available on your Graphics Processing Unit"	Egyesített vertexelés az Ön grafikai egységével nem lehetséges
+"Sorry, Software Vertexing is not available on your Graphics Processing Unit"	Szofterveres vertexelés az Ön grafikai egységével nem lehetséges
+Span in feet	Fesztáv láb-ban
+Span in meters	Fesztáv méterben
+Square	Négyzet
+Start	Start
+Start Distance	Start Távolság
+Start Entering grid	Start rács
+Start Location:	Start hely:
+Start No	Start csp.
+Start Node	Start csomópont
+Start/Finish Estimate	Becslés kezdése/befejezése
+Starts/Stops automatic calibration.	Elkezdi/leállítja az autom. Kalibrálást
+Step Forward	El?re lép
+Step Rewind	Vissza lép
+Step Size	Lépték
+Stop	Stop
+Stop PVD recording before saving	Állítsa le a PVD felvételt mentés el?tt
+Stop Recording	Felvétel leállítása
+Store Custom Shape	Egyedi szelvény mentése
+Stored Reports	Tárolt jelentések
+Stretch	Nyújtás
+"Subject, Body text or Attachment is not specified."	"Tárgy, szöveg vagy csatolmány nincs megadva."
+Summary Report	Összefoglaló jelentés
+System Settings	Rendszer beállítások
+Take a snap-shot for reporting	Készíts pillanatképet a jelentéshez
+Text	Szöveg
+"The .pvd file is not saved, click on Save button if you wish to save this file."	"A .pvd fájl nincs mentje, kattinson a Mentés gombra ha szeretné menteni a fájl-t."
+"The .pvd file is unsaved, do you wish to save this file?"	"A .pvd fájl nincs mentve, kívánja menteni?"
+The ClearLine.inf file is READONLY. You must update ClearLine.ini path manually.	A ClearLine.inf fájl csak olvasható. Adja meg a ClearLine.ini elérését.
+The Non-Circular shape functionality is BETA ONLY. Do you wish to proceed?	A NEM-körszelvény funkció csak BETA. Kivánja folytatni?
+"The PVD file is in a different measurement unit, please alter your measurement units before loading this file."	"A PVD fájl másik mértékegységben van megadva, kérjük változtassa meg a mértékegységet a fájl betöltéséhez."
+There is no recorded data to process	Nincs rögzített adat a feldolgozáshoz.
+There is no Video File associated with this PVD file.	Nem kapcsolódik videó fájl ehhez a PVD fájlhoz.
+There is no Video File associated with this PVD file. Would you like to load one now?	Nem kapcsolódik videó fájl ehhez a PVD fájlhoz. Kíván betölteni egyet?
+There must be a media file loaded before recording can take place.	A felvétel megkezdéséhez el?bb be kell tölteni egy média fájlt.
+This file is not loaded.	A fájl nincs betöltve.
+This function is disabled while recording.	Ez a funkció le van tiltva felvételkészítés során.
+This hardware cannot run the 3D Application	Ez az eszköz nem alkalmas 3D alkalmazás futtatására.
+ThreeDim.dll is currently	ThreeDim.dll jelenleg
+ThreeDim.dll VERSION ERROR. Expecting	ThreeDim.dll verzió hiba. Várakozás
+Tiling Pattern	Falazat sablon
+Time	Id?
+To	hoz
+"To open a new file, stop the recording and the video, then open the new file."	"Új fájl megnyitásához állítsa le a felvételt és a videót, és nyissa meg az új fájlt."
+Tools	Eszközök
+True Diameter	Valós átmér?
+True Diameter Offset	Valós átmér? offszet
+Tuning	Hangolás
+Tuning settings	Hangolási beállítások
+Turn map view on/off	Térkép nézet be/ki
+Type	Típus
+unit	egység
+Units	Egységek
+Unknown Recipient.	Ismeretlen címzett.
+Unregistered Copy	Nem regisztrált másolat
+Unregistered Software	Nem regisztrált szoftver
+Upgrade Now	Frissítés most
+Upper =	Fels?=
+Upper limit =	Fels? limit=
+User Name	Felhasználónév
+Variation in radius	Körsugár variációk
+Version	Verzió
+Vertical	Vertikális
+Vertical video adjustment	Vertikális video beállítások
+Video	Videó
+Video Device Select	Videó eszköz kiválasztása
+Video Input Select	Videó bemenet kiválasztása
+Video Input Settings	Videó bemenet beállítások
+Video Resolution	Videó felbontás
+Viewer	Megjelenít?
+Viewer Copy	Megjelenít? másolat
+Warning this PVD is Read ONLY. Unable to save changes.	"Figyelem, ez a PVD csak olvasható. Változások mentése sikertelen."
+Warning this PVD is Read ONLY. Unable to store report.	"Figyelem, ez a PVD csak olvasható. Jelentés nem tárolható."
+"WARNING: If Units are changed, calibration will be reset to default."	FIGYELEM: Az egységek megváltoztatásával a kalibrálás az alapértelmezett állapotba visszaáll
+Water / Debris Mask	Víz / lerakódás maszk
+Will you overwrite existing logo file?	Lecseréli a meglév? logo fájlt?
+"Wrong PVD version, unable to recalculate data"	"Hibás PVD verzió, adatok újraszámolása nem lehetséges."
+X Diameter	X átmér?
+X Y Diameter	X Y átmér?
+Y Diameter	Y átmér?
+You must Agree to the End User License Agreement Details before Registering this Product.	Önnek el kell fogadnia végfelhasználói szerz?dés feltételeit miel?tt regisztrálná a terméket.
+Your Company Logo could not be found - please remember to load it.	A céglogo nem található - kérjük ne felejtse el betölteni.
+Zone	Zóna
+Zoom In	Zoom be
+Zoom Out	Zoom ki

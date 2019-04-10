@@ -1,0 +1,427 @@
+Version=1.5	
+English	Anglais
+- This application may not work as designed.	- Cette application peut ne pas fonctionner comme prévu.
+of	de
+to	à
+3D	3D
+3D Rendering Setting	Paramétrage du rendu 3D
+4 in 1	4 dans 1
+90% - Fractile:	Quantile 90%
+1KM Project Report	Rapport de projet de 1KM 
+1K Report	Rapport 1K 
+Additional Tools	Outils additionnels
+Adjust pipe scale	Régler l'échelle du tuyau
+Aladdin Hasp	Hasp d'Aladin
+All Frames	Toutes les vues
+Analysis Report	Rapport d'analyse
+Apply current lens distortion settings?	Voulez-vous appliquer les valeurs des paramètres de distortion de lentille courantes ?
+Apply Rotation	Appliquer rotation
+Apply Scale	Appliquer échelle
+Apply Stretch	Appliquer étirement
+Apply X Pos	Appliquer X
+ApplyY Pos	Appliquer Y
+Arc Size	Taille de l'arc
+Asset No.	Numéro de bien
+Auto	Auto
+Automatic Calibration	Calibrage automatique
+Automatic Counter	Compteur automatique
+AutoRotate	Rotation Automatique
+Calibration	Calibrage
+Calibration - Horizontal	Calibrage  Horizontale
+Calibration - Standard	Calibrage Standard
+Calibration - Vertical	Calibrage Verticale
+Calibration - Vertical adjustment	Ajustement calibrage vertical
+Camera	Caméra
+Camera Center X	Centre de caméra X
+Camera Center Y	Centre de caméra Y
+Camera Model	Modèle de caméra
+Can not read this file, loading default settings.	Ne peut lire document, chargement des ajustements par défaut
+Can not save to the application directory	Ne peut sauvegarder les applications au dictionnaire
+Cancel	Annuler
+Cannot Initialise Hardware Vertexing	Ne peut initialiser le matériel vertexing
+Cannot Initialise Mixed Vertexing	Ne peut initialiser le mélange vertexing
+Cannot save a .PVD file, please register the software to access this.	Ne peut saugarger le fichier PVD, s.v.p. enregistrer le logiciel pour avoir accès à ceci
+Cannot Write to ClearLine.ini File. Check that file is not Write Protected.	Ne peut pas écrire dans le fichier ClearLine.ini. Assurez-vous que ce fichier n'est pas protégé en écriture.
+Can't calibrate with a zero length.	Impossible d'effectuer le calibrage si la longueur est égale à zéro.
+Can't read file	Ne peut lire le fichier
+Capacity	Capacité
+Capacity Analysis Report	Capacité analyse du rapport
+Capacity Offset by %	Capacité du décalage en %
+Capacity Profile Report	Capacité du profile rapport
+Capture image	Saisir l'image
+Centre Angle	Centre angle
+Circle	Cercle
+City	Ville
+Clear	Effacer
+Clear Mask	Effacer le masque
+Clear Water / Debris Mask	Effacer l'eau / Masquer les détritus
+ClearLine.dll is currently	Clearline.dll est actuellement
+ClearLine.dll VERSION ERROR. Expecting	Clearline.dll ERREUR DE VERSION. Prévoir
+Close	Fermer
+Close Report	Fermeture du rapport
+CLPInterface  VERSION ERROR. Expecting	InterfaceCLP ERREUR DE VERSION. Prévoir
+CLPInterface is currently	InterfaceCLP est actuellement
+Co	Co
+Color	Couleur
+Comments	Commentaires
+Company Details	Détails de la société
+Company Name	Nom de la société
+Completed	Completer
+Congratulations, your ClearLine Profiler Software is now registered.  Please shut-down the application and restart to allow new settings to take effect.	
+Connect	Brancher
+Connect Video	Brancher le vidéo
+Continue	Continuer
+Contrast	Contraste
+Control selection	Contrôler la sélection
+Corrugated	Ondulé
+Copyright 2006	Copyright 2006
+Copyright Cleanflow Systems 2003 - 2006	Copyright  Cleanflow Système 2003 - 2006
+Could not find the associated Video File:	Fichier vidéo associé introuvable :
+Count Direction	Direction du comptage
+Crack Measurement Calibration	Calibration de la fracture 
+Create Viewer	Créer un visionneur
+Creation of Viewer files cancelled.	Créer d'un fichier cancellé
+Current Distance	Distance courante
+Current finish distance	Fin de la distance
+Current start distance	Début de la distance
+Current time from LaserLib	Temps courant du LaserLib
+Date	Date
+Delete	Supprimer
+Delete All	Supprimer tout
+Delete Report	Supprimer rapport
+Delta	Delta
+Delta Max	Delta max
+Delta Min	Delta min
+Details ...	Détails…
+Diameter (Max/Min)	Diamètre (Max/Min)
+Diameter Histogram	Diamètre Histogramme
+Dimension	Dimension
+Direct X VERSION ERROR. Expecting Microsoft Direct X	Erreur de la version DirectX. Prévoir DirectX de Microsoft
+Discard current drawing?	Voulez-vous abandonner le dessin en cours ?
+Display Precision Vision Settings	Afficher les ajustements de la précision vision
+Display Reference Shape	Afficher la référence de la taille
+Distance	Distance
+Distance at Analysis End	Distance à la fin de l'analyse
+Distance at Analysis Start	Distance à la fin de l'analyse
+Distance Information	Information sur la distance
+DLL ERROR -	ERREUR DLL -
+Do you want to load example .PVD on next run.	Voulez-vous recalculer le PV Data?
+Do you want to recalculate PV Data?	Voulez-vous télécharger un exemple
+does not exist. Create this file first. The default language(English) is loaded.	N'ésiste pas. Créer ce fichier en premier. Le langage (anglais) est téléchargée par défault.
+Email not Sent. Please check your EMail Settings.	Courriel non envoyé. Veuillez vérifier vos paramètres de courriel.
+EMail Us	Envoyez-nous un courriel
+End	Fin
+End User License Agreement	Contrat de licence de l'utilisateur
+Enter calibration length	Entrer la longueur de calibration
+Export PV data in Microsoft Excel CSV format	Exporter le PV data sous format Excel CSV
+Export PV data in Tab Delimited Text format	
+Export single graph in tab delimited text format	
+External camera view	Prise de vue externe
+FEC Resolution	Résolution du code correcteur d'erreurs sans voie de retour
+File already exists. Will you overwrite?	Le fichier existe déjà. Voulez-vous l'écraser ?
+file for the language	fichier pour la langue
+File not able to be loaded on unregistered application	Impossible de charger le fichier dans l'application non enregistrée
+File was not found.	Le fichier est introuvable.
+Finish Distance	Distance fin
+Finish Location:	Emplacement de fin :
+Finish No	Numéro de fin
+Finish Node	Noeud de fin
+Finished Processing	Traitement terminé
+Flat	Plat
+Flat3D	3D plat
+FlyBy camera view	Prise de vue en survol
+Font	Police
+Frame	Cadre 
+Frame No	Cadre non
+From	De
+General Comments	Commentaire Général
+Go!	Aller !
+Horizontal	Horizontale
+How many points of the profile do you wish to export?	Combien de point du profil, voulez- vous exporter ?
+I Agree	J'accepte
+I Decline	Je refuse
+Information and Help	Information et aide
+Information/Help	Information/aide
+Input Select	Sélection des données entrées
+Integrated Area Calculation	Calcul de la surface intrégrée
+Internal Dia	Diamètre interne
+Internal Diameter	Diamètre interne
+Invalid data	Data invalide.
+Invalid Path @@Please verify the Path or EMail Address.	Chemin d'accès invalide @@Veuillez vérifier le chemin d'accès ou l'adresse électronique.
+Invalid selection.	Sélection invalide.
+Invert water level	profondeur du niveau d'eau.
+Language	Langue
+Languages.txt file does not exist. Please create this file first. The default language(English) is loaded.	Le fichier langage.txt, n'existe pas. S.V.P. Créer ce fichier en premier. Le langage (anglais) est téléchargée par défault.
+Laser width	Largeur du laser
+laserlib.dll is currently	laserlib.dll est présentement
+LaserLib.dll VERSION ERROR. Expecting	PROBLÈME DE VERSION LaserLib.dll. En attente
+Lens Correction	Correction de la lentille
+Lens Correction Settings	Ajustement de la lentille
+Lens Distortion settings have been applied.	La distorsion de la lentille à été appliquée
+Limit Line	Limiter la ligne
+Limit Lines	Limiter les lignes
+Line	Ligne
+Live video is not connected, device setting will not be changed	La vidéo en direct n'est pas connectée, l'ajustement ne sera pas pris en compte
+Load	Charger
+Load Custom Shape	Charger la forme
+Loading	Chargement en cours
+Loading 3D data	Chargement du data 3D
+Loading data	Chargement des données en cours
+Loads a calibration setting.	Charge un paramètre de calibrage.
+Location	Emplacement
+Logo	Logo
+Lower =	Bas =
+Lower Limit=	Limite du bas =
+Major	Majeur
+Map camera view	Prise de vue en plan
+Mask	Masque
+Mask: Distance - Counter - Text	Masque : Distance - Compteur - Texte
+Material	Matériau
+Max Diameter	Diamètre maximun
+Maximum	Maximun
+Maximum	Maximun
+Media File is not a valid file name.	Media File n'est pas un nom de fichier valide.
+Median Diameter	Diamètre de la médiane
+Meters	Mètres
+Min Diameter	Diamètre minimun
+Minimum	Minimum
+Minor	Mineur
+Move	Déplacer
+Move Reference Shape	Déplacer la référence de la forme
+Move Report or Text	Déplacer le rapport ou text
+Multi Profile Report	Profile du rapport multiple
+Multi Report x3	Rapport multiple x3
+Must disconnect from video before analysing Precision Vision data.	Vous devez déconnecter le vidéo avant d'analyser les données de la vision de précision.
+Must enter a valid date	Entrer une date valide
+Must enter a valid time	Entrer une heure valide
+Must have a pvd file loaded	Vous devez charger un fichier PVD
+Must load a Media file first!	Vous devez d'abord charger un fichier multimédia !
+New Distance	Nouvelle distance
+New finish distance	Nouvelle distance fin
+New Label	Nouvelle étiquette
+New start distance	Nouveau départ de la distance
+No Capture Device, Please install a capture card and/or drivers.	Pas de capture, SVP installé une carte de capture ou pilote
+No Of Panels	Numéro du panneau.
+Not set.	Pas installé
+Observation Text here	Rapport d'observation ici
+Observations Report	Rapport d'observation
+OFF	Fermer
+ON	Allumer
+OnScreenText	Texte à l'écran
+Open File	Ouvrir le fichier
+Options	Options
+or above. Microsoft Direct X is currently	Ci-dessous. Le DirectX est présentement.
+OR Contact Us at :	Ou nous rejoindre a:
+Origin X	Origine X
+Origin Y	Origine Y
+Outside Dia	Diamètre externe
+Outside Diameter	Diamètre externe
+Outside diameter must be numeric	Diamètre externe doit être numérique
+Ovality	Ovalisation
+Ovality 'q' (as per ASTM F 1216 Standard Practice) as a percentage of original pipe versus distance	Ovalisation 'q' (Selon la pratique du ASTM F 1216) Selon le pourcentage  original du diamètre versus la distance.
+Oversamples	Excédent de l'échantillion
+Page	Page
+Page 1 of 2	Page 1 de 2
+Page: 1	Page : 1
+Page: 1/1	Page 1 de 1
+Page: 2	Page :2
+'Pan and Tilt' camera view	Prise de vue en panoramique diagonal
+Parameter	Paramètre
+Pause	Pause
+Percentage variation in radius	Variation du pourcentage dans le rayon
+Perpendicular line to main circle	Ligne perpendiculaire au cercle principal
+Ph:	Tél. :
+Phone : 64 9 479 9901	Tél. : 64 9 479 9901
+Phone No.	Numéro de téléphone
+Pickup Level	Niveau d'enregistrement
+Picture file is invalid, unable to open.	Le fichier de la photo est invalide, impossible de l'ouvrir
+Pipe Capacity Analysis Report	Rapport d'analyse de la capacité.
+Pipe Diameter:	Diamètre du tuyau :
+Pipe length must be numeric	La longueur du tuyau doit être en numérique
+Pipe Length:	Longueur du tuyau :
+Pipe Material:	Matériau du tuyau :
+Pipeline Details	Détails sur le pipeline
+Pipeline Length	Longueur du pipeline
+Play 3D back, press again to change speed	Rejouer 3D, appuyer encore pour changer la vitesse
+Play 3D, press again to change speed	Jouer 3D, appuyer encore pour changer la vitesse
+Play/Pause	Lecture/Pause
+Please calibrate first.	Veuillez d'abord effectuer le calibrage.
+Please close the ClearLine Profiler application and restart to apply the change.	Veuillez fermer l'application ClearLine Profiler et la rouvrir pour appliquer les modifications.
+Please ensure the main reference shape is centered.	Veuillez vous assurer que la principale forme de référence est centrée.
+Please enter internal pipe diameter first and calibrate the image.	Entrer une valeur du diamètre interne, pour calibrer l'image
+Please input valid data	S.V.P. entrer un data valide.
+Please Press Apply to confirm Changes.	Veuillez cliquer sur le bouton Appliquer pour confirmer les modifications.
+Please press left mouse button on the area to be filled. The percentage of the pipe diameter filled will be displayed in the box to the bottom left of the screen.	Veuillez cliquez dans la surface à remplir. Le pourcentage du diamètre de tuyau rempli est affiché dans la boîte, dans le coin inférieur gauche de l'écran.
+Please remember to register the ClearLine Profiler software.	N'oubliez pas d'enregistrer le logiciel ClearLine Profiler.
+Please select a reference circle first.	Veuillez d'abord sélectionner un cercle de référence.
+Please specify a valid Expected Internal Diameter before calibrating	Veuillez spécifier un diamètre interne prévu valide avant d'effectuer le calibrage
+Please specify internal diameter first.	S.V.P. spécifier un diamètre interne en premier.
+Please specify internal pipe diameter first.	Veuillez d'abord spécifier le diamètre interne du tuyau.
+Please Try Mixed or Software Vertexing	Veuillez essayer de déterminer les sommets mixte ou logiciel
+Please Try Software Vertexing	Veuillez essayer de déterminer les sommets logiciel
+PolyLine	Polyligne
+Precision Vision	Vision de précision
+Precision Vision Graphs	Diagrammes de la vision de précision
+Precision Vision settings	Ajustements du Précision Vision
+Press Yes to Locate a Video File, No to continue without a Video File loaded.	Précision Vision Graphique.
+Print	Imprimé :
+Printed:	À Imprimer :
+PrinterSettings	Ajustements de l'imprimante
+Process Image	Procéder de l'image
+Process Method	Méthode de traitement
+Processing	Traitement en cours
+Processing Data	Traitement en cours du data
+Product No	Numéro de produit
+Profile	Profil
+Profile Report	Rapport du profil
+Profiler Screen	Profil de l'écran
+Project Report	Rapport de projet
+Pulse Size	Grandeur de l'impulsion
+PV Graph	Diagramme du volume poreux
+PV Screen	Écran du volume poreux
+Radius	Radier
+Recalculate Distance Scale	Recalculer l'échelle de distance
+Recalculate PV Data	Recalculer le data du volume poreux
+Record	Enregistrement
+Reference	Référence
+Reference Shape	Référence de la taille
+Refernce Shape Control	Référence du contrôle de la taille
+Reg Code	Code d'enregistrement
+Register	Enregistrer
+Register Now	Enregistrer maintenant
+Registration	Enregistrement
+Registration Code	Code d'enregistrement
+Registration Failed. Please Check your Registration Code.	L'enregistrement a échoué. Veuillez vérifier votre code d'enregistrement.
+Registration Request Sent.	Demande d'enregistrement envoyée.
+Registration type	Enregistrement du type
+Re-Painting	Rafraîchissement en cours
+Report saved to PVD	Sauvegarde du PVD
+Report type	Type de rapport
+Reports	Rapports
+Reset to default	Réinitialiser par défault
+Reset tools	Réinitialiser les outils
+Revision	Révision
+RinkerEllipse	
+Rotate Left	Rotation gauche
+Rotate pipe anti-clockwise	Rotation du tuyau en sens horaire
+Rotate pipe clockwise	Rotation du tuyau en sens anti-horaire
+Rotate Right	Rotation droite
+SampleRate	Taux de l'échantillion
+Samples	Échantillions
+Save	Enregistrer
+Save Grid	Enregistre la grille.
+Save Report To PVD	Sauvegarde du rapport PVD
+Save Rotated Data	Sauvegarde du Data rotation
+Save To File	Enregistrer dans un fichier
+Saves calibration setting.	Enregistre les valeurs des paramètres de calibrage.
+Saving to the same file name.	Enregistrer dans le même dossier contenant le même nom.
+Scale	Échelle
+Scale settings	Paramètres de l'échelle
+Scanning	Numérisation
+Security failure. Unable to register application.	Erreur de Sécurité. Enregistrement de l'application impossible.
+Semieliptical	
+Set Finish Recording Marker	Ajuster le marqueur de fin
+Set Mask	Paramétrer le masque
+Set Mask Sectors for Centre	Ajuster le masque du secteur
+Set PosX	Ajuster Position X
+Set PosY	Ajuster Position Y
+Set Rot	
+Set Start Recording Marker	Ajuster le marqueur de départ, de l'enregistrement
+Set Water / Debris Mask	Ajuster le masque Détritus / Eau
+Set Water Level	Paramétrer le niveau d'eau
+Setup	Installation
+Show settings in video image	Afficher les paramètres dans une image vidéo
+Site ID:	ID du site :
+SnapShot	Instantané
+Software	Logiciel
+Solid	Solide
+Sonar	Sonar
+Sonar Config	Configuration du Sonar
+Sonar Registration	Enregistrement du Sonar
+Sorry, Hardware Vertexing is not available on your Graphics Processing Unit	
+Sorry, Mixed Vertexing is not available on your Graphics Processing Unit	
+Sorry, Software Vertexing is not available on your Graphics Processing Unit	
+Span in feet	Étendue en pieds
+Span in meters	Étendue en mètres
+Square	Carré
+Start	Départ
+Start Distance	Départ de la distance
+Start Entering grid	Départ de la grille
+Start Location:	Emplacement de début :
+Start No	Numéro du début
+Start Node	Noeud du début
+Start/Finish Estimate	Commencer/terminer l'évaluation
+Starts/Stops automatic calibration.	Déclenche/arrête le calibrage automatique.
+Step Forward	Image suivante
+Step Rewind	Image précédente
+Step Size	Image grandeur
+Stop	Arrêt
+Stop PVD recording before saving	Arrêter l'enregistrement du PVD avant la sauvegarde.
+Stop Recording	Arrêter l'enregistrement
+Store Custom Shape	
+Stored Reports	Stockage du rapport
+Stretch	Étirer
+Subject, Body text or Attachment is not specified.	
+Summary Report	Sommaire du rapport
+System Settings	Ajustement du système
+Take a snap-shot for reporting	Prendre un instantané à des fins de rapport
+Text	Texte
+The .pvd file is not saved, click on Save button if you wish to save this file.	Le PVD n'est pas sauvegardé, cliquer sur sauver, si vouz voulez sauvergarder le fichier.
+The .pvd file is unsaved, do you wish to save this file?	Le PVD n'est pas sauvegardé, voulez-vous sauvergarder le fichier.
+The ClearLine.inf file is READONLY. You must update ClearLine.ini path manually.	Le fichier ClearLine.inf est en LECTURE SEULE. Vous devez mettre à jour manuellement le chemin d'accès au fichier ClearLine.ini.
+The Non-Circular shape functionality is BETA ONLY. Do you wish to proceed?	
+The PVD file is in a different measurement unit, please alter your measurement units before loading this file.	Le fichier PVD est dans une mesure différente, changer l'unitée de mesure, avant l'importation du fichier.
+There is no recorded data to process	Il n'y a pas de données d'enregistrée à traiter
+There is no Video File associated with this PVD file.	Il n'y a pas de fichier vidéo associé à ce fichier PVD
+There is no Video File associated with this PVD file. Would you like to load one now?	Aucun fichier vidéo n'est associé à ce fichier PVD. Voulez-vous en charger un maintenant ?
+There must be a media file loaded before recording can take place.	Il doit y avoir un fichier média, avant de pouvoir enregistré.
+This file is not loaded.	Le fichier n'est pas chargé.
+This function is disabled while recording.	Cette fonction est désactivée pendant l'enregistrement.
+This hardware cannot run the 3D Application	Ce matériel ne supporte pas l'application 3D.
+ThreeDim.dll is currently	ThreeDim.dll est présentement
+ThreeDim.dll VERSION ERROR. Expecting	PROBLÈME DE VERSION ThreeDim.dll. En attente
+Tiling Pattern	Modèle de carrelage
+Time	Heure
+To	à
+To open a new file, stop the recording and the video, then open the new file.	Avant d'ouvrir un nouveau fichier, arrêter l'enregistrement et le vidéo, parla suite, ouvrir un autre fichier.
+Tools	Outils
+True Diameter	Vrai diamètre
+True Diameter Offset	Vrai diamètre du décalage
+Tuning	Ajustement
+Tuning settings	Ajustement des arrangements
+Turn map view on/off	Activer/désactiver la vue en plan
+Type	Type
+unit	Unité
+Units	Unités
+Unknown Recipient.	Destinataire inconnu.
+Unregistered Copy	Copie non enregistrée
+Unregistered Software	Logiciel non enregistré
+Upgrade Now	Mettre à jour maintenant
+Upper =	Limite
+Upper limit =	Limite supérieure =
+User Name	Nom d'utilisateur
+Variation in radius	Variation du rayon
+Version	Version
+Vertical	Verticale
+Vertical video adjustment	Ajustement verticale de la vidéo
+Video	Vidéo
+Video Device Select	Choisir le dispositif vidéo
+Video Input Select	Sélection des données vidéo entrées
+Video Input Settings	Ajustements des données vidéo entrées
+Video Resolution	Résolution vidéo
+Viewer	Visionneur
+Viewer Copy	Copie du visionneur
+Warning this PVD is Read ONLY. Unable to save changes.	Attention le PVD est en lecture seule, sauvegarde impossible.
+Warning this PVD is Read ONLY. Unable to store report.	Attention le PVD est en lecture seule, storage du rapport impossible.
+WARNING: If Units are changed, calibration will be reset to default.	ATTENTION: Si les unitées de mesures changent, la calibration sera mise défaut.
+Water / Debris Mask	Masque Eau / Détritus
+Will you overwrite existing logo file?	Voulez-vous écraser le fichier de logo existant ?
+Wrong PVD version, unable to recalculate data	Mauvaise version du PVD, impossible de recalculer le data
+X Diameter	Diàmètre X
+X Y Diameter	Diamètre X Y
+Y Diameter	DiàmètreY
+You must Agree to the End User License Agreement Details before Registering this Product.	Vous devez accepter les détails du contrat de licence de l'utilisateur avant de pouvoir enregistrer ce produit.
+Your Company Logo could not be found - please remember to load it.	Le système ne trouve pas le logo de votre société. N'oubliez pas de le charger.
+Zone	Zone
+Zoom In	Zoom avant
+Zoom Out	Zoom arrière

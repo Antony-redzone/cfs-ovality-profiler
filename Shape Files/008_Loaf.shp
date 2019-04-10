@@ -1,0 +1,18 @@
+version	1				
+Name	Loaf				
+Use	All				
+CentreX	0				
+CentreY	0.3				
+NoArcs	2				
+NoLines	2				
+Scale	1				
+					
+[Arcs]					
+Arc	x	y	Radius	Start	End
+1	0	0	1	0	180
+2	0	3.1	4.12310563	255.9637565	284.0362435
+					
+[Lines]					
+Line	Point 1X	Point 1Y	Point 2X	Point 2Y	
+1	-1	0	-1	-0.9	
+2	1	0	1	-0.9	

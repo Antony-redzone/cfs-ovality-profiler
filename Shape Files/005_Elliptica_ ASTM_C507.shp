@@ -1,0 +1,15 @@
+version	1				
+Name	Elliptical ASTM C507				
+Use	Beta				
+CentreX	0				
+CentreY	0				
+NoArcs	4				
+NoLines	0				
+Scale	2				
+					
+[Arcs]					
+Arc	x	y	Radius	Start	End
+1	0.225903614	0	0.274096386	292.6	67.4
+2	0	-0.542168675	0.861445783	67.4	112.6
+3	-0.225903614	0	0.274096386	112.6	247.4
+4	0	0.542168675	0.861445783	247.4	292.6

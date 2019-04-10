@@ -1,0 +1,5 @@
+LIBRARY   OpenGLThreeDim
+DESCRIPTION "OpenGLThreeDim.dll"
+EXPORTS
+	ThreeDim_Initialise @1
+	ThreeDim_RenderScene @2

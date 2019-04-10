@@ -1,0 +1,535 @@
+AutoTune	AutoTune	Caption	Image Processing
+AutoTune	SetGraphs	Caption	Set
+AutoTune	Graphs	Caption	Draw Graphs while Recording
+AutoTune	Set	Caption	Set
+AutoTune	ProfIgnore	Caption	Ignore Water Level in Profile
+AutoTune	WaterLevelClear	Caption	Clear
+AutoTune	DistLocationClear	Caption	Clear
+AutoTune	SetWaterLevel	Caption	Set Water Level
+AutoTune	DefineDistLocation	Caption	Define Distance Counter Location
+AutoTune	Start	Caption	Start
+AutoTune	ManualTune	Caption	Manual Tune
+AutoTune	QuickTune	Caption	Quick Tune
+AutoTune	StandardTune	Caption	Standard Tune
+AutoTune	DetailedTune	Caption	Detailed Tune
+AutoTune	Finish	Caption	Finish
+AutoTune	ShowTests	Caption	Show Tuning Tests
+AutoTune	Label1	Caption	Precision
+AutoTune	Label2	Caption	Progress
+AutoTune	Label3	Caption	Laser Brightness
+ClearLineProfilerV4	ClearLineProfilerV4	Caption	Clearline Profiler
+ClearLineScreen	ClearLineScreen	Caption	ClearLine Screen
+ClearLineScreen	ConfigToolBar1.Buttons.Item(VideoAndSnapShot)	ToolTipText	Video
+ClearLineScreen	ConfigToolBar1.Buttons.Item(PrecisionVision)	ToolTipText	Precision Vision
+ClearLineScreen	ConfigToolBar1.Buttons.Item(3D)	ToolTipText	3D
+ClearLineScreen	ConfigToolBar1.Buttons.Item(PicInPic)	ToolTipText	Picture In Picture
+ClearLineScreen	PopupCalibrationTypes.Buttons.Item(CalPoleB)	Caption	C-200
+ClearLineScreen	PopupCalibrationTypes.Buttons.Item(CalPoleB)	ToolTipText	Calibration for Tractor Mounted Pole B system
+ClearLineScreen	PopupCalibrationTypes.Buttons.Item(CalPoleA)	Caption	C-100
+ClearLineScreen	PopupCalibrationTypes.Buttons.Item(CalPoleA)	ToolTipText	Calibration for Tractor Mounted Pole A system
+ClearLineScreen	PopupCalibrationTypes.Buttons.Item(CalManual)	Caption	Manual
+ClearLineScreen	PopupCalibrationTypes.Buttons.Item(CalManual)	ToolTipText	Manual Calibration
+ClearLineScreen	PopupDrawShapes.Buttons.Item(DrawInternalDia)	Caption	Internal Dia
+ClearLineScreen	PopupDrawShapes.Buttons.Item(DrawInternalDia)	ToolTipText	Expected Internal Diameter
+ClearLineScreen	PopupDrawShapes.Buttons.Item(DrawOutsideDia)	Caption	Outside Dia
+ClearLineScreen	PopupDrawShapes.Buttons.Item(DrawOutsideDia)	ToolTipText	Expected Outside Diameter
+ClearLineScreen	PopupDrawShapes.Buttons.Item(DrawRefShape)	Caption	Reference
+ClearLineScreen	PopupDrawShapes.Buttons.Item(DrawRefShape)	ToolTipText	Draw Reference Shape
+ClearLineScreen	PopupDrawShapes.Buttons.Item(ShapeType)	Caption	Type
+ClearLineScreen	PopupDrawShapes.Buttons.Item(ShapeType)	ToolTipText	Shape Type
+ClearLineScreen	ApproxArea	ToolTipText	Integrated Area Calculation
+ClearLineScreen	Chk4AttachDrawing	Caption	Check1
+ClearLineScreen	BrushC	Caption	Check1
+ClearLineScreen	Undo	ToolTipText	Undo
+ClearLineScreen	Redo	ToolTipText	Redo
+ClearLineScreen	AreaMeasure	Caption	23.40%
+ClearLineScreen	DimenMeasure	Caption	"153mm, 63.9%"
+ClearLineScreen	PVDimensionLabel	Caption	47
+ClearLineScreen	ScaleSetting	ToolTipText	Scale settings
+ClearLineScreen	Y_Units	Caption	mm
+ClearLineScreen	Y_Units	ToolTipText	Units (mm or in)
+ClearLineScreen	MTToolbar1.Buttons.Item(ConnectVid)	ToolTipText	Connect Video
+ClearLineScreen	MTToolbar1.Buttons.Item(SnapImage)	ToolTipText	Capture image
+ClearLineScreen	MTToolbar1.Buttons.Item(Calibration)	ToolTipText	Calibration
+ClearLineScreen	MTToolbar1.Buttons.Item(DrawShapes)	ToolTipText	"Circle, Ellipse, Egg Shape"
+ClearLineScreen	MTToolbar1.Buttons.Item(Move)	ToolTipText	Move
+ClearLineScreen	MTToolbar1.Buttons.Item(Select)	ToolTipText	Select
+ClearLineScreen	MTToolbar1.Buttons.Item(NormalLine)	ToolTipText	Line
+ClearLineScreen	MTToolbar1.Buttons.Item(PolyLine)	ToolTipText	PolyLine
+ClearLineScreen	MTToolbar1.Buttons.Item(Orthogonal)	ToolTipText	Perpendicular line to main circle
+ClearLineScreen	MTToolbar1.Buttons.Item(Fill)	ToolTipText	Area Calculation by Filling
+ClearLineScreen	MTToolbar1.Buttons.Item(ApproxArea)	ToolTipText	Integrated Area Calculation
+ClearLineScreen	MTToolbar1.Buttons.Item(Clear)	ToolTipText	Clear
+ClearLineScreen	MTToolbar1.Buttons.Item(Delete)	ToolTipText	Delete
+ClearLineScreen	MTToolbar1.Buttons.Item(Text)	ToolTipText	Text
+ClearLineScreen	MTToolbar1.Buttons.Item(Rotate)	ToolTipText	Rotate
+ClearLineScreen	MTToolbar1.Buttons.Item(Modify)	ToolTipText	Modify
+ClearLineScreen	MTToolbar1.Buttons.Item(Dimension)	ToolTipText	Dimension
+ClearLineScreen	MTToolbar1.Buttons.Item(ColorSelection)	ToolTipText	Color Selection
+ClearLineScreen	MTToolbar1.Buttons.Item(PVRecord)	ToolTipText	Record
+ClearLineScreen	MTToolbar1.Buttons.Item(PVPlayPause)	ToolTipText	Play/Pause
+ClearLineScreen	MTToolbar1.Buttons.Item(PVStepForward)	ToolTipText	Step Forward
+ClearLineScreen	MTToolbar1.Buttons.Item(PVStepRewind)	ToolTipText	Step Rewind
+ClearLineScreen	MTToolbar1.Buttons.Item(AVIPlayPause)	ToolTipText	Play/Pause
+ClearLineScreen	MTToolbar1.Buttons.Item(AVIStepForward)	ToolTipText	Step Forward
+ClearLineScreen	MTToolbar1.Buttons.Item(AVIStepRewind)	ToolTipText	Step Rewind
+ClearLineScreen	Label28	Caption	Threshold
+ClearLineScreen	Label60	Caption	ShapeNo
+ClearLineScreen	Label21	Caption	Dot Size
+ClearLineScreen	Label8	Caption	"(x1, y1)"
+ClearLineScreen	Label9	Caption	"(x2, y2)"
+ClearLineScreen	Label10	Caption	"(x3, y3)"
+ClearLineScreen	Label13	Caption	Angle1
+ClearLineScreen	Label14	Caption	Angle2
+ClearLineScreen	Label15	Caption	Angle
+ClearLineScreen	Label11	Caption	Area
+ClearLineScreen	Label12	Caption	Length
+ClearLineScreen	Label4	Caption	X
+ClearLineScreen	Label23	Caption	Y
+ClearLineScreen	Label57	Caption	Length(Pixel)
+ClearLineScreen	Label63	Caption	Circumference
+ClearLineScreen	Label34	Caption	Cir.
+ClearLineScreen	Label50	Caption	%
+ClearLineScreen	Label33	Caption	Radius
+ClearLineScreen	Label32	Caption	mm
+ClearLineScreen	Label24	Caption	Radius
+ClearLineScreen	Label27	Caption	Ratio
+ClearLineScreen	BrushSizeArray	Caption	Brush Size
+ClearLineScreen	BrushSize1(1)	Caption	&1
+ClearLineScreen	BrushSize2(2)	Caption	&2
+ClearLineScreen	BrushSize3(3)	Caption	&3
+ClearLineScreen	BrushSize4(4)	Caption	&4
+ClearLineScreen	BrushSize5(5)	Caption	&5
+ClearLineScreen	BrushSize6(6)	Caption	&6
+ClearLineScreen	BrushSize7(7)	Caption	&7
+ClearLineScreen	BrushSize8(8)	Caption	&8
+ClearLineScreen	BrushSize9(9)	Caption	&9
+ClearLineScreen	BrushSize10(10)	Caption	&10
+ClearLineScreen	EraseSizeArray	Caption	EraseSize
+ClearLineScreen	EraseSize1(1)	Caption	&1
+ClearLineScreen	DotSizeArray	Caption	Dot Size
+ClearLineScreen	DotSize1(1)	Caption	&1
+ClearLineScreen	BrushColor	Caption	Brush Color
+ClearLineScreen	Tools	Caption	Tools
+ClearLineScreen	Modify2	Caption	M&odify
+ClearLineScreen	Delete2	Caption	Dele&te
+ClearLineScreen	Option1	Caption	Options
+ClearLineScreen	autosnap	Caption	Auto &Snap
+ClearLineScreen	autotriangle	Caption	Auto &Triangle 
+ClearLineScreen	autotermination	Caption	Auto &Termination
+ClearLineScreen	attachdrawing	Caption	Attach &Drawing
+ClearLineScreen	TerPL(1)	Caption	&Terminate Line
+ClearLineScreen	NormalCircle	Caption	&Circle
+ClearLineScreen	EggShapes	Caption	E&gg Shape
+ClearLineScreen	EllipseCircle	Caption	&Ellipse
+ClearLineScreen	Length1(1)	Caption	&Length
+ClearLineScreen	FillingMethod	Caption	Filling Method
+ClearLineScreen	SolidFilling	Caption	Solid
+ClearLineScreen	PatternFilling	Caption	Tiling Pattern
+ColorSelection	ColorSelection	Caption	Color Selection
+ColorSelection	ApplyButton	Caption	Apply
+ColorSelection	Picture6	ToolTipText	This color change affects only before angle components are drawn.
+ColorSelection	DefaultButton	Caption	Default
+ColorSelection	CancelButton	Caption	Cancel
+ColorSelection	Label12	Caption	Text Size Indicator
+ColorSelection	Label11	Caption	Selection Boundary
+ColorSelection	Label10	Caption	Rotating Object
+ColorSelection	Label9	Caption	Moving Object
+ColorSelection	Label8	Caption	Being-Drawn Object
+ColorSelection	Label7	Caption	Joint Circle
+ColorSelection	Label6	Caption	Angle Component
+ColorSelection	Label6	ToolTipText	Objects like two lines and an arc to represent an angle.
+ColorSelection	Label5	Caption	Area Filling
+ColorSelection	Label4	Caption	Chosen Modification Circle
+ColorSelection	Label3	Caption	Modification Circle
+ColorSelection	Label2	Caption	Selected Object
+ColorSelection	Label1	Caption	Normal Drawing
+CuesSplash	cmdRegister	Caption	Register Now
+CuesSplash	TradeMarkLabel	Caption	TM
+CuesSplash	lblRegistered	Caption	Unregistered Copy
+CuesSplash	lblRevision	Caption	0
+CuesSplash	lblMinor	Caption	2 .
+CuesSplash	lblMajor	Caption	4 .
+CuesSplash	lblVersion	Caption	Version
+CuesSplash	lblCompany	Caption	Copyright Cleanflow Systems 2002
+CuesSplash	lblProductName	Caption	Standard Edition
+FontDialog	FontDialog	Caption	Select Font
+FontDialog	Color	Caption	Color
+FontDialog	Size_lbl	Caption	Size
+FontDialog	Style_lbl	Caption	Style
+FontDialog	Font_lbl	Caption	Font
+ImageProcess	ImageProcess	Caption	Manual Tune
+ImageProcess	DarkPipe	Caption	Dark Pipe
+ImageProcess	LightPipe	Caption	Light Pipe
+ImageProcess	ProfPoints	Caption	Current Frame
+ImageProcess	Label5	Caption	Video so Far
+ImageProcess	Label6	Caption	% of Profile Points Captured
+ImageProcess	Green	Caption	Show Green?
+ImageProcess	Prof	Caption	Show White Profile?
+ImageProcess	X	Caption	X Direction
+ImageProcess	Y	Caption	Y Direction
+ImageProcess	XThreshold	Caption	X Para
+ImageProcess	Label1	Caption	Y Para
+ImageProcess	Label3	Caption	Pickup Level
+ImageProcess	Label2	Caption	X Width
+ImageProcess	Label4	Caption	Y Width
+ImageProcess	Save	Caption	Save
+InputCalLen	InputCalLen	Caption	Calibration
+InputCalLen	Label1	Caption	Enter calibration length:
+Observations	Observations	Caption	Observations
+Observations	PopupReportsToolbar.Buttons.Item(Custom1)	Caption	Custom1
+Observations	PopupReportsToolbar.Buttons.Item(Custom1)	ToolTipText	Custom1
+Observations	PopupReportsToolbar.Buttons.Item(PVLandscape)	Caption	Analysis Graph
+Observations	PopupReportsToolbar.Buttons.Item(PVLandscape)	ToolTipText	Analysis Graph
+Observations	PopupReportsToolbar.Buttons.Item(PVPortrait)	Caption	Profile
+Observations	PopupReportsToolbar.Buttons.Item(PVPortrait)	ToolTipText	Profile Snap-shot
+Observations	PopupReportsToolbar.Buttons.Item(SnapShot)	Caption	Snap Shot
+Observations	PopupReportsToolbar.Buttons.Item(SnapShot)	ToolTipText	Snap Shot Landscape
+Observations	PopupViewToolbar.Buttons.Item(PVGPage)	Caption	Precision Vision
+Observations	PopupViewToolbar.Buttons.Item(PVGPage)	ToolTipText	Precision Vision Graph
+Observations	PopupViewToolbar.Buttons.Item(ObsPage)	Caption	Observations
+Observations	PopupViewToolbar.Buttons.Item(ObsPage)	ToolTipText	Observations
+Observations	PopupViewToolbar.Buttons.Item(PipeDetailsPage)	Caption	Pipeline Details
+Observations	PopupViewToolbar.Buttons.Item(PipeDetailsPage)	ToolTipText	Pipeline Details
+Observations	PopupViewToolbar.Buttons.Item(OptionsPage)	Caption	Options
+Observations	PopupViewToolbar.Buttons.Item(OptionsPage)	ToolTipText	Options
+Observations	PipeDetailsToolbar.Buttons.Item(OpenFile)	ToolTipText	Open File
+Observations	PipeDetailsToolbar.Buttons.Item(SaveToFile)	ToolTipText	Save To File
+Observations	PipeDetailsToolbar.Buttons.Item(ViewSelection)	ToolTipText	View Selection
+Observations	PipeDetailsToolbar.Buttons.Item(Reports)	ToolTipText	Reports
+Observations	PipeDetailsToolbar.Buttons.Item(Information)	ToolTipText	Information and Help
+Observations	Recommendations_lbl	Caption	Comments:
+Observations	Observation_lbl	Caption	Observation:
+Observations	Distance_units	Caption	ft
+Observations	Distance_lbl	Caption	Distance:
+Observations	OutsideDiameter_lbl	Caption	Outside Diameter
+Observations	OutsideDiameter_units	Caption	in
+Observations	InternalDiameterExpected_lbl	Caption	Internal Diameter (Expected)
+Observations	InternalDiameterExpected_units	Caption	in
+Observations	FinishNodeNo_lbl	Caption	Finish No
+Observations	StartNodeNo_lbl	Caption	Start No
+Observations	AssetNo_lbl	Caption	Asset No.
+Observations	SiteID_lbl	Caption	Site ID
+OptionsPage	OptionsPage	Caption	Options
+OptionsPage	PopupReportsToolbar.Buttons.Item(Custom1)	Caption	Custom1
+OptionsPage	PopupReportsToolbar.Buttons.Item(Custom1)	ToolTipText	Custom1
+OptionsPage	PopupReportsToolbar.Buttons.Item(PVLandscape)	Caption	Analysis Graph
+OptionsPage	PopupReportsToolbar.Buttons.Item(PVLandscape)	ToolTipText	Analysis Graph
+OptionsPage	PopupReportsToolbar.Buttons.Item(PVPortrait)	Caption	Profile
+OptionsPage	PopupReportsToolbar.Buttons.Item(PVPortrait)	ToolTipText	Profile Snap-shot
+OptionsPage	PopupReportsToolbar.Buttons.Item(SnapShot)	Caption	Snap Shot
+OptionsPage	PopupReportsToolbar.Buttons.Item(SnapShot)	ToolTipText	Snap Shot Landscape
+OptionsPage	PopupViewToolbar.Buttons.Item(PVGPage)	Caption	Precision Vision
+OptionsPage	PopupViewToolbar.Buttons.Item(PVGPage)	ToolTipText	Precision Vision Graph
+OptionsPage	PopupViewToolbar.Buttons.Item(ObsPage)	Caption	Observations
+OptionsPage	PopupViewToolbar.Buttons.Item(ObsPage)	ToolTipText	Observations
+OptionsPage	PopupViewToolbar.Buttons.Item(PipeDetailsPage)	Caption	Pipeline Details
+OptionsPage	PopupViewToolbar.Buttons.Item(PipeDetailsPage)	ToolTipText	Pipeline Details
+OptionsPage	PopupViewToolbar.Buttons.Item(OptionsPage)	Caption	Options
+OptionsPage	PopupViewToolbar.Buttons.Item(OptionsPage)	ToolTipText	Options
+OptionsPage	Label8	Caption	Language
+OptionsPage	PipeDetailsToolbar.Buttons.Item(Apply)	ToolTipText	Apply changes
+OptionsPage	PipeDetailsToolbar.Buttons.Item(ChangeLogo)	ToolTipText	Change Logo
+OptionsPage	PipeDetailsToolbar.Buttons.Item(OpenFile)	ToolTipText	Open File
+OptionsPage	PipeDetailsToolbar.Buttons.Item(SaveToFile)	ToolTipText	Save To File
+OptionsPage	PipeDetailsToolbar.Buttons.Item(ViewSelection)	ToolTipText	View Selection
+OptionsPage	PipeDetailsToolbar.Buttons.Item(Reports)	ToolTipText	Reports
+OptionsPage	PipeDetailsToolbar.Buttons.Item(Information)	ToolTipText	Information and Help
+OptionsPage	Label5	Caption	Page size
+OptionsPage	Label4	Caption	Page and Print Settings
+OptionsPage	Optimize	Caption	Optimize
+OptionsPage	VideoSettings	Caption	Configure
+OptionsPage	Label6	Caption	Tuning Style
+OptionsPage	Label3	Caption	Video Settings
+OptionsPage	lblCompanyName	Caption	Company Name
+OptionsPage	lblPhoneNo	Caption	Phone No.
+OptionsPage	Label2	Caption	Logo
+OptionsPage	Label1	Caption	Registration Details
+OptionsPage	Units_lbl	Caption	Units
+OptionsPage	autosnap	Caption	Automatic Line Snap
+OptionsPage	Label7	Caption	Add Modules
+OptionsPage	Label9	Caption	Precision Vision Drawing Scale
+PipelineDetails	PipelineDetails	Caption	Pipeline Details
+PipelineDetails	PopupReportsToolbar.Buttons.Item(Custom1)	Caption	Custom1
+PipelineDetails	PopupReportsToolbar.Buttons.Item(Custom1)	ToolTipText	Custom1
+PipelineDetails	PopupReportsToolbar.Buttons.Item(PVLandscape)	Caption	Analysis Graph
+PipelineDetails	PopupReportsToolbar.Buttons.Item(PVLandscape)	ToolTipText	Analysis Graph
+PipelineDetails	PopupReportsToolbar.Buttons.Item(PVPortrait)	Caption	Profile
+PipelineDetails	PopupReportsToolbar.Buttons.Item(PVPortrait)	ToolTipText	Profile Snap-shot
+PipelineDetails	PopupReportsToolbar.Buttons.Item(SnapShot)	Caption	Snap Shot
+PipelineDetails	PopupReportsToolbar.Buttons.Item(SnapShot)	ToolTipText	Snap Shot Landscape
+PipelineDetails	PopupViewToolbar.Buttons.Item(PVGPage)	Caption	Precision Vision
+PipelineDetails	PopupViewToolbar.Buttons.Item(PVGPage)	ToolTipText	Precision Vision Graph
+PipelineDetails	PopupViewToolbar.Buttons.Item(ObsPage)	Caption	Observations
+PipelineDetails	PopupViewToolbar.Buttons.Item(ObsPage)	ToolTipText	Observations
+PipelineDetails	PopupViewToolbar.Buttons.Item(PipeDetailsPage)	Caption	Pipeline Details
+PipelineDetails	PopupViewToolbar.Buttons.Item(PipeDetailsPage)	ToolTipText	Pipeline Details
+PipelineDetails	PopupViewToolbar.Buttons.Item(OptionsPage)	Caption	Options
+PipelineDetails	PopupViewToolbar.Buttons.Item(OptionsPage)	ToolTipText	Options
+PipelineDetails	PipeDetailsToolbar.Buttons.Item(OpenFile)	ToolTipText	Open File
+PipelineDetails	PipeDetailsToolbar.Buttons.Item(SaveToFile)	ToolTipText	Save To File
+PipelineDetails	PipeDetailsToolbar.Buttons.Item(ViewSelection)	ToolTipText	View Selection
+PipelineDetails	PipeDetailsToolbar.Buttons.Item(Reports)	ToolTipText	Reports
+PipelineDetails	PipeDetailsToolbar.Buttons.Item(Information)	ToolTipText	Information and Help
+PipelineDetails	Label5	Caption	Pipeline Length
+PipelineDetails	lblPipeLengthUnit	Caption	ft
+PipelineDetails	OutsideDiameter_lbl	Caption	Outside Diameter
+PipelineDetails	unit2	Caption	in
+PipelineDetails	InternalDiameterExpected_lbl	Caption	Internal Diameter (Expected)
+PipelineDetails	unit1	Caption	in
+PipelineDetails	Label2	Caption	Material
+PipelineDetails	FinishNodeNo_lbl	Caption	Finish No
+PipelineDetails	Label4	Caption	Location
+PipelineDetails	FinishNodeCaption	Caption	Finish Node:
+PipelineDetails	StartNodeCaption	Caption	Start Node:
+PipelineDetails	StartNodeNo_lbl	Caption	Start No
+PipelineDetails	Label3	Caption	Location
+PipelineDetails	Label8	Caption	Time
+PipelineDetails	Label7	Caption	Date
+PipelineDetails	Label6	Caption	City
+PipelineDetails	SiteID_lbl	Caption	Site ID:
+PipelineDetails	AssetNo_lbl	Caption	Asset No.
+PipelineDetails	Unit6	Caption	ft
+PipelineDetails	unit3	Caption	in
+PipelineDetails	Label53	Caption	To
+PipelineDetails	Label51	Caption	From
+PipelineDetails	text	Caption	Dimension:
+PipelineDetails	Label62	Caption	%
+PipelineDetails	Label52	Caption	Clock Positions:
+PipelineDetails	Label56	Caption	Area Loss:
+PipelineDetails	Label67	Caption	%
+PrecisionVisionGraph	PrecisionVisionGraph	Caption	Precision Vision Graphs
+PrecisionVisionGraph	PopupReportsToolbar.Buttons.Item(Custom1)	Caption	Custom1
+PrecisionVisionGraph	PopupReportsToolbar.Buttons.Item(Custom1)	ToolTipText	Custom1
+PrecisionVisionGraph	PopupReportsToolbar.Buttons.Item(PVLandscape)	Caption	Analysis Graph
+PrecisionVisionGraph	PopupReportsToolbar.Buttons.Item(PVLandscape)	ToolTipText	Analysis Graph
+PrecisionVisionGraph	PopupReportsToolbar.Buttons.Item(PVPortrait)	Caption	Profile
+PrecisionVisionGraph	PopupReportsToolbar.Buttons.Item(PVPortrait)	ToolTipText	Profile Snap-shot
+PrecisionVisionGraph	PopupReportsToolbar.Buttons.Item(SnapShot)	Caption	Snap Shot
+PrecisionVisionGraph	PopupReportsToolbar.Buttons.Item(SnapShot)	ToolTipText	Snap Shot Landscape
+PrecisionVisionGraph	PopupViewToolbar.Buttons.Item(PVGPage)	Caption	Precision Vision
+PrecisionVisionGraph	PopupViewToolbar.Buttons.Item(PVGPage)	ToolTipText	Precision Vision Graph
+PrecisionVisionGraph	PopupViewToolbar.Buttons.Item(ObsPage)	Caption	Observations
+PrecisionVisionGraph	PopupViewToolbar.Buttons.Item(ObsPage)	ToolTipText	Observations
+PrecisionVisionGraph	PopupViewToolbar.Buttons.Item(PipeDetailsPage)	Caption	Pipeline Details
+PrecisionVisionGraph	PopupViewToolbar.Buttons.Item(PipeDetailsPage)	ToolTipText	Pipeline Details
+PrecisionVisionGraph	PopupViewToolbar.Buttons.Item(OptionsPage)	Caption	Options
+PrecisionVisionGraph	PopupViewToolbar.Buttons.Item(OptionsPage)	ToolTipText	Options
+PrecisionVisionGraph	PDisplayStartDist	Caption	0
+PrecisionVisionGraph	PDisplayFinishDist	Caption	2000
+PrecisionVisionGraph	ScaleSetting	ToolTipText	Scale settings
+PrecisionVisionGraph	Y_Units	ToolTipText	"Units (s, m or ft)"
+PrecisionVisionGraph	LoadingMsg	Caption	Frame1
+PrecisionVisionGraph	LoadMsgLabel(0)	Caption	Loading file ...
+PrecisionVisionGraph	LoadMsgTakeNote(1)	Caption	!
+PrecisionVisionGraph	LoadMsgTakeNote(0)	Caption	!
+PrecisionVisionGraph	PVToolbar.Buttons.Item(Capacity)	ToolTipText	Capacity
+PrecisionVisionGraph	PVToolbar.Buttons.Item(Ovality)	ToolTipText	Ovality
+PrecisionVisionGraph	PVToolbar.Buttons.Item(Delta)	ToolTipText	Delta
+PrecisionVisionGraph	PVToolbar.Buttons.Item(Flat3D)	ToolTipText	Flat
+PrecisionVisionGraph	PVToolbar.Buttons.Item(3D)	ToolTipText	3D
+PrecisionVisionGraph	PVToolbar.Buttons.Item(OpenFile)	ToolTipText	Open File
+PrecisionVisionGraph	PVToolbar.Buttons.Item(SaveToFile)	ToolTipText	Save To File
+PrecisionVisionGraph	PVToolbar.Buttons.Item(ViewSelection)	ToolTipText	View Selection
+PrecisionVisionGraph	PVToolbar.Buttons.Item(Reports)	ToolTipText	Reports
+PrecisionVisionGraph	PVToolbar.Buttons.Item(Information)	ToolTipText	Information and Help
+PrecisionVisionGraph	PVXScaleLabelR	Caption	50
+PrecisionVisionGraph	PVXScaleLabelL	Caption	-50
+PrecisionVisionGraph	PVXScaleLabelUnits	Caption	%
+PrecisionVisionGraph	PVXScaleLabelC	Caption	50
+PrecisionVisionGraph	Label_GraphName	Caption	Capacity
+PrecisionVisionGraph	Label_GraphNameShadow	Caption	Capacity
+Registration	Registration	Caption	Registration
+Registration	Cancel	Caption	Close
+Registration	Cancel	ToolTipText	Cancel
+Registration	IDecline	Caption	I Decline
+Registration	Agree	Caption	I Agree
+Registration	Register	Caption	Register
+Registration	EMail	Caption	EMail Us
+Registration	Label19	Caption	End User License Agreement
+Registration	Label16	Caption	Product No
+Registration	Label18	Caption	Reg Code
+Registration	Label2	Caption	OR Contact Us at :
+Registration	Label4	Caption	Phone : 64 9 414 6094
+Registration	Label7	Caption	Fax : 64 9 414 6095
+LaserImageReportPVG	LaserImageReportPVG	Caption	Clearline Profiler - Precision Vision Report
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(YourLogoGoesHere_Label)	Caption	Your Logo goes here                   
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(ReportTitle)	Caption	Pipeline Capacity Report
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(PrintedDate)	Caption	PrintedDate
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(Dia_lbl)	Caption	Diameter
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(Material_lbl)	Caption	Material
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(Label3)	Caption	Comments
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(Dia1)	Caption	mm
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(StartNode_lbl)	Caption	Start Node
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(StartName_lbl)	Caption	Name
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(StartLocation_lbl)	Caption	Location
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(FinishNode_lbl)	Caption	Finish Node
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(FinishName_lbl)	Caption	Name
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(FinishLocation_lbl)	Caption	Location
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(City_lbl)	Caption	City
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(AssetNo_lbl)	Caption	Asset No
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(Date_lbl)	Caption	Date
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(Time_lbl)	Caption	Time
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(SiteID_lbl)	Caption	SiteID
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(PipeLength_lbl)	Caption	Pipe Length
+LaserImageReportPVG	Sections.Item(Section2).Controls.Item(PipeLenUnit_lbl)	Caption	m
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(Distance_lbl)	Caption	Distance
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(Distance_Units)	Caption	(m)
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(Label27)	Caption	Observation
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(PVXScaleUnits)	Caption	%
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(PVXScaleLabelL)	Caption	-50
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(PVXScaleLabelR)	Caption	50
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(PVXScaleLabelC)	Caption	0
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(Watermark)	Caption	Unregistered Software
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(lblRegistration)	Caption	Report produced on an unregistered copy of ClearLine Profiler
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(lblLimitLines)	Caption	Limit Lines
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(lblLeft)	Caption	LeftLabel
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(lblRight)	Caption	RightLabel
+LaserImageReportPVG	Sections.Item(Section1).Controls.Item(lblExplanation)	Caption	* Frame number versus the percentage change in dimension of pipe.
+LaserImageReportPVG	Sections.Item(Section3).Controls.Item(CompanyName_lbl)	Caption	Company Name
+LaserImageReportPVG	Sections.Item(Section3).Controls.Item(Ph)	Caption	Ph:
+LaserImageReportPVG	Sections.Item(Section3).Controls.Item(Label19)	Caption	Page :
+LaserImageReportPVG	Sections.Item(Section3).Controls.Item(PageNo_Lbl)	Caption	Page :
+LaserImageReportPVG	Sections.Item(Section3).Controls.Item(Phone_lbl)	Caption	Phone No
+LaserImageReportPVG	Sections.Item(Section3).Controls.Item(TM_Label)	Caption	TM
+PVGraphReport	PVGraphReport	Caption	Clearline Profiler - Precision Vision Graph Report
+PVGraphReport	Sections.Item(Section2).Controls.Item(YourLogoGoesHere_Label)	Caption	Your Logo goes here                         
+PVGraphReport	Sections.Item(Section2).Controls.Item(ReportTitle)	Caption	Pipeline Capacity Analysis Report
+PVGraphReport	Sections.Item(Section2).Controls.Item(PrintedDate)	Caption	PrintedDate
+PVGraphReport	Sections.Item(Section1).Controls.Item(SiteID_lbl)	Caption	SiteID:
+PVGraphReport	Sections.Item(Section1).Controls.Item(SiteID)	Caption	siteid
+PVGraphReport	Sections.Item(Section1).Controls.Item(AssetNo_lbl)	Caption	Asset No:
+PVGraphReport	Sections.Item(Section1).Controls.Item(AssetNo)	Caption	assetnumber
+PVGraphReport	Sections.Item(Section1).Controls.Item(StNode_lbl)	Caption	Start Node:
+PVGraphReport	Sections.Item(Section1).Controls.Item(StNode)	Caption	startnode
+PVGraphReport	Sections.Item(Section1).Controls.Item(FinNode_lbl)	Caption	Finish Node:
+PVGraphReport	Sections.Item(Section1).Controls.Item(FinNode)	Caption	finishnode
+PVGraphReport	Sections.Item(Section1).Controls.Item(PipeLength_lbl)	Caption	Pipe Length:
+PVGraphReport	Sections.Item(Section1).Controls.Item(PipeLength)	Caption	pipelength
+PVGraphReport	Sections.Item(Section1).Controls.Item(City_lbl)	Caption	City:
+PVGraphReport	Sections.Item(Section1).Controls.Item(City)	Caption	city
+PVGraphReport	Sections.Item(Section1).Controls.Item(PipeDiameter_lbl)	Caption	Pipe Diameter:
+PVGraphReport	Sections.Item(Section1).Controls.Item(PipeDiameter)	Caption	pipediameter
+PVGraphReport	Sections.Item(Section1).Controls.Item(LengthUnits)	Caption	lengthunits
+PVGraphReport	Sections.Item(Section1).Controls.Item(DiameterUnits)	Caption	diameterunits
+PVGraphReport	Sections.Item(Section1).Controls.Item(PipeMaterial_lbl)	Caption	Pipe Material:
+PVGraphReport	Sections.Item(Section1).Controls.Item(PipeMaterial)	Caption	pipematerial
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVXScaleUnits)	Caption	%
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVXScaleLabelL)	Caption	-50
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVXScaleLabelR)	Caption	50
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVXScaleLabelC)	Caption	0
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVXScaleUnits2)	Caption	%
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVXScaleLabelL2)	Caption	-50
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVXScaleLabelR2)	Caption	50
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVXScaleLabelC2)	Caption	0
+PVGraphReport	Sections.Item(Section1).Controls.Item(PVGraphXScale_Units)	Caption	Fr
+PVGraphReport	Sections.Item(Section1).Controls.Item(Label2)	Caption	Fr
+PVGraphReport	Sections.Item(Section1).Controls.Item(Watermark)	Caption	Unregistered Software
+PVGraphReport	Sections.Item(Section1).Controls.Item(Key)	Caption	Limit Lines
+PVGraphReport	Sections.Item(Section1).Controls.Item(Explanation)	Caption	Label3
+PVGraphReport	Sections.Item(Section1).Controls.Item(Explanation2)	Caption	Explanation2
+PVGraphReport	Sections.Item(Section1).Controls.Item(lblLineDesc1)	Caption	line1 desc
+PVGraphReport	Sections.Item(Section1).Controls.Item(lblLineDesc2)	Caption	line2 desc
+PVGraphReport	Sections.Item(Section3).Controls.Item(CompanyName_lbl)	Caption	Company Name
+PVGraphReport	Sections.Item(Section3).Controls.Item(Ph)	Caption	Ph:
+PVGraphReport	Sections.Item(Section3).Controls.Item(Label1)	Caption	Page :
+PVGraphReport	Sections.Item(Section3).Controls.Item(PageNo_Lbl)	Caption	Page :
+PVGraphReport	Sections.Item(Section3).Controls.Item(Phone_lbl)	Caption	Phone No
+PVGraphReport	Sections.Item(Section3).Controls.Item(TM_Label)	Caption	TM
+All	MessageBox	N/A	Please select a reference circle first.
+All	MessageBox	N/A	Please ensure the main reference shape is centered.
+All	MessageBox	N/A	You must load a media file or live footage to tune!
+All	MessageBox	N/A	LaserLib.dll VERSION ERROR. Expecting 
+All	MessageBox	N/A	".X, laserlib.dll is currently "
+All	MessageBox	N/A	 - This application may not work as designed.
+All	MessageBox	N/A	DLL ERROR - 
+All	MessageBox	N/A	Must load a Media file first!
+All	MessageBox	N/A	Please specify internal pipe diameter first.
+All	MessageBox	N/A	Please specify outside pipe diameter first.
+All	MessageBox	N/A	Please enter internal pipe diameter first and cailbrate the image.
+All	MessageBox	N/A	If PV recording is not finished the file will not be complete.
+All	MessageBox	N/A	Please input valid data.
+All	MessageBox	N/A	Please calibrate first.
+All	MessageBox	N/A	Please press left mouse button on the area to be filled. The percentage of the pipe diameter filled will be displayed in the box to the bottom left of the screen.
+All	MessageBox	N/A	"Picture file is invalid, unable to open."
+All	MessageBox	N/A	"The .pvd file is unsaved, do you wish to save this file?"
+All	MessageBox	N/A	Please remember to register the ClearLine Profiler software.
+All	MessageBox	N/A	of
+All	MessageBox	N/A	Disconnecting will clear all recorded PV Data. Continue?
+All	MessageBox	N/A	There must be a media file or a connection to live footage before recording can take place.
+All	MessageBox	N/A	Unable to modify the INTERNAL reference shape.
+All	MessageBox	N/A	Unable to modify the EXTERNAL reference shape.
+All	MessageBox	N/A	You must Agree to the End User License Agreement Details before Registering this Product.
+All	MessageBox	N/A	Email not Sent. Please check your EMail Settings.
+All	MessageBox	N/A	Registration Request Sent.
+All	MessageBox	N/A	"Congratulations, your ClearLine Profiler Software is now registered. Please shut-down the application and restart to allow new settings to take effect."
+All	MessageBox	N/A	Registration Failed. Please Check your Registration Code.
+All	MessageBox	N/A	This function is disabled while recording.
+All	MessageBox	N/A	Must disconnect from video before analysing Precision Vision data.
+All	MessageBox	N/A	"Cannot save a .PVD file, please register the software to access this."
+All	MessageBox	N/A	Internal diameter must be numeric.
+All	MessageBox	N/A	Outside diameter must be numeric.
+All	MessageBox	N/A	Pipe length must be numeric.
+All	MessageBox	N/A	Must enter a valid date.
+All	MessageBox	N/A	Must a valid time.
+All	MessageBox	N/A	"WARNING: If Units are changed, calibration will be reset to default."
+All	MessageBox	N/A	Please Press Apply to confirm Changes.
+All	MessageBox	N/A	Please close the ClearLine Profiler application and restart to apply the change.
+All	MessageBox	N/A	Will you overwrite existing logo file?
+All	MessageBox	N/A	Invalid selection.
+All	MessageBox	N/A	Can't calibrate with a zero length.
+All	MessageBox	N/A	"Subject, Body text, or Attachment is not specified."
+All	MessageBox	N/A	Invalid Path @@Please verify the Path or EMail Address.
+All	MessageBox	N/A	Unknown Recipient.
+All	MessageBox	N/A	"The .pvd file is not saved, click on Save button if you wish to save this file."
+All	MessageBox	N/A	"To open a new file, stop the recording and the video, then open the new file."
+All	MessageBox	N/A	Could not find the associated Video File:
+All	MessageBox	N/A	"Press Yes to Locate a Video File, No to continue without a Video File loaded."
+All	MessageBox	N/A	There is no Media File associated with this PVD file. Would you like to load one now?
+All	MessageBox	N/A	File already exists. Will you overwrite?
+All	MessageBox	N/A	ClearLine Screen
+All	MessageBox	N/A	"Can't read file,"
+All	MessageBox	N/A	"The PVD file is in a different measurement unit, please alter your measurement units before loading this file."
+All	MessageBox	N/A	File was not found.
+All	MessageBox	N/A	Please delete current reference circle first.
+All	MessageBox	N/A	to
+All	MessageBox	N/A	The ClearLine.inf file is READONLY. You must update ClearLine.ini path manually.
+All	MessageBox	N/A	ClearLine
+All	MessageBox	N/A	Your Company Logo could not be found - please remember to load it.
+All	MessageBox	N/A	Cannot Write to ClearLine.ini File. Check that file is not Write Protected.
+All	MessageBox	N/A	Media File is not a valid file name.
+All	MessageBox	N/A	You entered invalid data.
+All	MessageBox	N/A	Pipeline
+All	MessageBox	N/A	Report
+All	MessageBox	N/A	Printed:
+All	MessageBox	N/A	Distance
+All	MessageBox	N/A	*Distance of observation versus the percentage change in dimension of pipe.
+All 	MessageBox	N/A	Upper limit =
+All	MessageBox	N/A	Lower limit =
+All	MessageBox	N/A	Pipe
+All	MessageBox	N/A	Analysis Report
+All	MessageBox	N/A	Ovality(q)* as a percentage of original pipe versus time (frame number)
+All	MessageBox	N/A	*q per ASTM F 1216 Standard Practice for Rehabilitation of Existing Pipelines and Conduits by the Inversion and Curing of a Resin-Impregnated Tube.
+All	MessageBox	N/A	% deviation from expected internal diameter versus time (frame number)
+All	MessageBox	N/A	"Save failed: Err=9,SaveInPVDFormat_V40"
+All	MessageBox	N/A	Frame No
+All	MessageBox	N/A	Discard current drawing?
+All	MessageBox	N/A	The file version of CLPInterface.int is not
+All	MessageBox	N/A	This file is not loaded.
+All	MessageBox	N/A	Image file was not found.
+All	MessageBox	N/A	file for the language
+All	MessageBox	N/A	does not exist. Create this file first. The default language(English) is loaded for Help file.
+All	MessageBox	N/A	Normal Drawing
+All	MessageBox	N/A	Selected Object
+All	MessageBox	N/A	Modification Circle
+All	MessageBox	N/A	Chosen Modification Circle
+All	MessageBox	N/A	Area Filling
+All	MessageBox	N/A	Angle Component
+All	MessageBox	N/A	Objects like two lines and an arc to represent an angle.
+All	MessageBox	N/A	This color change affects only before angle components are drawn.
+All	MessageBox	N/A	Joint Circle
+All	MessageBox	N/A	Being-Drawn Object
+All	MessageBox	N/A	Moving Object
+All	MessageBox	N/A	Rotating Object
+All	MessageBox	N/A	Selection Boundary
+All	MessageBox	N/A	Text Size Indicator

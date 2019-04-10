@@ -1,0 +1,12 @@
+[Revision]
+FECRevision=2.1
+[FishEyeParameters]
+Fish_Distortion=188
+Fish_CenterX=0
+Fish_CenterY=0
+Fish_OriginalWidth=720
+Fish_OriginalHeight=576
+Fish_Ratio=281.799999999997
+[Camera]
+CameraModel=IBAK Juno2
+\\

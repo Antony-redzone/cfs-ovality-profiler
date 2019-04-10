@@ -1,0 +1,15 @@
+version	1				
+Name	Cosseys Gorge Ellipse			
+Use	All				
+CentreX	0				
+CentreY	0				
+NoArcs	4				
+NoLines	0				
+Scale	2			
+					
+[Arcs]					
+Arc	x	y	Radius	Start	End
+1	0	0.20330894	0.46627141	18.60	161.40
+2	0.5956793	0	1.095676945	161.40	199.09016606
+3	0	-0.20330894	0.46627141	199.09016606	341.40
+4	-0.5956793	0	1.095676945	341.40	18.60

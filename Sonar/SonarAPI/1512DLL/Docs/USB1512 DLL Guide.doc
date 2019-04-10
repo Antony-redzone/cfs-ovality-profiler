@@ -1,0 +1,691 @@
+{\rtf1\ansi\ansicpg1252\deff0\uc1{\fonttbl{\f0\fcharset0 Times New Roman;}{\f1\fcharset0
+Courier New;}}{\colortbl ;\red0\green128\blue0 ;\red0\green0\blue255 ;}{\stylesheet
+{\s0\nowidctlpar\nooverflow\sl240\slmult1\f0\fs20\kerning28 Normal;}}\paperw12240
+\paperh15840\margt1440\margl1800\margr1800\margb1440\headery720\footery864\deftab720
+\pgnstart1\viewkind1\viewscale100\fet0{\*\docvar{ColorSet}{-1}}{\*\docvar{ColorPos
+}{-1}}{\*\docvar{StyleSet}{-1}}{\*\docvar{StylePos}{-1}}\pard\plain\pard\nowidctlpar\nooverflow\qc\sl240\slmult1{\b\ul\f0\lang1033\fs20\kerning28
+{\header\pard\nowidctlpar\nooverflow\sl240\slmult1\tqc\tx4320\tqr\tx8640\fs20\par
+}{\footer\pard\nowidctlpar\nooverflow\sl240\slmult1\tqc\tx4320\tqr\tx8640\fs20\par
+}1512  DLL Programming Guide\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f0\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f0\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\b\f1\lang1033\fs20\kerning28 Header 
+Files:\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab 1512USBInterface
+.h\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab Definitions
+.h\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab Configuration
+.h\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab SonarData
+.h\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab OutlineProcessor
+.h\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\b\f1\lang1033\fs20\kerning28 Libraries
+:\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab 1512.
+LIB\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab OutlineAlgo
+.LIB\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\b\f1\lang1033\fs20\kerning28 Dll:\par
+}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab 1512.
+dll\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab OutlineAlgo
+.dll\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\b\f1\lang1033\fs20\kerning28 Example
+ Initialisation:\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf1\lang1033\fs20\kerning28 // Create
+ the 1512USB Interface\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 Sonar::C1512USBComm
+ *usbComm;\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 usbComm = 
+Sonar::Create1512USBCommObject();\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf1\lang1033\fs20\kerning28 // Create
+ Outline Processor Interface\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 COutlineProcessor
+\tab *outline;\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 outline = 
+CreateOutlineProcessorObject();\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf1\lang1033\fs20\kerning28 // Initialise
+ communication between PC and 1512 USB Box\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 usbComm->
+InitialiseComms();\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf1\lang1033\fs20\kerning28 // Setup
+ Initial Sonar Configuration\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf1\lang1033\fs20\kerning28 // And
+ Send the same configuration details to the outline processor \par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 CConfiguration
+ m_Config;\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 usbComm->
+SetConfiguration(m_Config);\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 outline->
+SetConfiguration(m_Config);\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf1\lang1033\fs20\kerning28 // Setup
+ Shaft Encoder\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 usbComm->
+SetShaftEncoder(SetQuadEncoder);\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf1\lang1033\fs20\kerning28 // Register
+ Callback function\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 usbComm->
+RegisterCallback(OnSonarUpdate);\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\b\f1\lang1033\fs20\kerning28 Example
+ Callback Function:\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 BYTE Data
+[MAXDATASIZE]; {\cf1 // defined in Definitions.h\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf1\lang1033\fs20\kerning28 // Callback
+ function\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 void{
+\cf0  OnSonarUpdate(}void{\cf0 )\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 \{\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab{\cf2 if
+} (usbComm->IsScanning())\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab \{\par
+}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab\tab{\cf1
+// reset data}\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab\tab memset
+(Data, 0, MAXDATASIZE);\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab\tab\par
+}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab\tab{\cf1
+// Retrieve data from sonar}\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab\tab usbComm
+->GetScanData(Data);\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab\tab{\cf1
+// Process outline data}\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab\tab outline
+->ProcessOutline(Data);\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab \}\par
+}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 \}\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\b\ul\f1\lang1033\fs20\kerning28 Changing
+ the Configuration\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab The sonar
+ Configuration should be stored in an instance of the CConfiguration class:\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 class
+{\cf0  CConfiguration\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 \{\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 public
+{\cf0 :\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab EnumArcSize
+ m_ArcSize; \par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab EnumCentreAngle
+ m_CentreAngle;\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab{\cf2 float
+} m_SampleRate; {\cf1 // sample rate 2.5 - 5MHz\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab{\cf2 int
+} m_Oversamples; {\cf1 // samples per cell\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab{\cf2 int
+} m_Samples; {\cf1 // samples per scan line\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab EnumStepSize
+ m_StepSize;\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab{\cf2 int
+} m_TxPulse; {\cf1 // Tx Pulse width (in us)\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 public
+{\cf0 :\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab CConfiguration
+({\cf2 void});\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab{\cf2 virtual
+} ~CConfiguration({\cf2 void});\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 \};\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab The Supplied
+ functions from the C1512USBComm class to change the configuration are:\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 bool{
+\cf0  SetArcSize(EnumArcSize arcSize);\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 bool{
+\cf0  SetCentreAngle(EnumCentreAngle centreAngle);\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 bool{
+\cf0  SetSampleRate(}float{\cf0  sampleRate);\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 bool{
+\cf0  SetOversamples(}int{\cf0  oversamples);\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 bool{
+\cf0  SetPulseWidth(}int{\cf0  txPulse);\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 bool{
+\cf0  SetSamples(}int{\cf0  samples);\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 bool{
+\cf0  SetShaftEncoder(eEncoder encoder);\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 bool{
+\cf0  SetStepSize(EnumStepSize stepSize);\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 bool{
+\cf0  SetConfiguration(}const{\cf0  CConfiguration &configuration);\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 These functions
+ should only be used when the sonar is not scanning. So it would be safer to check
+ using the following method before trying to change the configuration.\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 bool{
+\cf0  IsScanning();\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 Also, each
+ time the sonar configuration is changed, the outline configuration should be changed
+. Otherwise the outline may not be processed correctly. The SetConfiguration method
+ from COutlineProcessor is identical to the above definition from C1512USBComm.\par
+}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 The SetBlanking
+ function can be used while the sonar is scanning. It zeroes the data from the first
+ given number (blanking) of samples close to the sonar, on each sonar step. \par
+}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 void{
+\cf0  SetBlanking(}int{\cf0  blanking);\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 Most of the
+ functions to change the configuration will fail and return false if the sonar is
+ scanning. The functions which can be used while scanning are:\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 void{
+\cf0  SetBlanking(}int{\cf0  blanking);\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 bool{
+\cf0  SetSampleRate(}float{\cf0  sampleRate);\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 bool{
+\cf0  SetSamples(}int{\cf0  samples);\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 bool{
+\cf0  SetShaftEncoder(eEncoder encoder);\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\b\ul\f1\lang1033\fs20\kerning28 Retrieving
+ Sensor Data\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab Sensor
+ data is stored in an instance of the CSensorData class:\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 class
+{\cf0  CSensorData\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 \{\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 public
+{\cf0 :\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab{\cf2 short
+} m_MotorPosition; {\cf1 // position in Gradians 000 to 399\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab{\cf2 float
+} m_Pitch; {\cf1 // pitch in degrees (+/-180deg, 999 = not fitted)\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab{\cf2 float
+} m_Roll; {\cf1 // roll in degrees (+/-180deg, 999 = not fitted)\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab WORD 
+m_CablePayout; {\cf1 // cable payout in metres\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab{\cf2 float
+} m_SupplyVoltage; {\cf1 // supply voltage in volts\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab CSensorData
+({\cf2 void});\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab{\cf2 virtual
+} ~CSensorData({\cf2 void});\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 \};\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 New sensor
+ data is automatically retrieved from the sonar on each scan repetition. The function
+ from the C1512USBComm class that should be used to retrieve it is:\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 CSensorData
+ *GetSensorData();\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\b\f1\lang1033\fs20\kerning28 Example
+ usage:\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 // return
+ a pointer to instance within the dll\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 CSensorData
+ *sensorData = usbComm->GetSensorData();\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf1\lang1033\fs20\kerning28 // Get
+ individual member variables\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 short motorposition
+ = sensorData->m_MotorPosition;\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 float pitch
+ = sensorData->m_Pitch;\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 float roll
+ = sensorData->m_Roll;\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 WORD cablePayout
+ = sensorData->m_CablePayout;\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 float supplyVoltage
+ = sensorData->m_Supplyvoltage;\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf1\lang1033\fs20\kerning28 // or
+ copy the data\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 CSensorData
+ data;\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 memcpy(&data
+, sensorData, sizeof(CSensorData));\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab The cable
+ payout variable is a counter which ranges from 0 to 65536. This value will wrap
+ over from 65526 to zero and back again. To get a useful measurement from this value
+ it will have to be calibrated. \par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\b\ul\f1\lang1033\fs20\kerning28 Collecting
+ Sweep Data\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab The function
+ to collect the data from a sweep, should be called inside the callback function
+.\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 void{
+\cf0  GetScanData(BYTE *dataBuffer);\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab The size
+ of the BYTE array is equal to the number of steps in a sweep multiplied by the 
+number of samples.\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 Number of
+ steps in sweep:\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 StepSize\tab
+\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 0.9 Degree
+ =\tab 400 * 360 / ArcSize(in Degrees) steps\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 1.8 Degree
+ = \tab 200 * 360 / ArcSize(in Degrees) steps\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 2.7 Degree
+ = \tab 133 * 360 / ArcSize(in Degrees) steps\tab\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 3.6 Degree
+ = \tab 100 * 360 / ArcSize(in Degrees) steps\tab\tab\tab\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 Each BYTE
+ in the array is an intensity value from 0 to 254. If {\i n} is the number of samples
+, the first {\i n} BYTEs are the intensity values for the first motor step, from
+ sample 1 to sample {\i n}. The next n BYTEs are for the second motor step, and 
+so on...\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 The maximum
+ size of the data that is retrieved is 260800 BYTEs. If the configuration is set
+ so that:\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 number of
+ steps * number of samples > 260800\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 then the 
+number of BYTEs returned will be 260800, i.e. an incomplete image.\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 This data
+ can then be processed by feeding it into COutlineProcessor:\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 void{
+\cf0  ProcessOutline(BYTE *data);\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab There
+ are two different methods for processing the outline within OutlineAlgo.dll. The
+ default method returns the closest maximum intensity and the range. The second 
+method finds the band with the largest area above a certain intensity threshold 
+and returns the range and intensity of the point that is half way between the leading
+ edge of the band and the highest intensity within the band.\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 The outline
+ can then be received with:\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 Outline *
+GetOutline({\cf2 void});\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 struct
+{\cf0  Outline\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 \{\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab{\cf2 float
+} range;\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab{\cf2 int
+} intensity;\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 \};\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 The start
+ and end timestamps may be collected with \par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 double GetStartTime
+();\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 double GetEndTime
+();\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 The end Time
+ may be collected inside the callback function to get a running timer, or just after
+ StopScan() is called. The return value of both of these functions will be zero 
+if no time callback function has been registered.\page{\b Appendix:}\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf1\lang1033\fs20\kerning28 // Enums
+ ////////////////////////////////////////////////////////\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 enum{
+\cf0  eEncoder\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 \{\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab SetPearnormal
+ = 0x00,\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab SetQuadEncoder
+ = 0x10,\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab ReverseEncoder
+ = 0x08,\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab ResetEncoder
+ = 0x04\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 \};\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 enum{
+\cf0  EnumArcSize\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 \{\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab eum30Degrees
+ = '0',\tab\tab eum60Degrees = '1',\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab eum90Degrees
+ = '2',\tab\tab eum120Degrees = '3',\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab eum150Degrees
+ = '4',\tab\tab eum180Degrees = '5',\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab eum210Degrees
+ = '6',\tab\tab eum240Degrees = '7',\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab eum270Degrees
+ = '8',\tab\tab eum360Degrees = '9'\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 \};\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 enum{
+\cf0  EnumCentreAngle\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 \{\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab eumCentre30
+ = '"',\tab\tab eumCentre60 = '#',\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab eumCentre90
+ = '$',\tab\tab eumCentre120 = '%',\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab eumCentre150
+ = '&',\tab\tab eumCentre180 = '\\'',\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab eumCentre210
+ = '(',\tab\tab eumCentre240 = ')',\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab eumCentre270
+ = '*',\tab\tab eumCentre300 = ',',\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab eumCentre330
+ = '.'\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 \};\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\cf2\lang1033\fs20\kerning28 enum{
+\cf0  EnumStepSize\par}}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 \{\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab eum09Degree
+ = ':',\tab\tab eum18Degree = ';',\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28\tab eum27Degree
+ = '<',\tab\tab eum36Degree = '>'\par}
+
+\pard\nowidctlpar\nooverflow\sl240\slmult1{\f1\lang1033\fs20\kerning28 \};}}

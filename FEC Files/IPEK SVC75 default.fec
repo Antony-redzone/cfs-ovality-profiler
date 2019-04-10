@@ -1,0 +1,12 @@
+[Revision]
+FECRevision=2.1
+[FishEyeParameters]
+Fish_Distortion=153
+Fish_CenterX=0
+Fish_CenterY=25
+Fish_OriginalWidth=640
+Fish_OriginalHeight=480
+Fish_Ratio=265.299999999993
+[Camera]
+CameraModel=IPEK SVC75
+\\

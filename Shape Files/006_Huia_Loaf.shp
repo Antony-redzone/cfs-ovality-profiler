@@ -1,0 +1,20 @@
+version	1				
+Name	Huia Loaf				
+Use	All				
+CentreX	0				
+CentreY	0.3				
+NoArcs	4				
+NoLines	2				
+Scale	1				
+					
+[Arcs]					
+Arc	x	y	Radius	Start	End
+1	0	0	0.5	0	180
+2	0.447580645	-0.527016129	0.052419355	284.22	0
+3	0	1.239758065	1.875	255.78	284.22
+4	-0.447580645	-0.527016129	0.052419355	180	255.78
+					
+[Lines]					
+Line	Point 1X	Point 1Y	Point 2X	Point 2Y	
+1	0.5	0	0.5	-0.527016129	
+2	-0.5	0	-0.5	-0.527016129	

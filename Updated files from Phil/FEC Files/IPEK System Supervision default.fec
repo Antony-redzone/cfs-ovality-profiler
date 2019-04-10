@@ -1,0 +1,12 @@
+[Revision]
+FECRevision=2.1
+[FishEyeParameters]
+Fish_Distortion=28
+Fish_CenterX=0
+Fish_CenterY=0
+Fish_OriginalWidth=720
+Fish_OriginalHeight=540
+Fish_Ratio=422.3
+[Camera]
+CameraModel=IPEK SYSTEM SUPERVISION
+\\

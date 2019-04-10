@@ -1,0 +1,12 @@
+[Revision]
+FECRevision=2.1
+[FishEyeParameters]
+Fish_Distortion=135
+Fish_CenterX=0
+Fish_CenterY=0
+Fish_OriginalWidth=640
+Fish_OriginalHeight=480
+Fish_Ratio=279.399999999996
+[Camera]
+CameraModel=IBAK Orion2.7
+\\

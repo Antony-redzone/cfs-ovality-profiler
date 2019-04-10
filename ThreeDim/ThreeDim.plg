@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ThreeDim - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Antony\AppData\Local\Temp\RSP6B0A.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "THREEDIM_EXPORTS" /FR"Release/" /Fp"Release/ThreeDim.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\ClearLineProfilerv6.2.3\ThreeDim\Arrows.cpp"
+"C:\ClearLineProfilerv6.2.3\ThreeDim\camera.cpp"
+"C:\ClearLineProfilerv6.2.3\ThreeDim\D3DFont.cpp"
+"C:\ClearLineProfilerv6.2.3\ThreeDim\D3DObject.cpp"
+"C:\ClearLineProfilerv6.2.3\ThreeDim\getdxver.cpp"
+"C:\ClearLineProfilerv6.2.3\ThreeDim\Lights.cpp"
+"C:\ClearLineProfilerv6.2.3\ThreeDim\main.cpp"
+"C:\ClearLineProfilerv6.2.3\ThreeDim\pipe.cpp"
+"C:\ClearLineProfilerv6.2.3\ThreeDim\Scape.cpp"
+"C:\ClearLineProfilerv6.2.3\ThreeDim\window.cpp"
+]
+Creating command line "cl.exe @C:\Users\Antony\AppData\Local\Temp\RSP6B0A.tmp" 
+Creating temporary file "C:\Users\Antony\AppData\Local\Temp\RSP6B0B.tmp" with contents
+[
+opengl32.lib glu32.lib glaux.lib version.lib d3d9.lib d3dx9.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/threedim.pdb" /machine:I386 /def:".\ThreeDim.def" /out:".\Release\threedim.dll" /implib:"Release/threedim.lib" 
+.\Release\Arrows.obj
+.\Release\camera.obj
+.\Release\D3DFont.obj
+.\Release\D3DObject.obj
+.\Release\getdxver.obj
+.\Release\Lights.obj
+.\Release\main.obj
+.\Release\pipe.obj
+.\Release\Scape.obj
+.\Release\window.obj
+]
+Creating command line "link.exe @C:\Users\Antony\AppData\Local\Temp\RSP6B0B.tmp"
+<h3>Output Window</h3>
+Compiling...
+Arrows.cpp
+camera.cpp
+D3DFont.cpp
+D3DObject.cpp
+C:\ClearLineProfilerv6.2.3\ThreeDim\D3DObject.cpp(92) : warning C4390: ';' : empty controlled statement found; is this the intent?
+C:\ClearLineProfilerv6.2.3\ThreeDim\D3DObject.cpp(111) : warning C4390: ';' : empty controlled statement found; is this the intent?
+getdxver.cpp
+Lights.cpp
+main.cpp
+pipe.cpp
+C:\ClearLineProfilerv6.2.3\ThreeDim\pipe.cpp(849) : warning C4390: ';' : empty controlled statement found; is this the intent?
+C:\ClearLineProfilerv6.2.3\ThreeDim\pipe.cpp(1425) : warning C4390: ';' : empty controlled statement found; is this the intent?
+C:\ClearLineProfilerv6.2.3\ThreeDim\pipe.cpp(1433) : warning C4390: ';' : empty controlled statement found; is this the intent?
+C:\ClearLineProfilerv6.2.3\ThreeDim\pipe.cpp(1445) : warning C4390: ';' : empty controlled statement found; is this the intent?
+C:\ClearLineProfilerv6.2.3\ThreeDim\pipe.cpp(1939) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+Scape.cpp
+window.cpp
+Linking...
+   Creating library Release/threedim.lib and object Release/threedim.exp
+Creating temporary file "C:\Users\Antony\AppData\Local\Temp\RSP7E6C.tmp" with contents
+[
+/nologo /o"Release/ThreeDim.bsc" 
+.\Release\Arrows.sbr
+.\Release\camera.sbr
+.\Release\D3DFont.sbr
+.\Release\D3DObject.sbr
+.\Release\getdxver.sbr
+.\Release\Lights.sbr
+.\Release\main.sbr
+.\Release\pipe.sbr
+.\Release\Scape.sbr
+.\Release\window.sbr]
+Creating command line "bscmake.exe @C:\Users\Antony\AppData\Local\Temp\RSP7E6C.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+threedim.dll - 0 error(s), 7 warning(s)
+</pre>
+</body>
+</html>

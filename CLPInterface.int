@@ -1,0 +1,26 @@
+[Version Info]
+Version=2.0
+
+[File Pointers]
+MediaFilePath=
+ReturnCLPFileName=
+
+[Process Request]
+Process1=
+
+[Header Info]
+AssetID=
+ProjectNumber=
+StartNode=
+SNLocation=
+City=
+EndNode=
+ENLocation=
+Date=
+Time=
+PipeLength=
+Diameter=
+Material=
+Comments=
+SiteID=
+

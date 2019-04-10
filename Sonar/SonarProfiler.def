@@ -1,0 +1,24 @@
+LIBRARY   SonarProfiler
+DESCRIPTION "SonarProfiler.dll"
+EXPORTS
+
+	StartSonarSweep @1
+	StopScanning @2
+	ReadProfileFromFile @3
+	drawlineBMP @4
+	StartScanning @5
+	drawframe @6
+	CheckForScanning @7
+	VBRay @8
+	SetMaxAndMin @9
+	LoadPallette @10
+	LoadLogo @11
+	SynchronisedStart @12
+	SetScanAngle @13
+	DrawCircle @14
+	InitialiseDLL @15
+	SetCablePayoutStart @16
+	GetCablePayout @17
+	SetScale @18
+	SetSonarCentre @19
+	sonar_getversion @20
