@@ -432,29 +432,29 @@ Public Function SaveFEC() 'PCN3005
 '****************************************************************************************
 On Error GoTo Err_Handler
 
-'    Dim FileNo As Integer
-'    FileNo = FreeFile 'ID5384 all #100 replaced with #FileNo
+    Dim FileNo As Integer
+    FileNo = FreeFile 'ID5384 all #100 replaced with #FileNo
 '
 '
-'    ClearLineProfilerV6.Dialog.Filter = "FishEye Calibration (*.fec)|*.fec||"
-'    ClearLineProfilerV6.Dialog.FileName = LocToSave & "*.fec"
-'    ClearLineProfilerV6.Dialog.ShowSave
-'    If ClearLineProfilerV6.Dialog.FileName <> LocToSave & "*.fec" Then
-'        Open ClearLineProfilerV6.Dialog.FileName For Output As #FileNo
-'        Print #FileNo, "[Revision]"
-'        Print #FileNo, "FECRevision=2.1"
-'        Print #FileNo, "[FishEyeParameters]"
-'        Print #FileNo, "Fish_Distortion=" & ConfigInfo.FishEyeDistortion
-'        Print #FileNo, "Fish_CenterX=" & ConfigInfo.FishEyeCenterX
-'        Print #FileNo, "Fish_CenterY=" & ConfigInfo.FishEyeCenterY
-'        Print #FileNo, "Fish_OriginalWidth=" & ConfigInfo.FishEyeOriginalWidth
-'        Print #FileNo, "Fish_OriginalHeight=" & ConfigInfo.FishEyeOriginalHeight
-'        Print #FileNo, "Fish_Ratio=" & ConfigInfo.FishEyeRatio
-'        Print #FileNo, "[Camera]"
-'        Print #FileNo, "CameraModel=" & Fisheye.CameraModelText.text
-'        Print #FileNo, "\\"
-'    End If
-'    Close #FileNo
+    ClearLineProfilerV6.Dialog.Filter = "FishEye Calibration (*.fec)|*.fec||"
+    ClearLineProfilerV6.Dialog.FileName = LocToSave & "*.fec"
+    ClearLineProfilerV6.Dialog.ShowSave
+    If ClearLineProfilerV6.Dialog.FileName <> LocToSave & "*.fec" Then
+        Open ClearLineProfilerV6.Dialog.FileName For Output As #FileNo
+        Print #FileNo, "[Revision]"
+        Print #FileNo, "FECRevision=2.1"
+        Print #FileNo, "[FishEyeParameters]"
+        Print #FileNo, "Fish_Distortion=" & ConfigInfo.FishEyeDistortion
+        Print #FileNo, "Fish_CenterX=" & ConfigInfo.FishEyeCenterX
+        Print #FileNo, "Fish_CenterY=" & ConfigInfo.FishEyeCenterY
+        Print #FileNo, "Fish_OriginalWidth=" & ConfigInfo.FishEyeOriginalWidth
+        Print #FileNo, "Fish_OriginalHeight=" & ConfigInfo.FishEyeOriginalHeight
+        Print #FileNo, "Fish_Ratio=" & ConfigInfo.FishEyeRatio
+        Print #FileNo, "[Camera]"
+        Print #FileNo, "CameraModel=" & Fisheye.CameraModelText.text
+        Print #FileNo, "\\"
+    End If
+    Close #FileNo
 
 Exit Function
 Err_Handler:

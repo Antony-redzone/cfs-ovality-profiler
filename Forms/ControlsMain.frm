@@ -772,16 +772,16 @@ Dim DeploymentFile As String
 
 Dim ShapeFile As String
 
-'ClearLineProfilerV6.Dialog.Filter = "Precision Vision File (*.pvd)|*.pvd||"
-'ClearLineProfilerV6.Dialog.FileName = PVDFileName
-'ClearLineProfilerV6.Dialog.ShowSave
+ClearLineProfilerV6.Dialog.Filter = "Precision Vision File (*.pvd)|*.pvd||"
+ClearLineProfilerV6.Dialog.FileName = PVDFileName
+ClearLineProfilerV6.Dialog.ShowSave
 
-'If Dir(ClearLineProfilerV6.Dialog.FileName) <> "" Then
+If Dir(ClearLineProfilerV6.Dialog.FileName) <> "" Then
 '    'Resp = MsgBox(DisplayMessage("File already exists. Will you overwrite?"), vbYesNo)
-'    ProfilerMessageBox.MsgBoxYesNo (DisplayMessage("File already exists. Will you overwrite?"))
-'    Resp = PMBAnswer
-'    If Resp = vbNo Then Exit Sub
-'End If
+    ProfilerMessageBox.MsgBoxYesNo (DisplayMessage("File already exists. Will you overwrite?"))
+    Resp = PMBAnswer
+    If Resp = vbNo Then Exit Sub
+End If
 
 'Confirm the size of the deployment and notify
 
@@ -794,7 +794,7 @@ SourceDir = App.Path & "\"
 Call TransferINIInformation 'PCN4431
 
 'First copy the PVD
-'TargetFileName = ClearLineProfilerV6.Dialog.FileName
+TargetFileName = ClearLineProfilerV6.Dialog.FileName
 If TargetFileName = PVDFileName Then
     'MsgBox DisplayMessage("Saving to the same file name."), vbExclamation
     ProfilerMessageBox.ProfilerMsgBoxLbl.Caption = DisplayMessage("Saving to the same file name."): ProfilerMessageBox.Show vbModal: ProfilerMessageBox.ZOrder 0
@@ -809,13 +809,13 @@ On Error Resume Next
 Kill TargetFileName
 FileCopy PVDFileName, TargetFileName
 On Error GoTo Err_Handler
-'TargetFileName = Dir(ClearLineProfilerV6.Dialog.FileName)
+TargetFileName = Dir(ClearLineProfilerV6.Dialog.FileName)
 If TargetFileName = "" Then
     'Copy failed
     Exit Sub
 End If
 'Determine target directory
-'TargetDir = Left(ClearLineProfilerV6.Dialog.FileName, InStr(1, ClearLineProfilerV6.Dialog.FileName, TargetFileName) - 1)
+TargetDir = Left(ClearLineProfilerV6.Dialog.FileName, InStr(1, ClearLineProfilerV6.Dialog.FileName, TargetFileName) - 1)
 
 'Other files to copy
 DestExe = "Profiler.exe"

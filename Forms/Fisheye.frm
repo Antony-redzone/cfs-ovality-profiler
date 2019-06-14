@@ -359,12 +359,12 @@ On Error GoTo Err_Handler
 
 '
 '
-'    ClearLineProfilerV6.Dialog.Filter = "FishEye Calibration (*.fec)|*.fec||"
-'    ClearLineProfilerV6.Dialog.FileName = LocToSave & "*.fec"
-'    ClearLineProfilerV6.Dialog.ShowOpen 'PCN3185
-'    If ClearLineProfilerV6.Dialog.FileName <> LocToSave & "*.fec" Then
-'        Call FisheyeFunctions.FecLoadInformation("", ClearLineProfilerV6.Dialog.FileName)
-  '  End If
+    ClearLineProfilerV6.Dialog.Filter = "FishEye Calibration (*.fec)|*.fec||"
+    ClearLineProfilerV6.Dialog.FileName = LocToSave & "*.fec"
+    ClearLineProfilerV6.Dialog.ShowOpen 'PCN3185
+    If ClearLineProfilerV6.Dialog.FileName <> LocToSave & "*.fec" Then
+        Call FisheyeFunctions.FecLoadInformation("", ClearLineProfilerV6.Dialog.FileName)
+    End If
 
 Exit Sub
 Err_Handler:

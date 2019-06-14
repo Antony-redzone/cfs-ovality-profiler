@@ -294,7 +294,6 @@ On Error GoTo Error_handler
     Dim RegType As String
     Dim View As String
     Dim CountLang As Integer
-    If InputString = "" Then Exit Sub
     
     ChrPos = InStr(InputString, Chr(9))
     Lang = Left(InputString, ChrPos - 1)

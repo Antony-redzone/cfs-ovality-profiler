@@ -1,5 +1,6 @@
 VERSION 5.00
-Object = "{7ACB8247-EB73-11D3-881B-B628C6CB1474}#1.0#0"; "smakejpg.ocx"
+Object = "{7ACB8247-EB73-11D3-881B-B628C6CB1474}#1.0#0"; "SMAKEJPG.OCX"
+Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "COMDLG32.OCX"
 Object = "{3B7C8863-D78F-101B-B9B5-04021C009402}#1.2#0"; "RICHTX32.OCX"
 Begin VB.Form PipelineDetails 
    Appearance      =   0  'Flat
@@ -623,6 +624,14 @@ Begin VB.Form PipelineDetails
          WordWrap        =   -1  'True
       End
    End
+   Begin MSComDlg.CommonDialog CommonDialog1 
+      Left            =   7440
+      Top             =   600
+      _ExtentX        =   847
+      _ExtentY        =   847
+      _Version        =   393216
+      CancelError     =   -1  'True
+   End
    Begin sMakeJPG.sMJPG JPGMake1 
       Left            =   7440
       Top             =   1200
@@ -904,7 +913,6 @@ Begin VB.Form PipelineDetails
          _ExtentY        =   2778
          _Version        =   393217
          BackColor       =   -2147483624
-         Enabled         =   -1  'True
          Appearance      =   0
          TextRTF         =   $"PipelineDetails.frx":1B80
       End
@@ -1012,7 +1020,7 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
 Dim DataEntryChange As Boolean 'PCNGL230103
- Public CommonDialog1 As Object
+
 'PCN3650
 'Public Len_Real As Double
 'Public LenRealPercent As Double

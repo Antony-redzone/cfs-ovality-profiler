@@ -1,4 +1,5 @@
 VERSION 5.00
+Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "COMDLG32.OCX"
 Begin VB.MDIForm ClearLineProfilerV6 
    BackColor       =   &H8000000C&
    Caption         =   "Profiler"
@@ -8,6 +9,14 @@ Begin VB.MDIForm ClearLineProfilerV6
    ClientWidth     =   6390
    Icon            =   "ClearLineProfilerV6.frx":0000
    StartUpPosition =   3  'Windows Default
+   Begin MSComDlg.CommonDialog Dialog 
+      Left            =   2430
+      Top             =   2760
+      _ExtentX        =   847
+      _ExtentY        =   847
+      _Version        =   393216
+      CancelError     =   -1  'True
+   End
 End
 Attribute VB_Name = "ClearLineProfilerV6"
 Attribute VB_GlobalNameSpace = False

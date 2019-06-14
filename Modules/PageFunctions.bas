@@ -107,10 +107,10 @@ PipelineDetails.ZOrder 0 'PCN1777 'PCNLS190203
 'PCN3093vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 If Registered = True Then
     If ToOpenFileName = "" Then 'PCN2133 ---v
-'    PipelineDetails.CommonDialog1.Filter = "Precision Vision Files (*.pvd)|*.pvd|Image Files (*.jpg;*.bmp)|*.jpg;*.bmp|AVI Files (*.avi)|*.avi|Mpeg Files (*.mpg;*.mpa;*.m2p;*.mp2)|*.mpg;*.mpa;*.m2p;*.mp2|VOB Files (*.VOB;*.vob)|*.VOB;*.vob" 'PCN1915 'PCN2871
-'    PipelineDetails.CommonDialog1.FileName = ""
-'    PipelineDetails.CommonDialog1.ShowOpen
-'    ToOpenFileName = PipelineDetails.CommonDialog1.FileName
+    PipelineDetails.CommonDialog1.Filter = "Precision Vision Files (*.pvd)|*.pvd|Image Files (*.jpg;*.bmp)|*.jpg;*.bmp|AVI Files (*.avi)|*.avi|Mpeg Files (*.mpg;*.mpa;*.m2p;*.mp2)|*.mpg;*.mpa;*.m2p;*.mp2|VOB Files (*.VOB;*.vob)|*.VOB;*.vob" 'PCN1915 'PCN2871
+    PipelineDetails.CommonDialog1.FileName = ""
+    PipelineDetails.CommonDialog1.ShowOpen
+    ToOpenFileName = PipelineDetails.CommonDialog1.FileName
     End If '--------------------------------^
     FileExtension = UCase(Right(ToOpenFileName, 4))
 Else

@@ -1,4 +1,5 @@
 VERSION 5.00
+Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "COMDLG32.OCX"
 Begin VB.Form OptionsPage 
    Appearance      =   0  'Flat
    BackColor       =   &H00C0C0C0&
@@ -1291,37 +1292,37 @@ Function LoadLogo()
 'Desc    : Loads from file the Logo.
 'Usage   :
 '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-'On Error GoTo Err_Handler
+On Error GoTo Err_Handler
 
-'CommonDialog1.Filter = "JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|Bitmap (*.bmp)|*.bmp"
-'CommonDialog1.FileName = ""
-'CommonDialog1.ShowOpen
-'CompanyLogoPath = CommonDialog1.FileName
-'Call INI_WriteBack(MyFile, "CompanyLogoPath=", CompanyLogoPath)
-'CompanyLogo.Picture = LoadPicture(CommonDialog1.FileName)
-'SavePicture CompanyLogo.Picture, LocToSave & "logo.bmp"
-'If Dir(LocToSave & "logo.jpg") <> "" Then
-'    Dim answer As Integer
+CommonDialog1.Filter = "JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|Bitmap (*.bmp)|*.bmp"
+CommonDialog1.FileName = ""
+CommonDialog1.ShowOpen
+CompanyLogoPath = CommonDialog1.FileName
+Call INI_WriteBack(MyFile, "CompanyLogoPath=", CompanyLogoPath)
+CompanyLogo.Picture = LoadPicture(CommonDialog1.FileName)
+SavePicture CompanyLogo.Picture, LocToSave & "logo.bmp"
+If Dir(LocToSave & "logo.jpg") <> "" Then
+    Dim answer As Integer
 '    'answer = MsgBox(DisplayMessage("Will you overwrite existing logo file?"), vbYesNo)  'PCN2111
-'    ProfilerMessageBox.MsgBoxYesNo (DisplayMessage("Will you overwrite existing logo file?"))
-'    answer = PMBAnswer
+    ProfilerMessageBox.MsgBoxYesNo (DisplayMessage("Will you overwrite existing logo file?"))
+    answer = PMBAnswer
 '
-'    If answer = vbYes Then
-'       PipelineDetails.JPGMake1.InputFile = LocToSave & "logo.bmp"
-'       PipelineDetails.JPGMake1.OutputFile = LocToSave & "logo.jpg"
-'       PipelineDetails.JPGMake1.Quality = 100
-'       PipelineDetails.JPGMake1.Go
-'    End If
-'Else
-'    PipelineDetails.JPGMake1.InputFile = LocToSave & "logo.bmp"
-'    PipelineDetails.JPGMake1.OutputFile = LocToSave & "logo.jpg"
-'    PipelineDetails.JPGMake1.Quality = 100
-'    PipelineDetails.JPGMake1.Go
-'End If
+    If answer = vbYes Then
+       PipelineDetails.JPGMake1.InputFile = LocToSave & "logo.bmp"
+       PipelineDetails.JPGMake1.OutputFile = LocToSave & "logo.jpg"
+       PipelineDetails.JPGMake1.Quality = 100
+       PipelineDetails.JPGMake1.Go
+    End If
+Else
+    PipelineDetails.JPGMake1.InputFile = LocToSave & "logo.bmp"
+    PipelineDetails.JPGMake1.OutputFile = LocToSave & "logo.jpg"
+    PipelineDetails.JPGMake1.Quality = 100
+    PipelineDetails.JPGMake1.Go
+End If
 '
 '
-'Exit Function
-'Err_Handler:
-'    MsgBox Err & "-O22:" & Error$
+Exit Function
+Err_Handler:
+    MsgBox Err & "-O22:" & Error$
 End Function
 

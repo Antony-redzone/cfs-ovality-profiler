@@ -2208,14 +2208,14 @@ Function DisplayDialog(Title, InitDir, value, Filter, retvalue)
 
 On Error GoTo Err_Handler
 
-'ClearLineProfilerV6.Dialog.CancelError = True
-'ClearLineProfilerV6.Dialog.FileName = value
-'ClearLineProfilerV6.Dialog.DialogTitle = Title
-'ClearLineProfilerV6.Dialog.InitDir = InitDir
-'ClearLineProfilerV6.Dialog.Filter = Filter
-'ClearLineProfilerV6.Dialog.ShowOpen
+ClearLineProfilerV6.Dialog.CancelError = True
+ClearLineProfilerV6.Dialog.FileName = value
+ClearLineProfilerV6.Dialog.DialogTitle = Title
+ClearLineProfilerV6.Dialog.InitDir = InitDir
+ClearLineProfilerV6.Dialog.Filter = Filter
+ClearLineProfilerV6.Dialog.ShowOpen
 '
-'retvalue = ClearLineProfilerV6.Dialog.FileName
+retvalue = ClearLineProfilerV6.Dialog.FileName
 
 Exit Function
 
