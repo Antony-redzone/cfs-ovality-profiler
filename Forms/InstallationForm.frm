@@ -46,7 +46,7 @@ Begin VB.Form InstallationForm
       BackColor       =   &H00E0E0E0&
       Caption         =   "Continue"
       BeginProperty Font 
-         Name            =   "Arial Rounded MT Bold"
+         Name            =   "Arial"
          Size            =   12
          Charset         =   0
          Weight          =   400
@@ -294,6 +294,7 @@ On Error GoTo Error_handler
     Dim RegType As String
     Dim View As String
     Dim CountLang As Integer
+    If InputString = "" Then Exit Sub
     
     ChrPos = InStr(InputString, Chr(9))
     Lang = Left(InputString, ChrPos - 1)
@@ -340,6 +341,7 @@ Error_handler:
     Select Case Err
         Case Else: MsgBox Err & "-IF5:" & Error$, vbExclamation
     End Select
+
 End Sub
 
 
@@ -364,14 +366,14 @@ On Error GoTo Error_handler
     LangCount = UBound(TheLanguage)
     
     SelectedText = LanguageDropDown.TextHighlited
-        For I = 0 To LangCount - 1
-        If TheLanguage(I) = SelectedText Then
-            CameraDropdown.Item(0) = TheViewer(I): FisheyeFunctions.ViewerString = TheViewer(I)
-            ContinueButton.Caption = TheContinue(I)
-            InstallationForm.Caption = TheSetup(I)
-            RegTypeFrame.Caption = TheRegType(I)
+        For i = 0 To LangCount - 1
+        If TheLanguage(i) = SelectedText Then
+            CameraDropdown.Item(0) = TheViewer(i): FisheyeFunctions.ViewerString = TheViewer(i)
+            ContinueButton.Caption = TheContinue(i)
+            InstallationForm.Caption = TheSetup(i)
+            RegTypeFrame.Caption = TheRegType(i)
         End If
-    Next I
+    Next i
 Exit Sub
 Error_handler:
     Select Case Err

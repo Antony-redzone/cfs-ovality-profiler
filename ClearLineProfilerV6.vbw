@@ -44,5 +44,5 @@ ReportingFunctions = 200, 200, 2132, 878,
 ScreenDrawing = 219, 202, 1267, 880, 
 AutoTune = -1244, 72, 688, 750, , 198, 261, 1032, 791, C
 ClearLineProfilerV6 = 66, 71, 1998, 749, , 110, 145, 944, 675, C
-StartUp = -977, 131, 955, 809, Z
+StartUp = -432, 136, 1500, 814, Z
 modCreateObj = 0, 0, 0, 0, C

@@ -81,8 +81,8 @@ Begin VB.Form OptionsPage
       TabIndex        =   13
       Top             =   3600
       Width           =   3840
-      _ExtentX        =   6773
-      _ExtentY        =   661
+      _extentx        =   6773
+      _extenty        =   661
    End
    Begin VB.Frame FisheyeSettingsFrame 
       BackColor       =   &H00FFC0C0&
@@ -491,6 +491,15 @@ Begin VB.Form OptionsPage
          Top             =   240
          Width           =   2535
       End
+   End
+   Begin MSComDlg.CommonDialog CommonDialog1 
+      Left            =   5640
+      Top             =   1680
+      _ExtentX        =   847
+      _ExtentY        =   847
+      _Version        =   393216
+      DialogTitle     =   "Open Logo File"
+      Filter          =   "jpg; bmp;"
    End
    Begin VB.Image FormBackground 
       Height          =   9135

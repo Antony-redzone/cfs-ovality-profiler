@@ -1470,8 +1470,8 @@ Dim strLoadPVDFile As String
 Dim HaspLockFile As String
 Const MAX_PATH = 260
 
-Set PipelineDetails.CommonDialog1 = CreateObjectFromFile("COMDLG32.ocx", "CommonDialog1")
-If PipelineDetails.CommonDialog1 Is Nothing Then Debug.Print " couldnt create object" Else Debug.Print "Created"
+'Set PipelineDetails.CommonDialog1 = CreateObjectFromFile("COMDLG32.ocx", "CommonDialog1")
+'If PipelineDetails.CommonDialog1 Is Nothing Then Debug.Print " couldnt create object" Else Debug.Print "Created"
 
 ConfigInfo.IPProcessMethod = "Type2"
 ConfigInfo.IPEnhancement = "Standard"
